@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    328148,       7354]
-NotebookOptionsPosition[    315580,       7140]
-NotebookOutlinePosition[    316014,       7157]
-CellTagsIndexPosition[    315971,       7154]
+NotebookDataLength[    317094,       7099]
+NotebookOptionsPosition[    302793,       6862]
+NotebookOutlinePosition[    303269,       6880]
+CellTagsIndexPosition[    303226,       6877]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -46,7 +46,7 @@ interactuar con visualizaciones din\[AAcute]micas que revelan el papel que \
 juegan conceptos como:\n\n\[FilledSquare] ",
  StyleBox["La exponenciaci\[OAcute]n\n\[FilledSquare] Las series infinitas\n\
 \[FilledSquare] Las ecuaciones diferenciales\n\[FilledSquare] Las soluciones \
-de ecuaciones diferenciales lineales\n\[FilledSquare] Y los diagramas de fase",
+de ecuaciones diferenciales lineales\n\[FilledSquare] Y los retratos de fase",
   FontWeight->"Bold"],
  "\n\nEstas ideas no aparecen por separado. Al contrario: est\[AAcute]n todas \
 conectadas.\n\nLa idea es mostrarte c\[OAcute]mo esos temas \[LongDash]que \
@@ -75,7 +75,7 @@ se mueve el mundo.",
    3.9592749172680707`*^9}, 3.959342140106908*^9, {3.9593421964590015`*^9, 
    3.959342306913185*^9}, {3.959342405912594*^9, 3.959342446645528*^9}, {
    3.9594450945974426`*^9, 3.9594451120918503`*^9}, {3.9594454424192953`*^9, 
-   3.959445443707528*^9}},
+   3.959445443707528*^9}, {3.959904300662138*^9, 3.959904302608761*^9}},
  TextJustification->1.,
  Background->RGBColor[
   0.87, 0.94, 1],ExpressionUUID->"43783274-255b-45a0-8449-253b5035511f"]
@@ -358,7 +358,7 @@ Cell[BoxData[
              1}, {{$CellContext`showGraphics$$, True, 
               "Mostrar gr\[AAcute]ficamente"}, {True, False}}}, 
           "Options" :> {ControlPlacement -> Top}, "DefaultOptions" :> {}],
-         ImageSizeCache->{287., {134.9206298828125, 140.0793701171875}},
+         ImageSizeCache->{286., {133.9206298828125, 139.0793701171875}},
          SingleEvaluation->True],
         Deinitialization:>None,
         DynamicModuleValues:>{},
@@ -834,7 +834,7 @@ Cell[BoxData[
              1}, {{$CellContext`showGraphics$$, True, "Show Graphics"}, {
              True, False}}}, "Options" :> {ControlPlacement -> Top}, 
           "DefaultOptions" :> {}],
-         ImageSizeCache->{265., {137.9206298828125, 143.0793701171875}},
+         ImageSizeCache->{264., {136.9206298828125, 142.0793701171875}},
          SingleEvaluation->True],
         Deinitialization:>None,
         DynamicModuleValues:>{},
@@ -974,7 +974,7 @@ justificaci\[OAcute]n independiente."
    3.9594655485996943`*^9}, 3.9594655817384624`*^9},
  Background->RGBColor[
   0.87, 0.94, 1],ExpressionUUID->"2e6e0072-700c-4aee-b059-b95e7a9a6087"]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -1276,7 +1276,7 @@ Cell[BoxData[
          PlotRange -> {{-1.5, 5.5}, {-0.7, 2.7}}, Axes -> False]], 
       "Specifications" :> {{$CellContext`n$$, 0, 10, 1}}, 
       "Options" :> {ControlPlacement -> Top}, "DefaultOptions" :> {}],
-     ImageSizeCache->{367., {116.9206298828125, 122.0793701171875}},
+     ImageSizeCache->{366., {115.9206298828125, 121.0793701171875}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -1425,7 +1425,7 @@ resultado:\n\t",
  FontWeight->"Bold",
  Background->RGBColor[
   0.87, 0.94, 1],ExpressionUUID->"ea086a66-c8c0-416a-8661-c89b6cf23e97"]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -1677,7 +1677,7 @@ Cell[BoxData[
         Alignment -> Center], 
       "Specifications" :> {{$CellContext`n$$, 1, 25, 1}}, 
       "Options" :> {ControlPlacement -> Top}, "DefaultOptions" :> {}],
-     ImageSizeCache->{426., {105.4206298828125, 110.5793701171875}},
+     ImageSizeCache->{425., {103.9206298828125, 109.0793701171875}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -1857,7 +1857,7 @@ din\[AAcute]micos.\n\n"
    3.959302337424444*^9, 3.959302355264841*^9}, 3.95944805313758*^9},
  Background->RGBColor[
   0.87, 0.94, 1],ExpressionUUID->"1546e9f0-b205-4fa0-83b4-e075ccda9c2f"]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -2393,13 +2393,13 @@ iguales.  "
  Background->RGBColor[
   1, 0.925, 0.925],ExpressionUUID->"6f87bd52-4897-4607-ba32-545f1a713368"]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
-Cell[" La identidad de Euler como rotaci\[OAcute]n compleja", "Section",
- CellChangeTimes->{
-  3.959357199196707*^9},ExpressionUUID->"98faa56c-d094-4158-ace7-\
+Cell["La identidad de Euler como rotaci\[OAcute]n compleja", "Section",
+ CellChangeTimes->{3.959357199196707*^9, 
+  3.9599046286854105`*^9},ExpressionUUID->"98faa56c-d094-4158-ace7-\
 18d3d5d04f79"],
 
 Cell[TextData[{
@@ -4960,7 +4960,7 @@ Cell[BoxData[
   StyleBox[
    DynamicModuleBox[{$CellContext`a$$ = 1, $CellContext`b$$ = 
     1, $CellContext`c$$ = 1, $CellContext`time$$ = 
-    12.808134024882332`, $CellContext`y0$$ = 1, $CellContext`yp0$$ = 0, 
+    12.808134024882332`, $CellContext`y0$$ = 4, $CellContext`yp0$$ = 1.5, 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
@@ -4980,7 +4980,7 @@ Cell[BoxData[
            Manipulate`Place[4], 
            Manipulate`Place[5]}], 
          Manipulate`Place[6]}]], Manipulate`Dump`ThisIsNotAControl}}, 
-    Typeset`size$$ = {543., {211.94062988281252`, 217.0993701171875}}, 
+    Typeset`size$$ = {543., {167.44062988281252`, 172.5993701171875}}, 
     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      2, StandardForm, 
@@ -5063,7 +5063,7 @@ $CellContext`time$$], 0}]}, PlotRange -> {{-2, 2 $CellContext`y0$$}, {-1, 1}},
             Manipulate`Place[5]}], 
           Manipulate`Place[6]}]}, "Options" :> {ControlPlacement -> Top}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{640., {271.9206298828125, 277.0793701171875}},
+     ImageSizeCache->{640., {252.92062988281248`, 258.0793701171875}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -5087,935 +5087,120 @@ $CellContext`time$$], 0}]}, PlotRange -> {{-2, 2 $CellContext`y0$$}, {-1, 1}},
    3.9324901706951714`*^9, 3.9593491160010357`*^9, {3.959705758633586*^9, 
    3.9597057804202147`*^9}, 3.9597058322568493`*^9, 3.959705893226203*^9, 
    3.9597084267837286`*^9, 3.9597125446277103`*^9, {3.959712754312215*^9, 
-   3.959712762734353*^9}},
+   3.959712762734353*^9}, {3.9599027961724215`*^9, 3.9599028073153267`*^9}},
  CellLabel->"Out[23]=",ExpressionUUID->"a2d5dae2-7935-4d70-aeca-4d75b8a858f4"]
-}, {2}]]
+}, {2}]],
+
+Cell[TextData[{
+ StyleBox["Preguntas de Exploraci\[OAcute]n\n",
+  FontWeight->"Bold"],
+ "\[FilledSquare] \[DownQuestion]C\[OAcute]mo afecta la masa \|01d45a al \
+tiempo que tarda el sistema en estabilizarse?\n\[FilledSquare] \
+\[DownQuestion]Qu\[EAcute] sucede cuando el amortiguador \|01d44f es cero?\
+\[DownQuestion]El sistema sigue perdiendo energ\[IAcute]a?\n\[FilledSquare] \
+\[DownQuestion]Puedes ajustar los par\[AAcute]metros para que el sistema \
+regrese exactamente al equilibrio sin oscilar?\n\[FilledSquare] Con un valor \
+de \|01d44f diferente de cero\[DownQuestion]Qu\[EAcute] combinaci\[OAcute]n \
+de \|01d45a,  \|01d458 hace que el sistema oscile durante m\[AAcute]s tiempo?\
+\[DownQuestion]Qu\[EAcute] variable influye m\[AAcute]s?\n\[FilledSquare] \
+\[DownQuestion]Por qu\[EAcute] no observas un comportamiento que crece sin \
+control?\[DownQuestion]Qu\[EAcute] condiciones del sistema lo impiden?"
+}], "Text",
+ CellChangeTimes->{{3.9598973313101206`*^9, 3.9598973343102894`*^9}, {
+  3.9598980184745073`*^9, 3.9598980207636995`*^9}, {3.959898059563511*^9, 
+  3.9598981574300714`*^9}},
+ Background->RGBColor[
+  1, 0.925, 0.925],ExpressionUUID->"ec1548af-6092-42a8-84bc-966cec17220a"]
+}, Open  ]]
 }, Closed]],
 
 Cell[CellGroupData[{
 
-Cell[" Intuici\[OAcute]n r\[AAcute]pida", "Subsubsection",
- CellChangeTimes->{{3.9597053675209465`*^9, 
-  3.959705379239709*^9}},ExpressionUUID->"02182df6-e230-4407-863c-\
+Cell["\[DownQuestion]Qu\[EAcute] pasa si agregamos una entrada?", "Subsection",
+ CellChangeTimes->{{3.9597053675209465`*^9, 3.959705379239709*^9}, {
+  3.9598941678518186`*^9, 
+  3.959894180177347*^9}},ExpressionUUID->"02182df6-e230-4407-863c-\
 f23dccaae229"],
 
-Cell[TextData[StyleBox["Reales diferentes o iguales \[RightArrow] el sistema \
-se estabiliza(reales negativos) o explota(al menos un valor positivo) sin \
-oscilar.\nRa\[IAcute]ces puramente imaginarias \[RightArrow] el sistema \
-oscila para siempre, sin fricci\[OAcute]n.\nRa\[IAcute]ces complejas \
-conjugadas \[RightArrow] el sistema oscila y estabiliza(reales negativos) o \
-explota(al menos un valor positivo).",
- FontWeight->"Bold"]], "Text",
- CellChangeTimes->{{3.9597053675209465`*^9, 3.9597054422605963`*^9}},
+Cell[TextData[{
+ "Hasta ahora, nuestro sistema masa-resorte-amortiguador ha estado \
+completamente solo: lo soltamos, y observamos c\[OAcute]mo se mueve.\nPero en \
+rob\[OAcute]tica, automatizaci\[OAcute]n, y pr\[AAcute]cticamente cualquier \
+aplicaci\[OAcute]n de ingenier\[IAcute]a, eso no es suficiente.\n\nQueremos \
+controlar el sistema. Queremos que haga lo que le pedimos",
+ StyleBox[". ",
+  FontWeight->"Bold"],
+ "Para lograrlo, necesitamos enviarle se\[NTilde]ales que modifiquen su \
+comportamiento. Esas se\[NTilde]ales son fuerzas externas, y pueden tener \
+muchas formas:\n\n\[FilledSquare] Un voltaje aplicado a un actuador.\n\
+\[FilledSquare] Una corriente que alimenta un motor.\n\[FilledSquare] Una se\
+\[NTilde]al de control enviada a una v\[AAcute]lvula neum\[AAcute]tica.\n\
+\[FilledSquare] Un impulso mec\[AAcute]nico (como un golpe).\n\nEstos est\
+\[IAcute]mulos son lo que le da vida al sistema: sin ellos, no har\[IAcute]a \
+m\[AAcute]s que regresar al equilibrio.\nY lo m\[AAcute]s importante: son la \
+manera en que logramos que el sistema haga exactamente lo que queremos.",
+ StyleBox["\n",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.9597053675209465`*^9, 3.9597054422605963`*^9}, 
+   3.9599016289237146`*^9, {3.959901930165715*^9, 3.959901987660336*^9}},
  Background->RGBColor[
   0.87, 0.94, 1],ExpressionUUID->"c9276b41-0ccf-4340-9b32-dde2cce6030a"],
 
 Cell[CellGroupData[{
 
-Cell[BoxData[
- RowBox[{
-  RowBox[{"Manipulate", "[", "\n", "    ", 
+Cell["De homog\[EAcute]nea a no homog\[EAcute]nea", "Subsubsection",
+ CellChangeTimes->{
+  3.959902222902048*^9},ExpressionUUID->"c3c92648-ebb8-424a-87ae-\
+c9c3e30f9cdd"],
+
+Cell[TextData[{
+ "Cuando agregamos una entrada externa, la ecuaci\[OAcute]n del sistema \
+cambia:\n\n\|01d45a",
+ Cell[BoxData[
+  FormBox[
+   OverscriptBox["\|01d465", ".."], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5a6c88d7-0cd8-45ee-83c9-a3f2afc4d0d6"],
+ "(\|01d461)+\|01d44f",
+ Cell[BoxData[
+  FormBox[
+   OverscriptBox["\|01d465", "."], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "db998c54-9094-4bf3-b36e-1d64086b88aa"],
+ "(\|01d461)+\|01d458\|01d465(\|01d461)=\|01d439(\|01d461)\n\nAhora ya no es \
+homog\[EAcute]nea: el lado derecho contiene una funci\[OAcute]n \|01d439(\
+\|01d461), que representa la fuerza de entrada.\n\nLa soluci\[OAcute]n de \
+esta ecuaci\[OAcute]n se compone de dos partes:\n\n",
+ Cell[BoxData[
+  FormBox[
    RowBox[{
-    RowBox[{"Module", "[", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{
-       "eq", ",", " ", "sol", ",", " ", "deqString", ",", " ", "solString", 
-        ",", "displacement"}], "}"}], ",", "\n", "        ", 
-      RowBox[{
-       RowBox[{"eq", " ", "=", " ", 
-        RowBox[{
-         RowBox[{
-          RowBox[{"a", " ", 
-           RowBox[{
-            RowBox[{"x", "''"}], "[", "t", "]"}]}], " ", "+", " ", 
-          RowBox[{"b", " ", 
-           RowBox[{
-            RowBox[{"x", "'"}], "[", "t", "]"}]}], " ", "+", " ", 
-          RowBox[{"c", " ", 
-           RowBox[{"x", "[", "t", "]"}]}]}], " ", "==", " ", "0"}]}], ";", 
-       "\n", "        ", 
-       RowBox[{"sol", " ", "=", " ", 
-        RowBox[{"DSolve", "[", 
-         RowBox[{
-          RowBox[{"{", 
-           RowBox[{"eq", ",", "  ", 
-            RowBox[{"If", "[", 
-             RowBox[{
-              RowBox[{"a", "==", "0"}], ",", 
-              RowBox[{
-               RowBox[{"x", "[", "0", "]"}], " ", "==", " ", "y0"}], ",", 
-              RowBox[{"{", 
-               RowBox[{
-                RowBox[{
-                 RowBox[{"x", "[", "0", "]"}], " ", "==", " ", "y0"}], ",", 
-                RowBox[{
-                 RowBox[{
-                  RowBox[{"x", "'"}], "[", "0", "]"}], " ", "==", " ", 
-                 "yp0"}]}], "}"}]}], "]"}]}], "}"}], ",", " ", 
-          RowBox[{"x", "[", "t", "]"}], ",", " ", "t"}], "]"}]}], ";", "\n", 
-       "        ", 
-       RowBox[{"deqString", " ", "=", " ", 
-        RowBox[{"\"\<Modelo del sistema MRA: \>\"", " ", "<>", " ", 
-         RowBox[{"ToString", "[", 
-          RowBox[{"eq", ",", " ", "TraditionalForm"}], "]"}]}]}], ";", "\n", 
-       "        ", 
-       RowBox[{"displacement", " ", "=", " ", 
-        RowBox[{
-         RowBox[{"x", "[", "t", "]"}], " ", "/.", " ", 
-         RowBox[{"sol", "[", 
-          RowBox[{"[", "1", "]"}], "]"}]}]}], ";", "\n", "        ", 
-       RowBox[{"displacement", "=", 
-        RowBox[{"Simplify", "[", "displacement", "]"}]}], ";", "\n", "\n", 
-       "        ", 
-       RowBox[{"Column", "[", "\n", "            ", 
-        RowBox[{
-         RowBox[{"{", "\n", "                ", 
-          RowBox[{
-           RowBox[{"Style", "[", 
-            RowBox[{"deqString", ",", " ", "Large", ",", " ", "Bold"}], "]"}],
-            ",", "\n", "                ", 
-           RowBox[{"Plot", "[", 
-            RowBox[{
-             RowBox[{"Evaluate", "[", 
-              RowBox[{
-               RowBox[{"x", "[", "t", "]"}], " ", "/.", " ", "sol"}], "]"}], 
-             ",", " ", 
-             RowBox[{"{", 
-              RowBox[{"t", ",", " ", "0", ",", " ", "50"}], "}"}], ",", " ", 
-             RowBox[{"PlotRange", " ", "->", " ", "All"}], ",", " ", 
-             RowBox[{"AxesLabel", " ", "->", " ", 
-              RowBox[{"{", 
-               RowBox[{"\"\<t\>\"", ",", " ", "\"\<x(t)\>\""}], "}"}]}], ",", 
-             RowBox[{"ImageSize", "->", "Medium"}]}], "]"}], ",", "\n", 
-           "                ", 
-           RowBox[{"Style", "[", 
-            RowBox[{
-             RowBox[{"Simplify", "[", 
-              RowBox[{"sol", "[", 
-               RowBox[{"[", 
-                RowBox[{"1", ",", "1"}], "]"}], "]"}], "]"}], ",", "Large"}], 
-            "]"}], ",", "\n", "                 ", 
-           RowBox[{"Graphics", "[", "\n", "            ", 
-            RowBox[{
-             RowBox[{"{", "\n", "                ", 
-              RowBox[{
-               RowBox[{"Arrow", "[", 
-                RowBox[{"{", 
-                 RowBox[{
-                  RowBox[{"{", 
-                   RowBox[{
-                    RowBox[{"-", "2"}], ",", " ", 
-                    RowBox[{"-", "0.1"}]}], "}"}], ",", " ", 
-                  RowBox[{"{", 
-                   RowBox[{
-                    RowBox[{"2", "y0"}], ",", " ", 
-                    RowBox[{"-", "0.1"}]}], "}"}]}], "}"}], "]"}], ",", " ", 
-               RowBox[{"(*", " ", 
-                RowBox[{"Horizontal", " ", "line"}], " ", "*)"}], "\n", 
-               "                ", 
-               RowBox[{"Line", "[", 
-                RowBox[{"{", 
-                 RowBox[{
-                  RowBox[{"{", 
-                   RowBox[{"0.2", ",", 
-                    RowBox[{"-", "0.2"}]}], "}"}], ",", 
-                  RowBox[{"{", 
-                   RowBox[{"0.2", ",", "0.05"}], "}"}]}], "}"}], "]"}], ",", 
-               "\n", "                ", "Blue", ",", " ", 
-               RowBox[{"Thickness", "[", 
-                RowBox[{"0.002", "c"}], "]"}], ",", " ", 
-               RowBox[{"Line", "[", 
-                RowBox[{"{", 
-                 RowBox[{
-                  RowBox[{"{", 
-                   RowBox[{
-                    RowBox[{"-", "1"}], ",", " ", "0"}], "}"}], ",", " ", 
-                  RowBox[{"{", 
-                   RowBox[{
-                    RowBox[{"displacement", " ", "/.", " ", 
-                    RowBox[{"t", " ", "->", " ", "time"}]}], ",", " ", "0"}], 
-                   "}"}]}], "}"}], "]"}], ",", " ", 
-               RowBox[{"(*", " ", "Spring", " ", "*)"}], "\n", 
-               "                ", "Purple", ",", " ", 
-               RowBox[{"Thickness", "[", 
-                RowBox[{"0.002", "b"}], "]"}], ",", " ", 
-               RowBox[{"Line", "[", 
-                RowBox[{"{", 
-                 RowBox[{
-                  RowBox[{"{", 
-                   RowBox[{
-                    RowBox[{"-", "1"}], ",", " ", "0.2"}], "}"}], ",", " ", 
-                  RowBox[{"{", 
-                   RowBox[{
-                    RowBox[{"displacement", " ", "/.", " ", 
-                    RowBox[{"t", " ", "->", " ", "time"}]}], ",", " ", 
-                    "0.2"}], "}"}]}], "}"}], "]"}], ",", " ", 
-               RowBox[{"(*", " ", "Damper", " ", "*)"}], "\n", 
-               "                ", 
-               RowBox[{"EdgeForm", "[", 
-                RowBox[{"Directive", "[", 
-                 RowBox[{"Thick", ",", "Dashed", ",", "Black"}], "]"}], "]"}],
-                ",", 
-               RowBox[{"GrayLevel", "[", 
-                RowBox[{"1", "-", 
-                 RowBox[{"a", "/", "50"}]}], "]"}], ",", " ", 
-               RowBox[{"Translate", "[", 
-                RowBox[{
-                 RowBox[{"Rectangle", "[", 
-                  RowBox[{
-                   RowBox[{"{", 
-                    RowBox[{"0", ",", " ", 
-                    RowBox[{"-", "0.1"}]}], "}"}], ",", " ", 
-                   RowBox[{"{", 
-                    RowBox[{"0.4", ",", "0.3"}], "}"}]}], "]"}], ",", 
-                 RowBox[{"{", 
-                  RowBox[{
-                   RowBox[{"displacement", " ", "/.", " ", 
-                    RowBox[{"t", " ", "->", " ", "time"}]}], ",", "0"}], 
-                  "}"}]}], " ", "]"}]}], 
-              RowBox[{"(*", " ", "Mass", " ", "*)"}], "\n", "            ", 
-              "}"}], ",", "\n", "            ", 
-             RowBox[{"PlotRange", " ", "->", " ", 
-              RowBox[{"{", 
-               RowBox[{
-                RowBox[{"{", 
-                 RowBox[{
-                  RowBox[{"-", "2"}], ",", " ", 
-                  RowBox[{"2", "y0"}]}], "}"}], ",", " ", 
-                RowBox[{"{", 
-                 RowBox[{
-                  RowBox[{"-", "1"}], ",", " ", "1"}], "}"}]}], "}"}]}], ",", 
-             "\n", "            ", 
-             RowBox[{"Axes", " ", "->", " ", "False"}], ",", "\n", 
-             "            ", 
-             RowBox[{"ImageSize", " ", "->", " ", "Medium"}]}], "\n", 
-            "        ", "]"}]}], "\n", "            ", "}"}], ",", "\n", 
-         "        ", 
-         RowBox[{"Alignment", " ", "->", " ", "Center"}]}], "\n", "        ", 
-        "]"}]}]}], "\n", "    ", "]"}], ",", "\n", "    ", 
-    RowBox[{"Row", "[", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"Column", "[", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"a", ",", " ", "1", ",", " ", "\"\<m\>\""}], "}"}], ",",
-              " ", "0", ",", " ", "50", ",", " ", "0.1"}], "}"}], "]"}], ",", 
-          "\n", "    ", 
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"b", ",", " ", "1", ",", " ", "\"\<b\>\""}], "}"}], ",",
-              " ", "0", ",", " ", "10", ",", " ", "0.1"}], "}"}], "]"}], ",", 
-          "\n", "    ", 
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"c", ",", " ", "1", ",", " ", "\"\<k\>\""}], "}"}], ",",
-              " ", "0", ",", " ", "10", ",", " ", "0.1"}], "}"}], "]"}]}], 
-         "}"}], "]"}], ",", "\n", "    ", 
-       RowBox[{"Column", "[", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"y0", ",", " ", "1", ",", " ", "\"\<y(0)\>\""}], "}"}], 
-             ",", " ", 
-             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
-           "]"}], ",", "\n", "    ", 
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"yp0", ",", " ", "0", ",", " ", "\"\<y'(0)\>\""}], 
-              "}"}], ",", " ", 
-             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
-           "]"}]}], "}"}], "]"}], ",", 
-       RowBox[{"Control", "[", " ", 
-        RowBox[{"{", 
-         RowBox[{"time", ",", " ", "0", ",", " ", "50"}], "}"}], "]"}]}], 
-      "}"}], "]"}], ",", "\n", "    ", 
-    RowBox[{"ControlPlacement", " ", "->", " ", "Top"}]}], "\n", "]"}], 
-  "\n"}]], "Code",
- CellChangeTimes->{{3.913321014396138*^9, 3.9133210144081235`*^9}, {
-   3.913375549129508*^9, 3.91337559013148*^9}, {3.9133756434014263`*^9, 
-   3.9133756445877047`*^9}, {3.913375703611454*^9, 3.913375718699984*^9}, {
-   3.9133759212687545`*^9, 3.913375925789633*^9}, 3.913376007894023*^9, {
-   3.9133761198244524`*^9, 3.913376200133198*^9}, {3.913376973028035*^9, 
-   3.9133770792663345`*^9}, {3.913377339155887*^9, 3.913377350414299*^9}, {
-   3.913377430349259*^9, 3.913377433525917*^9}, {3.91338143615014*^9, 
-   3.9133817657259903`*^9}, {3.9133818039166327`*^9, 3.913381852319084*^9}, {
-   3.9133819018198414`*^9, 3.9133819052709913`*^9}, 3.91338193637658*^9, {
-   3.9133819712639256`*^9, 3.913382138456378*^9}, {3.913382168995125*^9, 
-   3.9133822226872845`*^9}, {3.9133829247258334`*^9, 
-   3.9133829366581993`*^9}, {3.9133829824965467`*^9, 
-   3.9133829870323668`*^9}, {3.913383025884316*^9, 3.913383028809417*^9}, {
-   3.913383102948908*^9, 3.9133831108884273`*^9}, {3.913383144709119*^9, 
-   3.913383286603769*^9}, 3.9133833375285172`*^9, 3.9133834093255157`*^9, {
-   3.913383460208847*^9, 3.9133834608906555`*^9}, {3.9597058195989532`*^9, 
-   3.959705831718732*^9}, {3.9597058883000245`*^9, 3.959705892842289*^9}, {
-   3.959707381192102*^9, 3.959707418190682*^9}, {3.9597084679698515`*^9, 
-   3.9597084718768487`*^9}, {3.959712731176651*^9, 3.9597127387854905`*^9}},
- CellLabel->"In[23]:=",ExpressionUUID->"db7a5b79-9ef3-4abc-b334-cbbdbc2b9d1a"],
-
-Cell[BoxData[
- TagBox[
-  StyleBox[
-   DynamicModuleBox[{$CellContext`a$$ = 1, $CellContext`b$$ = 
-    1, $CellContext`c$$ = 1, $CellContext`time$$ = 
-    12.808134024882332`, $CellContext`y0$$ = 1, $CellContext`yp0$$ = 0, 
-    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
-    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
-    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`a$$], 1, "m"}, 0, 50, 0.1}, {{
-       Hold[$CellContext`b$$], 1, "b"}, 0, 10, 0.1}, {{
-       Hold[$CellContext`c$$], 1, "k"}, 0, 10, 0.1}, {{
-       Hold[$CellContext`y0$$], 1, "y(0)"}, -5, 5, 0.1}, {{
-       Hold[$CellContext`yp0$$], 0, "y'(0)"}, -5, 5, 0.1}, {
-      Hold[$CellContext`time$$], 0, 50}, {
-      Hold[
-       Row[{
-         Column[{
-           Manipulate`Place[1], 
-           Manipulate`Place[2], 
-           Manipulate`Place[3]}], 
-         Column[{
-           Manipulate`Place[4], 
-           Manipulate`Place[5]}], 
-         Manipulate`Place[6]}]], Manipulate`Dump`ThisIsNotAControl}}, 
-    Typeset`size$$ = {543., {211.94062988281252`, 217.0993701171875}}, 
-    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
-    DynamicBox[Manipulate`ManipulateBoxes[
-     2, StandardForm, 
-      "Variables" :> {$CellContext`a$$ = 1, $CellContext`b$$ = 
-        1, $CellContext`c$$ = 1, $CellContext`time$$ = 0, $CellContext`y0$$ = 
-        1, $CellContext`yp0$$ = 0}, "ControllerVariables" :> {}, 
-      "OtherVariables" :> {
-       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
-        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
-        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$}, "Body" :> 
-      Module[{$CellContext`eq$, $CellContext`sol$, $CellContext`deqString$, \
-$CellContext`solString$, $CellContext`displacement$}, $CellContext`eq$ = \
-$CellContext`a$$ 
-            Derivative[2][$CellContext`x][$CellContext`t] + $CellContext`b$$ 
-            Derivative[
-             1][$CellContext`x][$CellContext`t] + $CellContext`c$$ \
-$CellContext`x[$CellContext`t] == 0; $CellContext`sol$ = 
-         DSolve[{$CellContext`eq$, 
-            
-            If[$CellContext`a$$ == 
-             0, $CellContext`x[
-              0] == $CellContext`y0$$, {$CellContext`x[
-               0] == $CellContext`y0$$, 
-              Derivative[1][$CellContext`x][0] == $CellContext`yp0$$}]}, 
-           $CellContext`x[$CellContext`t], $CellContext`t]; \
-$CellContext`deqString$ = 
-         "Modelo del sistema MRA: " <> 
-          ToString[$CellContext`eq$, 
-            TraditionalForm]; $CellContext`displacement$ = ReplaceAll[
-           $CellContext`x[$CellContext`t], 
-           Part[$CellContext`sol$, 1]]; $CellContext`displacement$ = 
-         Simplify[$CellContext`displacement$]; Column[{
-           Style[$CellContext`deqString$, Large, Bold], 
-           Plot[
-            Evaluate[
-             ReplaceAll[
-              $CellContext`x[$CellContext`t], $CellContext`sol$]], \
-{$CellContext`t, 0, 50}, PlotRange -> All, AxesLabel -> {"t", "x(t)"}, 
-            ImageSize -> Medium], 
-           Style[
-            Simplify[
-             Part[$CellContext`sol$, 1, 1]], Large], 
-           Graphics[{
-             Arrow[{{-2, -0.1}, {2 $CellContext`y0$$, -0.1}}], 
-             Line[{{0.2, -0.2}, {0.2, 0.05}}], Blue, 
-             Thickness[0.002 $CellContext`c$$], 
-             Line[{{-1, 0}, {
-                
-                ReplaceAll[$CellContext`displacement$, $CellContext`t -> \
-$CellContext`time$$], 0}}], Purple, 
-             Thickness[0.002 $CellContext`b$$], 
-             Line[{{-1, 0.2}, {
-                
-                ReplaceAll[$CellContext`displacement$, $CellContext`t -> \
-$CellContext`time$$], 0.2}}], 
-             EdgeForm[
-              Directive[Thick, Dashed, Black]], 
-             GrayLevel[1 - $CellContext`a$$/50], 
-             Translate[
-              Rectangle[{0, -0.1}, {0.4, 0.3}], {
-               
-               ReplaceAll[$CellContext`displacement$, $CellContext`t -> \
-$CellContext`time$$], 0}]}, PlotRange -> {{-2, 2 $CellContext`y0$$}, {-1, 1}},
-             Axes -> False, ImageSize -> Medium]}, Alignment -> Center]], 
-      "Specifications" :> {{{$CellContext`a$$, 1, "m"}, 0, 50, 0.1, 
-         ControlPlacement -> 1}, {{$CellContext`b$$, 1, "b"}, 0, 10, 0.1, 
-         ControlPlacement -> 2}, {{$CellContext`c$$, 1, "k"}, 0, 10, 0.1, 
-         ControlPlacement -> 3}, {{$CellContext`y0$$, 1, "y(0)"}, -5, 5, 0.1, 
-         ControlPlacement -> 4}, {{$CellContext`yp0$$, 0, "y'(0)"}, -5, 5, 
-         0.1, ControlPlacement -> 5}, {$CellContext`time$$, 0, 50, 
-         ControlPlacement -> 6}, 
-        Row[{
-          Column[{
-            Manipulate`Place[1], 
-            Manipulate`Place[2], 
-            Manipulate`Place[3]}], 
-          Column[{
-            Manipulate`Place[4], 
-            Manipulate`Place[5]}], 
-          Manipulate`Place[6]}]}, "Options" :> {ControlPlacement -> Top}, 
-      "DefaultOptions" :> {}],
-     ImageSizeCache->{640., {271.9206298828125, 277.0793701171875}},
-     SingleEvaluation->True],
-    Deinitialization:>None,
-    DynamicModuleValues:>{},
-    SynchronousInitialization->True,
-    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
-    UnsavedVariables:>{Typeset`initDone$$},
-    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
-   Deployed->True,
-   StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{{3.9133816333965263`*^9, 3.913381716389*^9}, {
-   3.913381752722901*^9, 3.913381766269432*^9}, {3.9133818292812023`*^9, 
-   3.9133818528814316`*^9}, 3.9133819060658035`*^9, {3.913381937286693*^9, 
-   3.913381951243985*^9}, {3.913381982395866*^9, 3.9133820066443686`*^9}, {
-   3.9133820446458445`*^9, 3.913382067698862*^9}, {3.9133821092735786`*^9, 
-   3.913382139240945*^9}, {3.9133821696743155`*^9, 3.9133821933662834`*^9}, 
-   3.9133822246962605`*^9, {3.9133829398862233`*^9, 3.9133829878301735`*^9}, 
-   3.9133830303541913`*^9, 3.913383112125317*^9, {3.9133831472828493`*^9, 
-   3.91338331373965*^9}, {3.913383410735365*^9, 3.9133834649265127`*^9}, 
-   3.91339413636344*^9, 3.9133943152991743`*^9, 3.913395101350566*^9, 
-   3.9324901706951714`*^9, 3.9593491160010357`*^9, {3.959705758633586*^9, 
-   3.9597057804202147`*^9}, 3.9597058322568493`*^9, 3.959705893226203*^9, 
-   3.9597084267837286`*^9, 3.9597125446277103`*^9, {3.959712754312215*^9, 
-   3.959712762734353*^9}},
- CellLabel->"Out[23]=",ExpressionUUID->"2c8b5533-0335-4f29-b8fc-859d4282e9f2"]
-}, {2}]]
-}, Open  ]]
-}, Open  ]]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["Homog\[EAcute]nea", "Section",
- CellChangeTimes->{{3.913384491122341*^9, 3.9133845169621496`*^9}, 
-   3.9133845504235353`*^9},ExpressionUUID->"fd3513c3-507c-4a67-91e5-\
-c991878539f4"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"Manipulate", "[", "\n", "    ", 
-   RowBox[{
-    RowBox[{"Module", "[", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{
-       "eq", ",", " ", "sol", ",", " ", "deqString", ",", " ", "solString"}], 
-       "}"}], ",", "\n", "        ", 
-      RowBox[{
-       RowBox[{"eq", " ", "=", " ", 
-        RowBox[{
-         RowBox[{
-          RowBox[{"m", " ", 
-           RowBox[{
-            RowBox[{"x", "''"}], "[", "x", "]"}]}], " ", "+", " ", 
-          RowBox[{"b", " ", 
-           RowBox[{
-            RowBox[{"x", "'"}], "[", "x", "]"}]}], " ", "+", " ", 
-          RowBox[{"k", " ", 
-           RowBox[{"x", "[", "x", "]"}]}]}], " ", "==", " ", "0"}]}], ";", 
-       "\n", "        ", 
-       RowBox[{"sol", " ", "=", " ", 
-        RowBox[{"DSolve", "[", 
-         RowBox[{
-          RowBox[{"{", 
-           RowBox[{"eq", ",", "  ", 
-            RowBox[{"If", "[", 
-             RowBox[{
-              RowBox[{"a", "==", "0"}], ",", 
-              RowBox[{
-               RowBox[{"y", "[", "0", "]"}], " ", "==", " ", "y0"}], ",", 
-              RowBox[{"{", 
-               RowBox[{
-                RowBox[{
-                 RowBox[{"y", "[", "0", "]"}], " ", "==", " ", "y0"}], ",", 
-                RowBox[{
-                 RowBox[{
-                  RowBox[{"y", "'"}], "[", "0", "]"}], " ", "==", " ", 
-                 "yp0"}]}], "}"}]}], "]"}]}], "}"}], ",", " ", 
-          RowBox[{"y", "[", "x", "]"}], ",", " ", "x"}], "]"}]}], ";", "\n", 
-       "        ", 
-       RowBox[{"deqString", " ", "=", " ", 
-        RowBox[{"\"\<Differential Equation: \>\"", " ", "<>", " ", 
-         RowBox[{"ToString", "[", 
-          RowBox[{"eq", ",", " ", "TraditionalForm"}], "]"}]}]}], ";", "\n", 
-       "\n", "        ", 
-       RowBox[{"Column", "[", "\n", "            ", 
-        RowBox[{
-         RowBox[{"{", "\n", "                ", 
-          RowBox[{
-           RowBox[{"Style", "[", 
-            RowBox[{"deqString", ",", " ", "Large", ",", " ", "Bold"}], "]"}],
-            ",", "\n", "                ", 
-           RowBox[{"Plot", "[", 
-            RowBox[{
-             RowBox[{"Evaluate", "[", 
-              RowBox[{
-               RowBox[{"y", "[", "x", "]"}], " ", "/.", " ", "sol"}], "]"}], 
-             ",", " ", 
-             RowBox[{"{", 
-              RowBox[{"x", ",", " ", 
-               RowBox[{"-", "10"}], ",", " ", "10"}], "}"}], ",", " ", 
-             RowBox[{"PlotRange", " ", "->", " ", "All"}], ",", " ", 
-             RowBox[{"AxesLabel", " ", "->", " ", 
-              RowBox[{"{", 
-               RowBox[{"\"\<x\>\"", ",", " ", "\"\<y\>\""}], "}"}]}], ",", 
-             RowBox[{"ImageSize", "->", "Large"}]}], "]"}], ",", "\n", 
-           "                ", 
-           RowBox[{"Style", "[", 
-            RowBox[{
-             RowBox[{"sol", "[", 
-              RowBox[{"[", 
-               RowBox[{"1", ",", "1"}], "]"}], "]"}], ",", "Large"}], "]"}]}],
-           "\n", "            ", "}"}], ",", "\n", "        ", 
-         RowBox[{"Alignment", " ", "->", " ", "Center"}]}], "\n", "        ", 
-        "]"}]}]}], "\n", "    ", "]"}], ",", "\n", "    ", 
-    RowBox[{"Row", "[", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"Column", "[", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"a", ",", " ", "1", ",", " ", "\"\<a\>\""}], "}"}], ",",
-              " ", 
-             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
-           "]"}], ",", "\n", "    ", 
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"b", ",", " ", "1", ",", " ", "\"\<b\>\""}], "}"}], ",",
-              " ", 
-             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
-           "]"}], ",", "\n", "    ", 
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"c", ",", " ", "1", ",", " ", "\"\<c\>\""}], "}"}], ",",
-              " ", 
-             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
-           "]"}]}], "}"}], "]"}], ",", "\n", "    ", 
-       RowBox[{"Column", "[", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"y0", ",", " ", "1", ",", " ", "\"\<y(0)\>\""}], "}"}], 
-             ",", " ", 
-             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
-           "]"}], ",", "\n", "    ", 
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"yp0", ",", " ", "0", ",", " ", "\"\<y'(0)\>\""}], 
-              "}"}], ",", " ", 
-             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
-           "]"}]}], "}"}], "]"}]}], "}"}], "]"}], ",", "\n", "    ", 
-    RowBox[{"ControlPlacement", " ", "->", " ", "Top"}]}], "\n", "]"}], 
-  "\n"}]], "Code",
- CellChangeTimes->{{3.913321014396138*^9, 3.9133210144081235`*^9}, {
-   3.913375549129508*^9, 3.91337559013148*^9}, {3.9133756434014263`*^9, 
-   3.9133756445877047`*^9}, {3.913375703611454*^9, 3.913375718699984*^9}, {
-   3.9133759212687545`*^9, 3.913375925789633*^9}, 3.913376007894023*^9, {
-   3.9133761198244524`*^9, 3.913376200133198*^9}, {3.913376973028035*^9, 
-   3.9133770792663345`*^9}, {3.913377339155887*^9, 3.913377350414299*^9}, {
-   3.913377430349259*^9, 3.913377433525917*^9}, {3.9596981232918963`*^9, 
-   3.959698132974159*^9}},ExpressionUUID->"8d963744-3d71-4cb8-ba29-\
-85ef8bac2934"],
-
-Cell[BoxData[
- TagBox[
-  StyleBox[
-   DynamicModuleBox[{$CellContext`a$$ = 2.2, $CellContext`b$$ = 
-    1.3000000000000007`, $CellContext`c$$ = 1, $CellContext`y0$$ = 
-    2., $CellContext`yp0$$ = 1.2000000000000002`, Typeset`show$$ = True, 
-    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-    "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`a$$], 1, "a"}, -5, 5, 0.1}, {{
-       Hold[$CellContext`b$$], 1, "b"}, -5, 5, 0.1}, {{
-       Hold[$CellContext`c$$], 1, "c"}, -5, 5, 0.1}, {{
-       Hold[$CellContext`y0$$], 1, "y(0)"}, -5, 5, 0.1}, {{
-       Hold[$CellContext`yp0$$], 0, "y'(0)"}, -5, 5, 0.1}, {
-      Hold[
-       Row[{
-         Column[{
-           Manipulate`Place[1], 
-           Manipulate`Place[2], 
-           Manipulate`Place[3]}], 
-         Column[{
-           Manipulate`Place[4], 
-           Manipulate`Place[5]}]}]], Manipulate`Dump`ThisIsNotAControl}}, 
-    Typeset`size$$ = {728., {189.6006298828125, 194.7593701171875}}, 
-    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
-    DynamicBox[Manipulate`ManipulateBoxes[
-     2, StandardForm, 
-      "Variables" :> {$CellContext`a$$ = 1, $CellContext`b$$ = 
-        1, $CellContext`c$$ = 1, $CellContext`y0$$ = 1, $CellContext`yp0$$ = 
-        0}, "ControllerVariables" :> {}, 
-      "OtherVariables" :> {
-       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
-        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
-        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$}, "Body" :> 
-      Module[{$CellContext`eq$, $CellContext`sol$, $CellContext`deqString$, \
-$CellContext`solString$}, $CellContext`eq$ = $CellContext`a$$ 
-            Derivative[2][$CellContext`y][$CellContext`x] + $CellContext`b$$ 
-            Derivative[
-             1][$CellContext`y][$CellContext`x] + $CellContext`c$$ \
-$CellContext`y[$CellContext`x] == 0; $CellContext`sol$ = 
-         DSolve[{$CellContext`eq$, 
-            
-            If[$CellContext`a$$ == 
-             0, $CellContext`y[
-              0] == $CellContext`y0$$, {$CellContext`y[
-               0] == $CellContext`y0$$, 
-              Derivative[1][$CellContext`y][0] == $CellContext`yp0$$}]}, 
-           $CellContext`y[$CellContext`x], $CellContext`x]; \
-$CellContext`deqString$ = 
-         "Differential Equation: " <> 
-          ToString[$CellContext`eq$, TraditionalForm]; Column[{
-           Style[$CellContext`deqString$, Large, Bold], 
-           Plot[
-            Evaluate[
-             ReplaceAll[
-              $CellContext`y[$CellContext`x], $CellContext`sol$]], \
-{$CellContext`x, -10, 10}, PlotRange -> All, AxesLabel -> {"x", "y"}, 
-            ImageSize -> Large], 
-           Style[
-            Part[$CellContext`sol$, 1, 1], Large]}, Alignment -> Center]], 
-      "Specifications" :> {{{$CellContext`a$$, 1, "a"}, -5, 5, 0.1, 
-         ControlPlacement -> 1}, {{$CellContext`b$$, 1, "b"}, -5, 5, 0.1, 
-         ControlPlacement -> 2}, {{$CellContext`c$$, 1, "c"}, -5, 5, 0.1, 
-         ControlPlacement -> 3}, {{$CellContext`y0$$, 1, "y(0)"}, -5, 5, 0.1, 
-         ControlPlacement -> 4}, {{$CellContext`yp0$$, 0, "y'(0)"}, -5, 5, 
-         0.1, ControlPlacement -> 5}, 
-        Row[{
-          Column[{
-            Manipulate`Place[1], 
-            Manipulate`Place[2], 
-            Manipulate`Place[3]}], 
-          Column[{
-            Manipulate`Place[4], 
-            Manipulate`Place[5]}]}]}, "Options" :> {ControlPlacement -> Top}, 
-      "DefaultOptions" :> {}],
-     ImageSizeCache->{770., {248.9206298828125, 254.0793701171875}},
-     SingleEvaluation->True],
-    Deinitialization:>None,
-    DynamicModuleValues:>{},
-    SynchronousInitialization->True,
-    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
-    UnsavedVariables:>{Typeset`initDone$$},
-    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
-   Deployed->True,
-   StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.913379945125321*^9, 3.9133808506993337`*^9, 
-  3.9133971701329126`*^9, 3.9593491156510935`*^9},
- CellLabel->"Out[8]=",ExpressionUUID->"9acb81a5-ca3c-4639-8524-6ab056f5f34f"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Solve", "[", 
-  RowBox[{
-   RowBox[{
+    RowBox[{"\|01d465", "(", "\|01d461", ")"}], "=", 
     RowBox[{
-     RowBox[{"5", 
-      SuperscriptBox["r", "2"]}], "+", 
-     RowBox[{"1.2", "r"}], "+", "3.1"}], "==", "0"}], ",", "r"}], 
-  "]"}]], "Code",
- CellChangeTimes->{{3.932567839246552*^9, 3.932567873814996*^9}},
- CellLabel->"In[9]:=",ExpressionUUID->"bc19adc4-9d5f-48ce-99f0-65e4fa7bb622"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{"r", "\[Rule]", 
-     RowBox[{
-      RowBox[{"-", "0.12`"}], "-", 
-      RowBox[{"0.7782030583337488`", " ", "\[ImaginaryI]"}]}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"r", "\[Rule]", 
-     RowBox[{
-      RowBox[{"-", "0.12`"}], "+", 
-      RowBox[{"0.7782030583337488`", " ", "\[ImaginaryI]"}]}]}], "}"}]}], 
-  "}"}]], "Output",
- CellChangeTimes->{{3.9325678542013426`*^9, 3.9325678742995358`*^9}, 
-   3.959349115953522*^9},
- CellLabel->"Out[9]=",ExpressionUUID->"9d366ca5-0c48-46c4-9789-23b76cd93cf5"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"Manipulate", "[", "\n", "    ", 
-   RowBox[{
-    RowBox[{"Module", "[", 
-     RowBox[{
-      RowBox[{"{", 
+     UnderscriptBox[
+      UnderscriptBox[
        RowBox[{
-       "eq", ",", " ", "sol", ",", " ", "deqString", ",", " ", "solString"}], 
-       "}"}], ",", "\n", "        ", 
-      RowBox[{
-       RowBox[{"eq", " ", "=", " ", 
-        RowBox[{
-         RowBox[{
-          RowBox[{"a", " ", 
-           RowBox[{
-            RowBox[{"y", "''"}], "[", "x", "]"}]}], " ", "+", " ", 
-          RowBox[{"b", " ", 
-           RowBox[{
-            RowBox[{"y", "'"}], "[", "x", "]"}]}], " ", "+", " ", 
-          RowBox[{"c", " ", 
-           RowBox[{"y", "[", "x", "]"}]}]}], " ", "==", " ", 
-         RowBox[{"UnitStep", "[", "x", "]"}]}]}], ";", "\n", "        ", 
-       RowBox[{"sol", " ", "=", " ", 
-        RowBox[{"DSolve", "[", 
-         RowBox[{
-          RowBox[{"{", 
-           RowBox[{"eq", ",", "  ", 
-            RowBox[{"If", "[", 
-             RowBox[{
-              RowBox[{"a", "==", "0"}], ",", 
-              RowBox[{
-               RowBox[{"y", "[", "0", "]"}], " ", "==", " ", "y0"}], ",", 
-              RowBox[{"{", 
-               RowBox[{
-                RowBox[{
-                 RowBox[{"y", "[", "0", "]"}], " ", "==", " ", "y0"}], ",", 
-                RowBox[{
-                 RowBox[{
-                  RowBox[{"y", "'"}], "[", "0", "]"}], " ", "==", " ", 
-                 "yp0"}]}], "}"}]}], "]"}]}], "}"}], ",", " ", 
-          RowBox[{"y", "[", "x", "]"}], ",", " ", "x"}], "]"}]}], ";", "\n", 
-       "        ", 
-       RowBox[{"deqString", " ", "=", " ", 
-        RowBox[{"\"\<Differential Equation: \>\"", " ", "<>", " ", 
-         RowBox[{"ToString", "[", 
-          RowBox[{"eq", ",", " ", "TraditionalForm"}], "]"}]}]}], ";", "\n", 
-       "\n", "        ", 
-       RowBox[{"Column", "[", "\n", "            ", 
-        RowBox[{
-         RowBox[{"{", "\n", "                ", 
-          RowBox[{
-           RowBox[{"Style", "[", 
-            RowBox[{"deqString", ",", " ", "Large", ",", " ", "Bold"}], "]"}],
-            ",", "\n", "                ", 
-           RowBox[{"Plot", "[", 
-            RowBox[{
-             RowBox[{"Evaluate", "[", 
-              RowBox[{
-               RowBox[{"y", "[", "x", "]"}], " ", "/.", " ", "sol"}], "]"}], 
-             ",", " ", 
-             RowBox[{"{", 
-              RowBox[{"x", ",", " ", "0", ",", " ", "10"}], "}"}], ",", " ", 
-             RowBox[{"PlotRange", " ", "->", " ", "All"}], ",", " ", 
-             RowBox[{"AxesLabel", " ", "->", " ", 
-              RowBox[{"{", 
-               RowBox[{"\"\<x\>\"", ",", " ", "\"\<y\>\""}], "}"}]}], ",", 
-             RowBox[{"ImageSize", "->", "Large"}]}], "]"}], ",", "\n", 
-           "                ", 
-           RowBox[{"Style", "[", 
-            RowBox[{
-             RowBox[{"sol", "[", 
-              RowBox[{"[", 
-               RowBox[{"1", ",", "1"}], "]"}], "]"}], ",", "Large"}], "]"}]}],
-           "\n", "            ", "}"}], ",", "\n", "        ", 
-         RowBox[{"Alignment", " ", "->", " ", "Center"}]}], "\n", "        ", 
-        "]"}]}]}], "\n", "    ", "]"}], ",", "\n", "    ", 
-    RowBox[{"Row", "[", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"Column", "[", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"a", ",", " ", "1", ",", " ", "\"\<a\>\""}], "}"}], ",",
-              " ", 
-             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
-           "]"}], ",", "\n", "    ", 
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"b", ",", " ", "1", ",", " ", "\"\<b\>\""}], "}"}], ",",
-              " ", 
-             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
-           "]"}], ",", "\n", "    ", 
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"c", ",", " ", "1", ",", " ", "\"\<c\>\""}], "}"}], ",",
-              " ", 
-             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
-           "]"}]}], "}"}], "]"}], ",", "\n", "    ", 
-       RowBox[{"Column", "[", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"y0", ",", " ", "1", ",", " ", "\"\<y(0)\>\""}], "}"}], 
-             ",", " ", 
-             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
-           "]"}], ",", "\n", "    ", 
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"yp0", ",", " ", "0", ",", " ", "\"\<y'(0)\>\""}], 
-              "}"}], ",", " ", 
-             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
-           "]"}]}], "}"}], "]"}]}], "}"}], "]"}], ",", "\n", "    ", 
-    RowBox[{"ControlPlacement", " ", "->", " ", "Top"}]}], "\n", "]"}], 
-  "\n"}]], "Code",
- CellChangeTimes->{{3.913321014396138*^9, 3.9133210144081235`*^9}, {
-   3.913375549129508*^9, 3.91337559013148*^9}, {3.9133756434014263`*^9, 
-   3.9133756445877047`*^9}, {3.913375703611454*^9, 3.913375718699984*^9}, {
-   3.9133759212687545`*^9, 3.913375925789633*^9}, 3.913376007894023*^9, {
-   3.9133761198244524`*^9, 3.913376200133198*^9}, {3.913376973028035*^9, 
-   3.9133770792663345`*^9}, {3.913377339155887*^9, 3.913377350414299*^9}, {
-   3.913377430349259*^9, 3.913377433525917*^9}, {3.9133805816335726`*^9, 
-   3.9133805874506207`*^9}, {3.9133806300364513`*^9, 3.9133806309483557`*^9}},
- CellLabel->"In[11]:=",ExpressionUUID->"3a263b1f-497b-4c18-aee5-04b920c87753"],
-
-Cell[BoxData[
- TagBox[
-  StyleBox[
-   DynamicModuleBox[{$CellContext`a$$ = 4.600000000000001, $CellContext`b$$ = 
-    4.9, $CellContext`c$$ = 1, $CellContext`y0$$ = 
-    0.8000000000000007, $CellContext`yp0$$ = 2.6000000000000005`, 
-    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
-    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
-    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`a$$], 1, "a"}, -5, 5, 0.1}, {{
-       Hold[$CellContext`b$$], 1, "b"}, -5, 5, 0.1}, {{
-       Hold[$CellContext`c$$], 1, "c"}, -5, 5, 0.1}, {{
-       Hold[$CellContext`y0$$], 1, "y(0)"}, -5, 5, 0.1}, {{
-       Hold[$CellContext`yp0$$], 0, "y'(0)"}, -5, 5, 0.1}, {
-      Hold[
-       Row[{
-         Column[{
-           Manipulate`Place[1], 
-           Manipulate`Place[2], 
-           Manipulate`Place[3]}], 
-         Column[{
-           Manipulate`Place[4], 
-           Manipulate`Place[5]}]}]], Manipulate`Dump`ThisIsNotAControl}}, 
-    Typeset`size$$ = {974., {226.60062988281254`, 231.75937011718753`}}, 
-    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
-    DynamicBox[Manipulate`ManipulateBoxes[
-     2, StandardForm, 
-      "Variables" :> {$CellContext`a$$ = 1, $CellContext`b$$ = 
-        1, $CellContext`c$$ = 1, $CellContext`y0$$ = 1, $CellContext`yp0$$ = 
-        0}, "ControllerVariables" :> {}, 
-      "OtherVariables" :> {
-       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
-        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
-        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$}, "Body" :> 
-      Module[{$CellContext`eq$, $CellContext`sol$, $CellContext`deqString$, \
-$CellContext`solString$}, $CellContext`eq$ = $CellContext`a$$ 
-            Derivative[2][$CellContext`y][$CellContext`x] + $CellContext`b$$ 
-            Derivative[
-             1][$CellContext`y][$CellContext`x] + $CellContext`c$$ \
-$CellContext`y[$CellContext`x] == UnitStep[$CellContext`x]; $CellContext`sol$ = 
-         DSolve[{$CellContext`eq$, 
-            
-            If[$CellContext`a$$ == 
-             0, $CellContext`y[
-              0] == $CellContext`y0$$, {$CellContext`y[
-               0] == $CellContext`y0$$, 
-              Derivative[1][$CellContext`y][0] == $CellContext`yp0$$}]}, 
-           $CellContext`y[$CellContext`x], $CellContext`x]; \
-$CellContext`deqString$ = 
-         "Differential Equation: " <> 
-          ToString[$CellContext`eq$, TraditionalForm]; Column[{
-           Style[$CellContext`deqString$, Large, Bold], 
-           Plot[
-            Evaluate[
-             ReplaceAll[
-              $CellContext`y[$CellContext`x], $CellContext`sol$]], \
-{$CellContext`x, 0, 10}, PlotRange -> All, AxesLabel -> {"x", "y"}, ImageSize -> 
-            Large], 
-           Style[
-            Part[$CellContext`sol$, 1, 1], Large]}, Alignment -> Center]], 
-      "Specifications" :> {{{$CellContext`a$$, 1, "a"}, -5, 5, 0.1, 
-         ControlPlacement -> 1}, {{$CellContext`b$$, 1, "b"}, -5, 5, 0.1, 
-         ControlPlacement -> 2}, {{$CellContext`c$$, 1, "c"}, -5, 5, 0.1, 
-         ControlPlacement -> 3}, {{$CellContext`y0$$, 1, "y(0)"}, -5, 5, 0.1, 
-         ControlPlacement -> 4}, {{$CellContext`yp0$$, 0, "y'(0)"}, -5, 5, 
-         0.1, ControlPlacement -> 5}, 
-        Row[{
-          Column[{
-            Manipulate`Place[1], 
-            Manipulate`Place[2], 
-            Manipulate`Place[3]}], 
-          Column[{
-            Manipulate`Place[4], 
-            Manipulate`Place[5]}]}]}, "Options" :> {ControlPlacement -> Top}, 
-      "DefaultOptions" :> {}],
-     ImageSizeCache->{1016., {285.9206298828125, 291.0793701171875}},
-     SingleEvaluation->True],
-    Deinitialization:>None,
-    DynamicModuleValues:>{},
-    SynchronousInitialization->True,
-    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
-    UnsavedVariables:>{Typeset`initDone$$},
-    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
-   Deployed->True,
-   StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.959349116263137*^9},
- CellLabel->"Out[11]=",ExpressionUUID->"581704c8-928b-4c31-8da0-c4170af71276"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["No-Homog\[EAcute]nea", "Subsection",
- CellChangeTimes->{{3.913384491122341*^9, 
-  3.9133845421918917`*^9}},ExpressionUUID->"429155f0-0602-432b-b235-\
-ae6a081c8c88"],
+        SubscriptBox["\|01d465", "homog\[EAcute]nea"], 
+        RowBox[{"(", "t", ")"}]}], "\[UnderBrace]"], 
+      RowBox[{"Respuesta", " ", "natural"}]], "+", 
+     UnderscriptBox[
+      UnderscriptBox[
+       RowBox[{
+        SubscriptBox["\|01d465", "particular"], 
+        RowBox[{"(", "t", ")"}]}], "\[UnderBrace]"], 
+      RowBox[{"Respuesta", " ", "forzada"}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "657e8c3a-e23a-4cfa-b490-e2fb56d26f91"],
+ "\:200b\n \nLa respuesta natural es lo que ya exploraste: c\[OAcute]mo se \
+mover\[IAcute]a el sistema si lo soltaras sin entrada.\n\nLa respuesta \
+forzada es c\[OAcute]mo responde al est\[IAcute]mulo externo.\n\nY a largo \
+plazo, es esta segunda parte la que m\[AAcute]s nos importa: es lo que nos \
+permite controlar y dise\[NTilde]ar comportamientos \[UAcute]tiles."
+}], "Text",
+ CellChangeTimes->{{3.9599025537905955`*^9, 3.959902629233978*^9}, {
+  3.9599026607267942`*^9, 3.9599027535561056`*^9}},
+ Background->RGBColor[
+  0.87, 0.94, 1],ExpressionUUID->"ad54c588-c44e-4c17-bddf-275f6337b847"],
 
 Cell[CellGroupData[{
 
@@ -6097,10 +5282,14 @@ Cell[BoxData[
           "                ", 
           RowBox[{"Style", "[", 
            RowBox[{
-            RowBox[{"sol", "[", 
-             RowBox[{"[", 
-              RowBox[{"1", ",", "1"}], "]"}], "]"}], ",", "Large"}], "]"}], 
-          ",", "\n", "                 ", 
+            RowBox[{"Simplify", "[", 
+             RowBox[{"Simplify", "[", 
+              RowBox[{
+               RowBox[{"sol", "[", 
+                RowBox[{"[", 
+                 RowBox[{"1", ",", "1"}], "]"}], "]"}], ",", 
+               RowBox[{"t", ">", "0"}]}], "]"}], "]"}], ",", "Large"}], "]"}],
+           ",", "\n", "                 ", 
           RowBox[{"Graphics", "[", "\n", "            ", 
            RowBox[{
             RowBox[{"{", "\n", "                ", 
@@ -6275,20 +5464,23 @@ Cell[BoxData[
   3.9593692089667883`*^9, 3.9593692136301155`*^9}, {3.95970786733729*^9, 
   3.959707871415225*^9}, {3.959707905562103*^9, 3.959707936138748*^9}, {
   3.959708137725215*^9, 3.9597081660373383`*^9}, {3.959708213600554*^9, 
-  3.9597082500338154`*^9}, {3.95970835563663*^9, 3.9597083597881775`*^9}},
- CellLabel->"In[21]:=",ExpressionUUID->"2bb99764-6889-408f-9cc2-9fd54d0a025b"],
+  3.9597082500338154`*^9}, {3.95970835563663*^9, 3.9597083597881775`*^9}, {
+  3.9598977387073917`*^9, 3.959897747119116*^9}, {3.9598978613905525`*^9, 
+  3.959897877743165*^9}, {3.9598979178199315`*^9, 3.959897923017723*^9}, {
+  3.959897953507881*^9, 3.959897962626525*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"2bb99764-6889-408f-9cc2-9fd54d0a025b"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`a$$ = 1, $CellContext`b$$ = 
     1, $CellContext`c$$ = 1, $CellContext`d$$ = 
-    3.1, $CellContext`functionSelection$$ = 
-    Sin[$CellContext`t], $CellContext`time$$ = 0, $CellContext`y0$$ = 
-    1, $CellContext`yp0$$ = 0, Typeset`show$$ = True, 
-    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-    "\"untitled\"", Typeset`specs$$ = {{{
+    2.5, $CellContext`functionSelection$$ = 
+    UnitStep[$CellContext`t], $CellContext`time$$ = 
+    6.5600000000000005`, $CellContext`y0$$ = 4, $CellContext`yp0$$ = 1.5, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`a$$], 1, "m"}, 0, 50, 0.1}, {{
        Hold[$CellContext`b$$], 1, "b"}, 0, 10, 0.1}, {{
        Hold[$CellContext`c$$], 1, "k"}, 0, 10, 0.1}, {{
@@ -6313,7 +5505,7 @@ Cell[BoxData[
          Column[{
            Manipulate`Place[7], 
            Manipulate`Place[8]}]}]], Manipulate`Dump`ThisIsNotAControl}}, 
-    Typeset`size$$ = {967., {288.94062988281246`, 294.0993701171875}}, 
+    Typeset`size$$ = {768., {173.94062988281252`, 179.0993701171875}}, 
     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      2, StandardForm, 
@@ -6358,7 +5550,9 @@ $CellContext`deqString$ =
 {$CellContext`t, 0, 10}, PlotRange -> All, AxesLabel -> {"x", "y"}, ImageSize -> 
             Medium], 
            Style[
-            Part[$CellContext`sol$, 1, 1], Large], 
+            Simplify[
+             Simplify[
+              Part[$CellContext`sol$, 1, 1], $CellContext`t > 0]], Large], 
            Graphics[{
              Arrow[{{-2, -0.1}, {10, -0.1}}], 
              Line[{{0.2, -0.2}, {0.2, 0.05}}], Blue, 
@@ -6405,7 +5599,7 @@ $CellContext`time$$], 0}]}, PlotRange -> {{-2, 10}, {-1, 1}}, Axes -> False,
             Manipulate`Place[7], 
             Manipulate`Place[8]}]}]}, "Options" :> {ControlPlacement -> Top}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{1009., {348.9206298828125, 354.0793701171875}},
+     ImageSizeCache->{861., {233.9206298828125, 239.0793701171875}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -6416,14 +5610,248 @@ $CellContext`time$$], 0}]}, PlotRange -> {{-2, 10}, {-1, 1}}, Axes -> False,
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{{3.913383775293947*^9, 3.913383823345375*^9}, 
-   3.9133838929747334`*^9, {3.9133839846452875`*^9, 3.913383997534198*^9}, 
-   3.913384065718422*^9, {3.9133842648563175`*^9, 3.913384295400705*^9}, 
-   3.913384388007613*^9, 3.913395085355111*^9, 3.9133971546540956`*^9, 
-   3.9133973017416945`*^9, 3.9324902125325317`*^9, 3.959349116582489*^9, 
-   3.959369214113228*^9},
- CellLabel->"Out[21]=",ExpressionUUID->"dd21f3da-fde8-4e37-9fcb-386a4767311f"]
+ CellChangeTimes->{
+  3.959897763413407*^9, 3.9598978248020935`*^9, {3.9598978629734116`*^9, 
+   3.959897882287324*^9}, 3.9598979235099125`*^9, 3.9598979634127827`*^9, {
+   3.9599027719314785`*^9, 3.9599027765217066`*^9}},
+ TextAlignment->Center,
+ CellLabel->"Out[6]=",ExpressionUUID->"01978331-6b8f-44fc-91fb-be682f4d2c0b"]
 }, Open  ]],
+
+Cell["\<\
+En la animaci\[OAcute]n anterior el sistema era homog\[EAcute]neo, es decir, \
+no recib\[IAcute]a ninguna se\[NTilde]al externa.
+Ahora introducimos una entrada \|01d453(\|01d461) que estimula al sistema:
+\[FilledSquare] UnitStep[t]: una fuerza constante que se aplica desde \
+\|01d461=0.
+\[FilledSquare] Sin[t]: una fuerza que oscila continuamente.\[LineSeparator]\
+\>", "Text",
+ CellChangeTimes->{{3.9599040501994658`*^9, 3.9599041149946613`*^9}, {
+  3.9599041459566555`*^9, 3.9599041595236397`*^9}},
+ Background->RGBColor[
+  0.87, 0.94, 1],ExpressionUUID->"cba2eab3-fdfb-49a8-8d57-a7c682fb57c6"],
+
+Cell[TextData[{
+ StyleBox["Reflexiona",
+  FontWeight->"Bold"],
+ "\n\[DownQuestion]Qu\[EAcute] diferencia observas entre la respuesta a \
+UnitStep[t] y a Sin[t]?\n\[DownQuestion]Por qu\[EAcute] con Sin[t] la masa \
+sigue oscilando, aunque el sistema antes se estabilizaba?\n\[DownQuestion]C\
+\[OAcute]mo afecta el valor de \|01d434 (la amplitud de entrada) al \
+comportamiento del sistema?"
+}], "Text",
+ CellChangeTimes->{{3.9599040501994658`*^9, 3.9599041149946613`*^9}, {
+  3.9599041459566555`*^9, 3.9599041664621143`*^9}},
+ Background->RGBColor[
+  1, 0.925, 0.925],ExpressionUUID->"23a4c786-7383-4e40-856d-5a0052604e17"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\[DownQuestion]C\[OAcute]mo analizamos estas entradas de forma sistem\
+\[AAcute]tica?", "Subsection",
+ CellChangeTimes->{
+  3.959902890137842*^9},ExpressionUUID->"f4722780-b0c7-481e-990b-\
+32cb8b5f0bab"],
+
+Cell[TextData[{
+ "Si cada vez que damos una entrada al sistema tuvi\[EAcute]ramos que \
+resolver una ecuaci\[OAcute]n diferencial desde cero\[Ellipsis] \
+\[DownExclamation]se volver\[IAcute]a impr\[AAcute]ctico!\n\nEn sistemas \
+reales \[LongDash]como un motor, un brazo rob\[OAcute]tico, un actuador neum\
+\[AAcute]tico, o incluso un dron en vuelo\[LongDash] constantemente aplicamos \
+se\[NTilde]ales: voltajes, fuerzas, torques, impulsos. Cada una de estas se\
+\[NTilde]ales se convierte en una entrada \|01d453(\|01d461) que modifica la \
+ecuaci\[OAcute]n del sistema.\n\nResolver esa ecuaci\[OAcute]n diferencial \
+manualmente cada vez no solo es lento, sino inviable cuando el sistema cambia \
+constantemente.Afortunadamente, sabemos algo muy valioso:\n\nLas soluciones a \
+estas ecuaciones suelen tener la forma ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\|01d452", "\|01d460\|01d461"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3a3cbc3b-9ed6-4105-94de-0394e7c1cc73"],
+ ". Y si dejamos que \|01d460 sea un n\[UAcute]mero complejo, esta funci\
+\[OAcute]n captura todos los comportamientos posibles:\n\n\t\t\[FilledSquare] \
+Si \|01d460 es real negativo \[RightArrow] el sistema se estabiliza con el \
+tiempo.\n\t\t\[FilledSquare] Si \|01d460 es real positivo \[RightArrow] el \
+sistema diverge o explota.\n\t\t\[FilledSquare] Si \|01d460 es puramente \
+imaginario \[RightArrow] el sistema oscila para siempre.\n\t\t\[FilledSquare] \
+Si \|01d460 tiene parte real e imaginaria \[RightArrow] el sistema oscila y \
+se estabiliza (o explota), seg\[UAcute]n el signo de la parte real.\n\nAs\
+\[IAcute] que, en lugar de ver todo el comportamiento en el tiempo, nos basta \
+con estudiar qu\[EAcute] est\[AAcute] pasando con \|01d460.\n",
+ StyleBox["\[DownExclamation]Esto cambia todo!",
+  FontWeight->"Bold"],
+ "."
+}], "Text",
+ CellChangeTimes->{
+  3.959902903694602*^9, {3.9599029899623475`*^9, 3.959902996473014*^9}, {
+   3.959903271751466*^9, 3.959903400980029*^9}, {3.959903556800789*^9, 
+   3.959903559015655*^9}, {3.9599036205692673`*^9, 3.959903647769312*^9}},
+ Background->RGBColor[
+  0.87, 0.94, 1],ExpressionUUID->"414af2c4-3c24-47f9-b289-28cf92897343"],
+
+Cell[CellGroupData[{
+
+Cell["La Transformada de Laplace", "Subsubsection",
+ CellChangeTimes->{{3.9599035691118503`*^9, 
+  3.9599035759211283`*^9}},ExpressionUUID->"790af075-737d-461b-aded-\
+3eac68487b2b"],
+
+Cell[TextData[{
+ "La Transformada de Laplace toma una funci\[OAcute]n del tiempo, como \
+\|01d453(\|01d461), y la convierte en una funci\[OAcute]n de \|01d460, \
+llamada \|01d439(\|01d460). Es decir, lleva el sistema a un nuevo espacio, \
+donde las herramientas que usamos son algebraicas, no diferenciales.\n\nY lo \
+mejor, en este nuevo espacio:\n\n\[FilledSquare] derivar es tan simple como \
+multiplicar por \|01d460\n\[FilledSquare] integrar se convierte en dividir \
+por \|01d460\n\[FilledSquare] las ecuaciones diferenciales se vuelven \
+ecuaciones algebraicas.\n\nAs\[IAcute], podemos predecir y entender el \
+comportamiento del sistema sin resolver todo desde cero, cada vez.\
+\[LineSeparator]\[LineSeparator]",
+ StyleBox["Recuerda: Estas propiedades de la Transformada de Laplace ya las \
+estudiaste en tu curso de Ecuaciones Diferenciales.\nAhora las vamos a \
+aplicar para modelar, analizar y dise\[NTilde]ar sistemas reales.",
+  FontWeight->"Bold"],
+ "\n\n"
+}], "Text",
+ CellChangeTimes->{{3.959903684752017*^9, 3.9599037435359306`*^9}, {
+  3.9599038635917544`*^9, 3.9599038642748857`*^9}},
+ Background->RGBColor[
+  0.87, 0.94, 1],ExpressionUUID->"8635cca1-a48d-4c95-909c-bbed4a305019"]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Retrato de fase", "Section",
+ CellChangeTimes->{{3.913384491122341*^9, 3.9133845169621496`*^9}, 
+   3.9133845504235353`*^9, {3.959898400898614*^9, 3.959898405856229*^9}, {
+   3.9599042403022394`*^9, 
+   3.9599042424264607`*^9}},ExpressionUUID->"fd3513c3-507c-4a67-91e5-\
+c991878539f4"],
+
+Cell[CellGroupData[{
+
+Cell["\[DownQuestion]Qu\[EAcute] es un retrato de fase?", "Subsection",
+ CellChangeTimes->{{3.9599070326828732`*^9, 
+  3.9599070337793074`*^9}},ExpressionUUID->"13e5baa1-1f2a-4cac-a738-\
+8fa1d4defbdb"],
+
+Cell[TextData[{
+ "Hasta ahora, hemos visto c\[OAcute]mo un sistema din\[AAcute]mico (como el \
+masa-resorte-amortiguador) evoluciona con el tiempo. Pero toda esa informaci\
+\[OAcute]n la hemos representado en un eje: c\[OAcute]mo cambia \|01d465(\
+\|01d461) conforme pasa el tiempo.\n\nSin embargo, hay una forma m\[AAcute]s \
+rica e intuitiva de visualizar el movimiento: ",
+ StyleBox["el retratro de fase",
+  FontWeight->"Bold"],
+ ".\[LineSeparator]\[LineSeparator]Para construir esta intuici\[OAcute]n, \
+volvamos al caso sin est\[IAcute]mulos externos, es decir, cuando el sistema \
+solo responde a sus propias condiciones iniciales.\nAs\[IAcute], la ecuaci\
+\[OAcute]n del sistema es:\n\n\|01d45a\[ThinSpace]",
+ Cell[BoxData[
+  FormBox[
+   OverscriptBox["\|01d465", ".."], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "23368ea8-64ef-4edb-90cd-aa97948690b2"],
+ "(\|01d461)+\|01d44f\[ThinSpace]",
+ Cell[BoxData[
+  FormBox[
+   OverscriptBox["\|01d465", "."], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1b28879a-8c1e-41c3-9df7-e2cae3686142"],
+ "(\|01d461)+\|01d458\[ThinSpace]\|01d465(\|01d461)=0\n\nEste tipo de sistema \
+tiene una din\[AAcute]mica completamente determinada por sus condiciones \
+iniciales."
+}], "Text",
+ CellChangeTimes->{
+  3.9599054251084337`*^9, {3.9599056777338533`*^9, 3.9599057751095467`*^9}},
+ Background->RGBColor[
+  0.87, 0.94, 1],ExpressionUUID->"71818d5e-0ab6-49ac-9cd6-26a41e19abd1"],
+
+Cell[TextData[{
+ "En este contexto, decimos que el estado del sistema en un momento dado est\
+\[AAcute] completamente determinado por dos n\[UAcute]meros: su posici\
+\[OAcute]n y su velocidad.\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"estado", 
+     RowBox[{"(", "\|01d461", ")"}]}], "=", 
+    RowBox[{"[", 
+     StyleBox[GridBox[{
+        {
+         RowBox[{"\|01d465", "(", "t", ")"}]},
+        {
+         RowBox[{
+          OverscriptBox["\|01d465", "."], "(", "t", ")"}]}
+       }],
+      FontSlant->"Plain"], "]"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e949a65a-ee3d-41cb-91ea-2fc10eb63f7d"],
+ "\n\nEste vector vive en un espacio de dos dimensiones, llamado espacio de \
+fase.\n\nLa trayectoria que recorre el sistema en ese espacio nos dice c\
+\[OAcute]mo va evolucionando el estado con el tiempo.\n\nEn otras palabras, \
+imagina que no solo quieres saber d\[OAcute]nde est\[AAcute] un objeto, sino \
+tambi\[EAcute]n c\[OAcute]mo se est\[AAcute] moviendo.\n\nEn lugar de ver la \
+posici\[OAcute]n \|01d465(\|01d461) y la velocidad ",
+ Cell[BoxData[
+  FormBox[
+   OverscriptBox["\|01d465", "."], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ef53d560-1bf8-4288-ab14-3aa4414e1e5a"],
+ "(\|01d461) como dos gr\[AAcute]ficas separadas en funci\[OAcute]n del \
+tiempo, puedes combinarlas como si fueran coordenadas en un mapa:\n\n\t\t",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"[", 
+    StyleBox[GridBox[{
+       {
+        RowBox[{"\|01d465", "(", "t", ")"}]},
+       {
+        RowBox[{
+         OverscriptBox["\|01d465", "."], "(", "t", ")"}]}
+      }],
+     FontSlant->"Plain"], "]"}], TraditionalForm]],ExpressionUUID->
+  "f937736b-43bb-41c5-82be-1c90bae5f07d"],
+ " es\[NonBreakingSpace]un\[NonBreakingSpace]punto\[NonBreakingSpace]en\
+\[NonBreakingSpace]el\[NonBreakingSpace]plano\n\nEse punto representa el \
+estado completo del sistema en cada instante.\n"
+}], "Text",
+ CellChangeTimes->{{3.959905822248785*^9, 3.9599059369729357`*^9}},
+ Background->RGBColor[
+  0.87, 0.94, 1],ExpressionUUID->"332f1e14-57ff-4e3e-b221-a2f400163ed2"],
+
+Cell[TextData[{
+ "La animaci\[OAcute]n siguiente representa ese concepto. El objeto se mueve, \
+y a la par, vemos c\[OAcute]mo cambia su estado en el plano ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"[", 
+    StyleBox[GridBox[{
+       {
+        RowBox[{"\|01d465", "(", "t", ")"}]},
+       {
+        RowBox[{
+         OverscriptBox["\|01d465", "."], "(", "t", ")"}]}
+      }],
+     FontSlant->"Plain"], "]"}], TraditionalForm]],ExpressionUUID->
+  "48945207-83bf-4bf2-9ae8-13a8ae357058"],
+ ".\nEl punto rojo indica exactamente d\[OAcute]nde est\[AAcute] y \
+qu\[EAcute] tan r\[AAcute]pido va el sistema en ese instante. \n\n\
+\[DownQuestion]Qu\[EAcute] pasa si ves ese punto moverse con el tiempo? Lo \
+que obtienes es una trayectoria en el plano, llamada curva o trayectoria de \
+fase. Esta curva te dice c\[OAcute]mo evoluciona el estado del sistema. A ese \
+dibujo se le llama retrato de fase."
+}], "Text",
+ CellChangeTimes->{{3.9599060536852407`*^9, 3.959906120335578*^9}, {
+  3.95990627007873*^9, 3.9599062794293375`*^9}},
+ Background->RGBColor[
+  0.87, 0.94, 1],ExpressionUUID->"4885b96d-799f-417a-b3d7-bc7ecc5c1210"],
 
 Cell[CellGroupData[{
 
@@ -6435,199 +5863,230 @@ Cell[BoxData[
      RowBox[{
       RowBox[{"{", 
        RowBox[{
-       "eq", ",", " ", "sol", ",", " ", "theta", ",", " ", "omega", ",", " ", 
-        "pendulumPos", ",", " ", "phasePos"}], "}"}], ",", "\n", "        ", 
-      RowBox[{"(*", " ", 
-       RowBox[{
-       "Differential", " ", "equation", " ", "for", " ", "a", " ", "simple", 
-        " ", "pendulum"}], " ", "*)"}], "\n", "        ", 
+       "eq", ",", " ", "sol", ",", " ", "xfun", ",", " ", "vfun", ",", " ", 
+        "displacement", ",", " ", "velocity", ",", " ", "phasePos"}], "}"}], 
+      ",", "\n", "        ", 
       RowBox[{
        RowBox[{"eq", " ", "=", " ", 
         RowBox[{"{", 
          RowBox[{
           RowBox[{
            RowBox[{
-            RowBox[{"y", "''"}], "[", "t", "]"}], " ", "==", " ", 
+            RowBox[{"x", "''"}], "[", "t", "]"}], " ", "==", " ", 
            RowBox[{
-            RowBox[{
+            RowBox[{"(", 
              RowBox[{
-              RowBox[{"-", "g"}], "/", "L"}], " ", 
-             RowBox[{"Sin", "[", 
-              RowBox[{"y", "[", "t", "]"}], "]"}]}], "-", 
-            RowBox[{"b", " ", 
-             RowBox[{
-              RowBox[{"y", "'"}], "[", "t", "]"}]}]}]}], ",", " ", 
-          RowBox[{
-           RowBox[{"y", "[", "0", "]"}], " ", "==", " ", "\[Theta]0"}], ",", 
+              RowBox[{
+               RowBox[{"-", "b"}], " ", 
+               RowBox[{
+                RowBox[{"x", "'"}], "[", "t", "]"}]}], " ", "-", " ", 
+              RowBox[{"c", " ", 
+               RowBox[{"x", "[", "t", "]"}]}]}], ")"}], "/", "a"}]}], ",", 
           " ", 
           RowBox[{
+           RowBox[{"x", "[", "0", "]"}], " ", "==", " ", "y0"}], ",", " ", 
+          RowBox[{
            RowBox[{
-            RowBox[{"y", "'"}], "[", "0", "]"}], " ", "==", " ", 
-           "\[Omega]0"}]}], "}"}]}], ";", "\n", "        ", 
+            RowBox[{"x", "'"}], "[", "0", "]"}], " ", "==", " ", "yp0"}]}], 
+         "}"}]}], ";", "\n", "        ", 
        RowBox[{"sol", " ", "=", " ", 
         RowBox[{"NDSolve", "[", 
-         RowBox[{"eq", ",", " ", "y", ",", " ", 
+         RowBox[{"eq", ",", " ", "x", ",", " ", 
           RowBox[{"{", 
-           RowBox[{"t", ",", " ", "0", ",", " ", "10"}], "}"}]}], "]"}]}], 
+           RowBox[{"t", ",", " ", "0", ",", " ", "50"}], "}"}]}], "]"}]}], 
        ";", "\n", "\n", "        ", 
-       RowBox[{"(*", " ", 
-        RowBox[{
-        "Pendulum", " ", "position", " ", "and", " ", "phase", " ", 
-         "portrait", " ", "position"}], " ", "*)"}], "\n", "        ", 
+       RowBox[{"(*", " ", "Soluciones", " ", "*)"}], "\n", "        ", 
        RowBox[{
-        RowBox[{"theta", "[", "t_", "]"}], " ", ":=", " ", 
+        RowBox[{"xfun", "[", "t_", "]"}], " ", ":=", " ", 
         RowBox[{
-         RowBox[{"y", "[", "t", "]"}], " ", "/.", " ", 
+         RowBox[{"x", "[", "t", "]"}], " ", "/.", " ", 
          RowBox[{"sol", "[", 
           RowBox[{"[", "1", "]"}], "]"}]}]}], ";", "\n", "        ", 
        RowBox[{
-        RowBox[{"omega", "[", "t_", "]"}], " ", ":=", " ", 
+        RowBox[{"vfun", "[", "t_", "]"}], " ", ":=", " ", 
         RowBox[{
          RowBox[{
-          RowBox[{"y", "'"}], "[", "t", "]"}], " ", "/.", " ", 
+          RowBox[{"x", "'"}], "[", "t", "]"}], " ", "/.", " ", 
          RowBox[{"sol", "[", 
           RowBox[{"[", "1", "]"}], "]"}]}]}], ";", "\n", "        ", 
-       RowBox[{
-        RowBox[{"pendulumPos", "[", "t_", "]"}], " ", ":=", " ", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"L", " ", 
-           RowBox[{"Sin", "[", 
-            RowBox[{"theta", "[", "t", "]"}], "]"}]}], ",", " ", 
-          RowBox[{
-           RowBox[{"-", "L"}], " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"theta", "[", "t", "]"}], "]"}]}]}], "}"}]}], ";", "\n", 
-       "        ", 
+       RowBox[{"displacement", " ", "=", " ", 
+        RowBox[{"xfun", "[", "time", "]"}]}], ";", "\n", "        ", 
+       RowBox[{"velocity", " ", "=", " ", 
+        RowBox[{"vfun", "[", "time", "]"}]}], ";", "\n", "        ", 
        RowBox[{
         RowBox[{"phasePos", "[", "t_", "]"}], " ", ":=", " ", 
         RowBox[{"{", 
          RowBox[{
-          RowBox[{"theta", "[", "t", "]"}], ",", " ", 
-          RowBox[{"omega", "[", "t", "]"}]}], "}"}]}], ";", "\n", "\n", 
+          RowBox[{"xfun", "[", "t", "]"}], ",", " ", 
+          RowBox[{"vfun", "[", "t", "]"}]}], "}"}]}], ";", "\n", "\n", 
        "        ", 
-       RowBox[{"Row", "[", "\n", "            ", 
-        RowBox[{"{", "\n", "                ", 
+       RowBox[{"Row", "[", 
+        RowBox[{"{", "\n", "            ", 
          RowBox[{
-          RowBox[{"Graphics", "[", "\n", "                    ", 
+          RowBox[{"Graphics", "[", "\n", "                ", 
            RowBox[{
-            RowBox[{"{", "\n", "                        ", 
+            RowBox[{"{", "\n", "                    ", 
              RowBox[{
+              RowBox[{"Arrow", "[", 
+               RowBox[{"{", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"-", "2"}], ",", " ", 
+                   RowBox[{"-", "0.1"}]}], "}"}], ",", " ", 
+                 RowBox[{"{", 
+                  RowBox[{"2", ",", " ", 
+                   RowBox[{"-", "0.1"}]}], "}"}]}], "}"}], "]"}], ",", "\n", 
+              "                    ", 
               RowBox[{"Line", "[", 
                RowBox[{"{", 
                 RowBox[{
                  RowBox[{"{", 
-                  RowBox[{"0", ",", " ", "0"}], "}"}], ",", " ", 
-                 RowBox[{"pendulumPos", "[", "time", "]"}]}], "}"}], "]"}], 
-              ",", "\n", "                        ", "Blue", ",", " ", 
-              RowBox[{"Disk", "[", 
+                  RowBox[{"0.2", ",", " ", 
+                   RowBox[{"-", "0.2"}]}], "}"}], ",", " ", 
+                 RowBox[{"{", 
+                  RowBox[{"0.2", ",", " ", "0.05"}], "}"}]}], "}"}], "]"}], 
+              ",", "\n", "                    ", "Blue", ",", " ", 
+              RowBox[{"Thickness", "[", 
+               RowBox[{"0.002", " ", "c"}], "]"}], ",", " ", 
+              RowBox[{"Line", "[", 
+               RowBox[{"{", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"-", "1"}], ",", " ", "0"}], "}"}], ",", " ", 
+                 RowBox[{"{", 
+                  RowBox[{"displacement", ",", " ", "0"}], "}"}]}], "}"}], 
+               "]"}], ",", "\n", "                    ", "Purple", ",", " ", 
+              RowBox[{"Thickness", "[", 
+               RowBox[{"0.002", " ", "b"}], "]"}], ",", " ", 
+              RowBox[{"Line", "[", 
+               RowBox[{"{", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"-", "1"}], ",", " ", "0.2"}], "}"}], ",", " ", 
+                 RowBox[{"{", 
+                  RowBox[{"displacement", ",", " ", "0.2"}], "}"}]}], "}"}], 
+               "]"}], ",", "\n", "                    ", 
+              RowBox[{"EdgeForm", "[", 
+               RowBox[{"Directive", "[", 
+                RowBox[{"Thick", ",", " ", "Dashed", ",", " ", "Black"}], 
+                "]"}], "]"}], ",", " ", 
+              RowBox[{"GrayLevel", "[", 
+               RowBox[{"1", " ", "-", " ", 
+                RowBox[{"a", "/", "50"}]}], "]"}], ",", "\n", 
+              "                    ", 
+              RowBox[{"Translate", "[", 
                RowBox[{
-                RowBox[{"pendulumPos", "[", "time", "]"}], ",", " ", "0.05"}],
-                "]"}]}], "\n", "                    ", "}"}], ",", "\n", 
-            "                    ", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{
+                  RowBox[{"{", 
+                   RowBox[{"0", ",", " ", 
+                    RowBox[{"-", "0.1"}]}], "}"}], ",", " ", 
+                  RowBox[{"{", 
+                   RowBox[{"0.4", ",", " ", "0.3"}], "}"}]}], "]"}], ",", " ", 
+                RowBox[{"{", 
+                 RowBox[{"displacement", ",", " ", "0"}], "}"}]}], "]"}]}], 
+             "\n", "                ", "}"}], ",", "\n", "                ", 
             RowBox[{"PlotRange", " ", "->", " ", 
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
                 RowBox[{
-                 RowBox[{"-", "L"}], ",", " ", "L"}], "}"}], ",", " ", 
+                 RowBox[{"-", "2"}], ",", " ", "2"}], "}"}], ",", " ", 
                RowBox[{"{", 
                 RowBox[{
-                 RowBox[{"-", "L"}], ",", " ", "L"}], "}"}]}], "}"}]}], ",", 
-            "\n", "                    ", 
-            RowBox[{"Axes", " ", "->", " ", "True"}], ",", "\n", 
-            "                    ", 
+                 RowBox[{"-", "1"}], ",", " ", "1"}], "}"}]}], "}"}]}], ",", 
+            "\n", "                ", 
+            RowBox[{"Axes", " ", "->", " ", "False"}], ",", "\n", 
+            "                ", 
             RowBox[{"ImageSize", " ", "->", " ", "Medium"}]}], "\n", 
-           "                ", "]"}], ",", "\n", "                ", 
-          RowBox[{"ParametricPlot", "[", "\n", "                   ", 
+           "            ", "]"}], ",", "\n", "            ", 
+          RowBox[{"ParametricPlot", "[", "\n", "                ", 
            RowBox[{
             RowBox[{"phasePos", "[", "tau", "]"}], ",", " ", 
             RowBox[{"{", 
              RowBox[{"tau", ",", " ", "0", ",", " ", 
-              RowBox[{"time", "+", "0.0000000001"}]}], "}"}], ",", "\n", 
-            "                    ", 
+              RowBox[{"time", " ", "+", " ", "0.0001"}]}], "}"}], ",", "\n", 
+            "                ", 
             RowBox[{"Epilog", " ", "->", " ", 
              RowBox[{"{", 
               RowBox[{"Red", ",", " ", 
                RowBox[{"Point", "[", 
                 RowBox[{"phasePos", "[", "time", "]"}], "]"}]}], "}"}]}], ",",
-             "\n", "                    ", 
+             "\n", "                ", 
             RowBox[{"PlotRange", " ", "->", " ", 
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
                 RowBox[{
-                 RowBox[{"-", "10"}], ",", "10"}], "}"}], ",", 
+                 RowBox[{"-", "5"}], ",", " ", "5"}], "}"}], ",", " ", 
                RowBox[{"{", 
                 RowBox[{
-                 RowBox[{"-", "10"}], ",", "10"}], "}"}]}], "}"}]}], ",", 
-            "\n", "                    ", 
+                 RowBox[{"-", "5"}], ",", " ", "5"}], "}"}]}], "}"}]}], ",", 
+            "\n", "                ", 
             RowBox[{"AxesLabel", " ", "->", " ", 
              RowBox[{"{", 
-              RowBox[{"\"\<\[Theta]\>\"", ",", " ", "\"\<\[Omega]\>\""}], 
-              "}"}]}], ",", "\n", "                    ", 
+              RowBox[{"\"\<x(t)\>\"", ",", " ", "\"\<x'(t)\>\""}], "}"}]}], 
+            ",", "\n", "                ", 
             RowBox[{"ImageSize", " ", "->", " ", "Medium"}]}], "\n", 
-           "                ", "]"}]}], "\n", "            ", "}"}], "\n", 
-        "        ", "]"}]}]}], "\n", "    ", "]"}], ",", "\n", "    ", 
-    RowBox[{"Row", "[", "\n", "        ", 
-     RowBox[{"{", "\n", "            ", 
+           "            ", "]"}]}], "\n", "        ", "}"}], "]"}]}]}], "\n", 
+     "    ", "]"}], ",", "\n", "    ", 
+    RowBox[{"Row", "[", 
+     RowBox[{"{", "\n", "        ", 
       RowBox[{
-       RowBox[{"Column", "[", "\n", "                ", 
-        RowBox[{"{", "\n", "                    ", 
+       RowBox[{"Column", "[", 
+        RowBox[{"{", "\n", "            ", 
          RowBox[{
           RowBox[{"Control", "[", 
            RowBox[{"{", 
             RowBox[{
              RowBox[{"{", 
-              RowBox[{"\[Theta]0", ",", " ", 
-               RowBox[{"\[Pi]", "/", "4"}], ",", " ", 
-               "\"\<\!\(\*SubscriptBox[\(\[Theta]\), \(0\)]\)\>\""}], "}"}], 
-             ",", " ", 
-             RowBox[{"-", "\[Pi]"}], ",", " ", "\[Pi]", ",", " ", "0.1"}], 
-            "}"}], "]"}], ",", "\n", "                    ", 
+              RowBox[{"a", ",", " ", "1", ",", " ", "\"\<Masa (m)\>\""}], 
+              "}"}], ",", " ", "0.1", ",", " ", "50", ",", " ", "0.1"}], 
+            "}"}], "]"}], ",", "\n", "            ", 
           RowBox[{"Control", "[", 
            RowBox[{"{", 
             RowBox[{
              RowBox[{"{", 
               RowBox[{
-              "\[Omega]0", ",", " ", "0", ",", " ", 
-               "\"\<\!\(\*SubscriptBox[\(\[Omega]\), \(0\)]\)\>\""}], "}"}], 
-             ",", " ", 
-             RowBox[{"-", "2"}], ",", " ", "2", ",", " ", "0.05"}], "}"}], 
-           "]"}]}], "\n", "                ", "}"}], "\n", "            ", 
-        "]"}], ",", "\n", "            ", 
-       RowBox[{"Column", "[", "\n", "                ", 
-        RowBox[{"{", "\n", "                    ", 
+              "b", ",", " ", "1", ",", " ", "\"\<Amortiguador (b)\>\""}], 
+              "}"}], ",", " ", "0", ",", " ", "10", ",", " ", "0.1"}], "}"}], 
+           "]"}], ",", "\n", "            ", 
+          RowBox[{"Control", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"c", ",", " ", "1", ",", " ", "\"\<Resorte (k)\>\""}], 
+              "}"}], ",", " ", "0", ",", " ", "10", ",", " ", "0.1"}], "}"}], 
+           "]"}]}], "\n", "        ", "}"}], "]"}], ",", "\n", "        ", 
+       RowBox[{"Column", "[", 
+        RowBox[{"{", "\n", "            ", 
          RowBox[{
           RowBox[{"Control", "[", 
            RowBox[{"{", 
             RowBox[{
              RowBox[{"{", 
-              RowBox[{"b", ",", " ", "0", ",", " ", "\"\<Dissipation b\>\""}],
-               "}"}], ",", " ", "0", ",", " ", "2", ",", " ", "0.1"}], "}"}], 
-           "]"}], ",", "\n", "                    ", 
+              RowBox[{"y0", ",", " ", "1", ",", " ", "\"\<x(0)\>\""}], "}"}], 
+             ",", " ", 
+             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
+           "]"}], ",", "\n", "            ", 
           RowBox[{"Control", "[", 
            RowBox[{"{", 
             RowBox[{
              RowBox[{"{", 
-              RowBox[{"L", ",", " ", "1", ",", " ", "\"\<Length L\>\""}], 
-              "}"}], ",", " ", "0.1", ",", " ", "2", ",", " ", "0.1"}], "}"}],
-            "]"}], ",", "\n", "                    ", 
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"g", ",", " ", "9.81", ",", " ", "\"\<Gravity g\>\""}], 
-              "}"}], ",", " ", "0.1", ",", " ", "20", ",", " ", "0.1"}], 
-            "}"}], "]"}]}], "\n", "                ", "}"}], "\n", 
-        "            ", "]"}], ",", "\n", "            ", 
+              RowBox[{"yp0", ",", " ", "0", ",", " ", "\"\<x'(0)\>\""}], 
+              "}"}], ",", " ", 
+             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
+           "]"}]}], "\n", "        ", "}"}], "]"}], ",", "\n", "        ", 
        RowBox[{"Control", "[", 
         RowBox[{"{", 
          RowBox[{
           RowBox[{"{", 
-           RowBox[{"time", ",", " ", "0", ",", " ", "\"\<Time\>\""}], "}"}], 
-          ",", " ", "0", ",", " ", "10", ",", " ", "0.1"}], "}"}], "]"}]}], 
-      "\n", "        ", "}"}], "\n", "    ", "]"}], ",", "\n", "    ", 
+           RowBox[{"time", ",", " ", "0", ",", " ", "\"\<Tiempo\>\""}], "}"}],
+           ",", " ", "0", ",", " ", "50"}], "}"}], "]"}]}], "\n", "    ", 
+      "}"}], "]"}], ",", "\n", "    ", 
     RowBox[{"ControlPlacement", " ", "->", " ", "Top"}]}], "\n", "]"}], 
   "\n"}]], "Code",
  CellChangeTimes->{{3.913723533427932*^9, 3.9137235478731527`*^9}, 
@@ -6635,116 +6094,118 @@ Cell[BoxData[
    3.9137238654445767`*^9, 3.9137239248317823`*^9}, {3.9137239957591295`*^9, 
    3.9137240465911655`*^9}, {3.913724121588086*^9, 3.913724146028784*^9}, {
    3.9137242118832912`*^9, 3.9137242182414494`*^9}, {3.9137243216174307`*^9, 
-   3.913724373414838*^9}, {3.9137279534400663`*^9, 3.9137279924797883`*^9}},
- CellLabel->"In[13]:=",ExpressionUUID->"8528d013-cded-490e-b562-10bb0c5c5ed8"],
+   3.913724373414838*^9}, {3.9137279534400663`*^9, 3.9137279924797883`*^9}, {
+   3.959904499484103*^9, 3.9599044999982033`*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"8528d013-cded-490e-b562-10bb0c5c5ed8"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`b$$ = 0, $CellContext`g$$ = 
-    9.81, $CellContext`L$$ = 1, $CellContext`time$$ = 
-    0., $CellContext`\[Theta]0$$ = Rational[1, 4] 
-    Pi, $CellContext`\[Omega]0$$ = 0, Typeset`show$$ = True, 
+   DynamicModuleBox[{$CellContext`a$$ = 0.1, $CellContext`b$$ = 
+    2.2, $CellContext`c$$ = 2.7, $CellContext`time$$ = 
+    35.163789367675236`, $CellContext`y0$$ = 
+    0.20000000000000018`, $CellContext`yp0$$ = 0., Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`\[Theta]0$$], Rational[1, 4] Pi, 
-       "\!\(\*SubscriptBox[\(\[Theta]\), \(0\)]\)"}, -Pi, Pi, 0.1}, {{
-       Hold[$CellContext`\[Omega]0$$], 0, 
-       "\!\(\*SubscriptBox[\(\[Omega]\), \(0\)]\)"}, -2, 2, 0.05}, {{
-       Hold[$CellContext`b$$], 0, "Dissipation b"}, 0, 2, 0.1}, {{
-       Hold[$CellContext`L$$], 1, "Length L"}, 0.1, 2, 0.1}, {{
-       Hold[$CellContext`g$$], 9.81, "Gravity g"}, 0.1, 20, 0.1}, {{
-       Hold[$CellContext`time$$], 0, "Time"}, 0, 10, 0.1}, {
+       Hold[$CellContext`a$$], 1, "Masa (m)"}, 0.1, 50, 0.1}, {{
+       Hold[$CellContext`b$$], 1, "Amortiguador (b)"}, 0, 10, 0.1}, {{
+       Hold[$CellContext`c$$], 1, "Resorte (k)"}, 0, 10, 0.1}, {{
+       Hold[$CellContext`y0$$], 1, "x(0)"}, -5, 5, 0.1}, {{
+       Hold[$CellContext`yp0$$], 0, "x'(0)"}, -5, 5, 0.1}, {{
+       Hold[$CellContext`time$$], 0, "Tiempo"}, 0, 50}, {
       Hold[
        Row[{
          Column[{
            Manipulate`Place[1], 
-           Manipulate`Place[2]}], 
+           Manipulate`Place[2], 
+           Manipulate`Place[3]}], 
          Column[{
-           Manipulate`Place[3], 
            Manipulate`Place[4], 
            Manipulate`Place[5]}], 
          Manipulate`Place[6]}]], Manipulate`Dump`ThisIsNotAControl}}, 
-    Typeset`size$$ = {648., {160., 164.186328125}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+    Typeset`size$$ = {792.0000000000001, {192., 198.206737613678}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      2, StandardForm, 
-      "Variables" :> {$CellContext`b$$ = 0, $CellContext`g$$ = 
-        9.81, $CellContext`L$$ = 1, $CellContext`time$$ = 
-        0, $CellContext`\[Theta]0$$ = 
-        Rational[1, 4] Pi, $CellContext`\[Omega]0$$ = 0}, 
-      "ControllerVariables" :> {}, 
+      "Variables" :> {$CellContext`a$$ = 1, $CellContext`b$$ = 
+        1, $CellContext`c$$ = 1, $CellContext`time$$ = 0, $CellContext`y0$$ = 
+        1, $CellContext`yp0$$ = 0}, "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
         Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
          Typeset`skipInitDone$$}, "Body" :> 
-      Module[{$CellContext`eq$, $CellContext`sol$, $CellContext`theta$, \
-$CellContext`omega$, $CellContext`pendulumPos$, $CellContext`phasePos$}, \
-$CellContext`eq$ = {
+      Module[{$CellContext`eq$, $CellContext`sol$, $CellContext`xfun$, \
+$CellContext`vfun$, $CellContext`displacement$, $CellContext`velocity$, \
+$CellContext`phasePos$}, $CellContext`eq$ = {
           Derivative[
-            2][$CellContext`y][$CellContext`t] == \
-((-$CellContext`g$$)/$CellContext`L$$) Sin[
-               $CellContext`y[$CellContext`t]] - $CellContext`b$$ 
-            Derivative[1][$CellContext`y][$CellContext`t], $CellContext`y[
-            0] == $CellContext`\[Theta]0$$, 
-           Derivative[1][$CellContext`y][
-            0] == $CellContext`\[Omega]0$$}; $CellContext`sol$ = 
-         NDSolve[$CellContext`eq$, $CellContext`y, {$CellContext`t, 0, 
-            10}]; $CellContext`theta$[
+            2][$CellContext`x][$CellContext`t] == ((-$CellContext`b$$) 
+              Derivative[
+               1][$CellContext`x][$CellContext`t] - $CellContext`c$$ \
+$CellContext`x[$CellContext`t])/$CellContext`a$$, $CellContext`x[
+            0] == $CellContext`y0$$, 
+           Derivative[1][$CellContext`x][
+            0] == $CellContext`yp0$$}; $CellContext`sol$ = 
+         NDSolve[$CellContext`eq$, $CellContext`x, {$CellContext`t, 0, 
+            50}]; $CellContext`xfun$[
            Pattern[$CellContext`t$, 
             Blank[]]] := ReplaceAll[
-           $CellContext`y[$CellContext`t$], 
-           Part[$CellContext`sol$, 1]]; $CellContext`omega$[
+           $CellContext`x[$CellContext`t$], 
+           Part[$CellContext`sol$, 1]]; $CellContext`vfun$[
            Pattern[$CellContext`t$, 
             Blank[]]] := ReplaceAll[
-           Derivative[1][$CellContext`y][$CellContext`t$], 
-           Part[$CellContext`sol$, 1]]; $CellContext`pendulumPos$[
-           Pattern[$CellContext`t$, 
-            Blank[]]] := {$CellContext`L$$ Sin[
-             $CellContext`theta$[$CellContext`t$]], (-$CellContext`L$$) Cos[
-             $CellContext`theta$[$CellContext`t$]]}; $CellContext`phasePos$[
+           Derivative[1][$CellContext`x][$CellContext`t$], 
+           
+           Part[$CellContext`sol$, 
+            1]]; $CellContext`displacement$ = \
+$CellContext`xfun$[$CellContext`time$$]; $CellContext`velocity$ = \
+$CellContext`vfun$[$CellContext`time$$]; $CellContext`phasePos$[
            Pattern[$CellContext`t$, 
             Blank[]]] := {
-           $CellContext`theta$[$CellContext`t$], 
-           $CellContext`omega$[$CellContext`t$]}; Row[{
+           $CellContext`xfun$[$CellContext`t$], 
+           $CellContext`vfun$[$CellContext`t$]}; Row[{
            Graphics[{
-             Line[{{0, 0}, 
-               $CellContext`pendulumPos$[$CellContext`time$$]}], Blue, 
-             Disk[
-              $CellContext`pendulumPos$[$CellContext`time$$], 0.05]}, 
-            PlotRange -> {{-$CellContext`L$$, $CellContext`L$$}, \
-{-$CellContext`L$$, $CellContext`L$$}}, Axes -> True, ImageSize -> Medium], 
+             Arrow[{{-2, -0.1}, {2, -0.1}}], 
+             Line[{{0.2, -0.2}, {0.2, 0.05}}], Blue, 
+             Thickness[0.002 $CellContext`c$$], 
+             Line[{{-1, 0}, {$CellContext`displacement$, 0}}], Purple, 
+             Thickness[0.002 $CellContext`b$$], 
+             Line[{{-1, 0.2}, {$CellContext`displacement$, 0.2}}], 
+             EdgeForm[
+              Directive[Thick, Dashed, Black]], 
+             GrayLevel[1 - $CellContext`a$$/50], 
+             Translate[
+              
+              Rectangle[{0, -0.1}, {0.4, 0.3}], {$CellContext`displacement$, 
+               0}]}, PlotRange -> {{-2, 2}, {-1, 1}}, Axes -> False, 
+            ImageSize -> Medium], 
            ParametricPlot[
             $CellContext`phasePos$[$CellContext`tau], {$CellContext`tau, 
-             0, $CellContext`time$$ + 1.*^-10}, Epilog -> {Red, 
+             0, $CellContext`time$$ + 0.0001}, Epilog -> {Red, 
               Point[
                $CellContext`phasePos$[$CellContext`time$$]]}, 
-            PlotRange -> {{-10, 10}, {-10, 10}}, 
-            AxesLabel -> {"\[Theta]", "\[Omega]"}, ImageSize -> Medium]}]], 
-      "Specifications" :> {{{$CellContext`\[Theta]0$$, Rational[1, 4] Pi, 
-          "\!\(\*SubscriptBox[\(\[Theta]\), \(0\)]\)"}, -Pi, Pi, 0.1, 
-         ControlPlacement -> 
-         1}, {{$CellContext`\[Omega]0$$, 0, 
-          "\!\(\*SubscriptBox[\(\[Omega]\), \(0\)]\)"}, -2, 2, 0.05, 
-         ControlPlacement -> 2}, {{$CellContext`b$$, 0, "Dissipation b"}, 0, 
-         2, 0.1, ControlPlacement -> 3}, {{$CellContext`L$$, 1, "Length L"}, 
-         0.1, 2, 0.1, ControlPlacement -> 
-         4}, {{$CellContext`g$$, 9.81, "Gravity g"}, 0.1, 20, 0.1, 
-         ControlPlacement -> 5}, {{$CellContext`time$$, 0, "Time"}, 0, 10, 
-         0.1, ControlPlacement -> 6}, 
+            PlotRange -> {{-5, 5}, {-5, 5}}, AxesLabel -> {"x(t)", "x'(t)"}, 
+            ImageSize -> Medium]}]], 
+      "Specifications" :> {{{$CellContext`a$$, 1, "Masa (m)"}, 0.1, 50, 0.1, 
+         ControlPlacement -> 1}, {{$CellContext`b$$, 1, "Amortiguador (b)"}, 
+         0, 10, 0.1, ControlPlacement -> 
+         2}, {{$CellContext`c$$, 1, "Resorte (k)"}, 0, 10, 0.1, 
+         ControlPlacement -> 3}, {{$CellContext`y0$$, 1, "x(0)"}, -5, 5, 0.1, 
+         ControlPlacement -> 4}, {{$CellContext`yp0$$, 0, "x'(0)"}, -5, 5, 
+         0.1, ControlPlacement -> 5}, {{$CellContext`time$$, 0, "Tiempo"}, 0, 
+         50, ControlPlacement -> 6}, 
         Row[{
           Column[{
             Manipulate`Place[1], 
-            Manipulate`Place[2]}], 
+            Manipulate`Place[2], 
+            Manipulate`Place[3]}], 
           Column[{
-            Manipulate`Place[3], 
             Manipulate`Place[4], 
             Manipulate`Place[5]}], 
           Manipulate`Place[6]}]}, "Options" :> {ControlPlacement -> Top}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{690., {218.9206298828125, 224.0793701171875}},
+     ImageSizeCache->{863., {265.34743643933905`, 271.65256356066095`}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -6760,9 +6221,76 @@ $CellContext`eq$ = {
    3.913724336854005*^9, 3.9137243739401855`*^9, 3.91372762416747*^9, 
    3.913727965281251*^9, 3.9137282926616096`*^9, {3.913728324218942*^9, 
    3.9137283280990057`*^9}, {3.9137382636956234`*^9, 3.913738278270788*^9}, {
-   3.913738620802349*^9, 3.9137386284452286`*^9}, 3.9593491168897057`*^9},
- CellLabel->"Out[13]=",ExpressionUUID->"d2bfce28-fd6b-40fa-bd45-b72253aa9783"]
-}, Open  ]],
+   3.913738620802349*^9, 3.9137386284452286`*^9}, 3.9593491168897057`*^9, 
+   3.9599045009290657`*^9, 3.959905965053257*^9},
+ TextAlignment->Center,
+ CellLabel->"Out[2]=",ExpressionUUID->"6e0ea8e3-4f57-4b1f-8456-67b75724c62c"]
+}, {2}]],
+
+Cell[TextData[{
+ StyleBox["An\[AAcute]lisis",
+  FontWeight->"Bold"],
+ "\nYa viste c\[OAcute]mo se comporta el sistema masa-resorte-amortiguador \
+bajo diferentes combinaciones de par\[AAcute]metros. Ahora, regresa a esos \
+escenarios conocidos y obs\[EAcute]rvalos en el espacio de fase.\n\
+\[FilledSquare] Prueba los par\[AAcute]metros que produc\[IAcute]an una \
+oscilaci\[OAcute]n que converge \n\[FilledSquare] Prueba los \
+par\[AAcute]metros que produc\[IAcute]an una respuesta sin oscilaciones\n\
+\[FilledSquare] Prueba una condici\[OAcute]n sin amortiguador (b = 0).\n\
+\[FilledSquare] Cambia solo las condiciones iniciales para cada caso. \
+\[DownQuestion]La forma general de la trayectoria tambi\[EAcute]n cambia?"
+}], "Text",
+ CellChangeTimes->{{3.959905306818348*^9, 3.9599053108244057`*^9}, 
+   3.959906262470118*^9, {3.9599067415790462`*^9, 3.9599069626253853`*^9}},
+ Background->RGBColor[
+  1, 0.925, 0.925],ExpressionUUID->"eb56b0de-5982-44ff-be66-725e7f398972"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Estudiando todas las posibles condiciones iniciales", "Subsection",
+ CellChangeTimes->{{3.959907046607721*^9, 
+  3.959907067283888*^9}},ExpressionUUID->"9a9f5fe9-0bfe-4a9d-9bce-\
+a34d9c028f89"],
+
+Cell[TextData[{
+ "Aqu\[IAcute] es donde damos un paso m\[AAcute]s.\n\nEn lugar de una sola \
+trayectoria, podemos representar el comportamiento desde cualquier punto del \
+espacio de fase.\nEsto se hace con un campo vectorial: en cada punto ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"[", 
+    StyleBox[GridBox[{
+       {
+        RowBox[{"\|01d465", "(", "t", ")"}]},
+       {
+        RowBox[{
+         OverscriptBox["\|01d465", "."], "(", "t", ")"}]}
+      }],
+     FontSlant->"Plain"], "]"}], TraditionalForm]],ExpressionUUID->
+  "047f4217-baed-4438-be10-93c2638c87bb"],
+ " del plano, se dibuja una flecha ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"[", 
+    StyleBox[GridBox[{
+       {
+        RowBox[{
+         OverscriptBox["\|01d465", "."], "(", "t", ")"}]},
+       {
+        RowBox[{
+         OverscriptBox["\|01d465", ".."], "(", "t", ")"}]}
+      }],
+     FontSlant->"Plain"], "]"}], TraditionalForm]],ExpressionUUID->
+  "22c2e1c6-c31b-49da-9ca3-3ee1384ae9a5"],
+ " que muestra hacia d\[OAcute]nde evolucionar\[IAcute]a el sistema si \
+empezara ah\[IAcute].\n\nEste campo captura toda la din\[AAcute]mica del \
+sistema. Nos dice c\[OAcute]mo se comporta desde cualquier estado inicial, \
+sin tener que resolver la ecuaci\[OAcute]n cada vez."
+}], "Text",
+ CellChangeTimes->{{3.9599070993088713`*^9, 3.959907143536169*^9}},
+ Background->RGBColor[
+  0.87, 0.94, 1],ExpressionUUID->"3c9736df-02c9-48c4-863b-4ead5dcd1944"],
 
 Cell[CellGroupData[{
 
@@ -6774,110 +6302,146 @@ Cell[BoxData[
      RowBox[{
       RowBox[{"{", 
        RowBox[{
-       "eq", ",", " ", "sol", ",", " ", "theta", ",", " ", "omega", ",", " ", 
-        "pendulumPos", ",", " ", "phasePos"}], "}"}], ",", "\n", "        ", 
-      RowBox[{"(*", " ", 
-       RowBox[{
-       "Differential", " ", "equation", " ", "for", " ", "a", " ", "simple", 
-        " ", "pendulum"}], " ", "*)"}], "\n", "        ", 
+       "eq", ",", " ", "sol", ",", " ", "xfun", ",", " ", "vfun", ",", " ", 
+        "displacement", ",", " ", "velocity", ",", " ", "phasePos"}], "}"}], 
+      ",", "\n", "        ", 
       RowBox[{
        RowBox[{"eq", " ", "=", " ", 
         RowBox[{"{", 
          RowBox[{
           RowBox[{
            RowBox[{
-            RowBox[{"y", "''"}], "[", "t", "]"}], " ", "==", " ", 
+            RowBox[{"x", "''"}], "[", "t", "]"}], " ", "==", " ", 
            RowBox[{
-            RowBox[{
+            RowBox[{"(", 
              RowBox[{
-              RowBox[{"-", "g"}], "/", "L"}], " ", 
-             RowBox[{"Sin", "[", 
-              RowBox[{"y", "[", "t", "]"}], "]"}]}], "-", 
-            RowBox[{"b", " ", 
-             RowBox[{
-              RowBox[{"y", "'"}], "[", "t", "]"}]}]}]}], ",", " ", 
-          RowBox[{
-           RowBox[{"y", "[", "0", "]"}], " ", "==", " ", "\[Theta]0"}], ",", 
+              RowBox[{
+               RowBox[{"-", "b"}], " ", 
+               RowBox[{
+                RowBox[{"x", "'"}], "[", "t", "]"}]}], " ", "-", " ", 
+              RowBox[{"c", " ", 
+               RowBox[{"x", "[", "t", "]"}]}]}], ")"}], "/", "a"}]}], ",", 
           " ", 
           RowBox[{
+           RowBox[{"x", "[", "0", "]"}], " ", "==", " ", "y0"}], ",", " ", 
+          RowBox[{
            RowBox[{
-            RowBox[{"y", "'"}], "[", "0", "]"}], " ", "==", " ", 
-           "\[Omega]0"}]}], "}"}]}], ";", "\n", "        ", 
+            RowBox[{"x", "'"}], "[", "0", "]"}], " ", "==", " ", "yp0"}]}], 
+         "}"}]}], ";", "\n", "        ", 
        RowBox[{"sol", " ", "=", " ", 
         RowBox[{"NDSolve", "[", 
-         RowBox[{"eq", ",", " ", "y", ",", " ", 
+         RowBox[{"eq", ",", " ", "x", ",", " ", 
           RowBox[{"{", 
-           RowBox[{"t", ",", " ", "0", ",", " ", "10"}], "}"}]}], "]"}]}], 
+           RowBox[{"t", ",", " ", "0", ",", " ", "50"}], "}"}]}], "]"}]}], 
        ";", "\n", "\n", "        ", 
-       RowBox[{"(*", " ", 
-        RowBox[{
-        "Pendulum", " ", "position", " ", "and", " ", "phase", " ", 
-         "portrait", " ", "position"}], " ", "*)"}], "\n", "        ", 
+       RowBox[{"(*", " ", "Soluciones", " ", "*)"}], "\n", "        ", 
        RowBox[{
-        RowBox[{"theta", "[", "t_", "]"}], " ", ":=", " ", 
+        RowBox[{"xfun", "[", "t_", "]"}], " ", ":=", " ", 
         RowBox[{
-         RowBox[{"y", "[", "t", "]"}], " ", "/.", " ", 
+         RowBox[{"x", "[", "t", "]"}], " ", "/.", " ", 
          RowBox[{"sol", "[", 
           RowBox[{"[", "1", "]"}], "]"}]}]}], ";", "\n", "        ", 
        RowBox[{
-        RowBox[{"omega", "[", "t_", "]"}], " ", ":=", " ", 
+        RowBox[{"vfun", "[", "t_", "]"}], " ", ":=", " ", 
         RowBox[{
          RowBox[{
-          RowBox[{"y", "'"}], "[", "t", "]"}], " ", "/.", " ", 
+          RowBox[{"x", "'"}], "[", "t", "]"}], " ", "/.", " ", 
          RowBox[{"sol", "[", 
           RowBox[{"[", "1", "]"}], "]"}]}]}], ";", "\n", "        ", 
-       RowBox[{
-        RowBox[{"pendulumPos", "[", "t_", "]"}], " ", ":=", " ", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"L", " ", 
-           RowBox[{"Sin", "[", 
-            RowBox[{"theta", "[", "t", "]"}], "]"}]}], ",", " ", 
-          RowBox[{
-           RowBox[{"-", "L"}], " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"theta", "[", "t", "]"}], "]"}]}]}], "}"}]}], ";", "\n", 
-       "        ", 
+       RowBox[{"displacement", " ", "=", " ", 
+        RowBox[{"xfun", "[", "time", "]"}]}], ";", "\n", "        ", 
+       RowBox[{"velocity", " ", "=", " ", 
+        RowBox[{"vfun", "[", "time", "]"}]}], ";", "\n", "        ", 
        RowBox[{
         RowBox[{"phasePos", "[", "t_", "]"}], " ", ":=", " ", 
         RowBox[{"{", 
          RowBox[{
-          RowBox[{"theta", "[", "t", "]"}], ",", " ", 
-          RowBox[{"omega", "[", "t", "]"}]}], "}"}]}], ";", "\n", "\n", 
+          RowBox[{"xfun", "[", "t", "]"}], ",", " ", 
+          RowBox[{"vfun", "[", "t", "]"}]}], "}"}]}], ";", "\n", "\n", 
        "        ", 
-       RowBox[{"Row", "[", "\n", "            ", 
-        RowBox[{"{", "\n", "                ", 
+       RowBox[{"Row", "[", 
+        RowBox[{"{", "\n", "            ", 
          RowBox[{
-          RowBox[{"Graphics", "[", "\n", "                    ", 
+          RowBox[{"Graphics", "[", "\n", "                ", 
            RowBox[{
-            RowBox[{"{", "\n", "                        ", 
+            RowBox[{"{", "\n", "                    ", 
              RowBox[{
+              RowBox[{"Arrow", "[", 
+               RowBox[{"{", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"-", "2"}], ",", " ", 
+                   RowBox[{"-", "0.1"}]}], "}"}], ",", " ", 
+                 RowBox[{"{", 
+                  RowBox[{"2", ",", " ", 
+                   RowBox[{"-", "0.1"}]}], "}"}]}], "}"}], "]"}], ",", "\n", 
+              "                    ", 
               RowBox[{"Line", "[", 
                RowBox[{"{", 
                 RowBox[{
                  RowBox[{"{", 
-                  RowBox[{"0", ",", " ", "0"}], "}"}], ",", " ", 
-                 RowBox[{"pendulumPos", "[", "time", "]"}]}], "}"}], "]"}], 
-              ",", "\n", "                        ", "Blue", ",", " ", 
-              RowBox[{"Disk", "[", 
+                  RowBox[{"0.2", ",", " ", 
+                   RowBox[{"-", "0.2"}]}], "}"}], ",", " ", 
+                 RowBox[{"{", 
+                  RowBox[{"0.2", ",", " ", "0.05"}], "}"}]}], "}"}], "]"}], 
+              ",", "\n", "                    ", "Blue", ",", " ", 
+              RowBox[{"Thickness", "[", 
+               RowBox[{"0.002", " ", "c"}], "]"}], ",", " ", 
+              RowBox[{"Line", "[", 
+               RowBox[{"{", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"-", "1"}], ",", " ", "0"}], "}"}], ",", " ", 
+                 RowBox[{"{", 
+                  RowBox[{"displacement", ",", " ", "0"}], "}"}]}], "}"}], 
+               "]"}], ",", "\n", "                    ", "Purple", ",", " ", 
+              RowBox[{"Thickness", "[", 
+               RowBox[{"0.002", " ", "b"}], "]"}], ",", " ", 
+              RowBox[{"Line", "[", 
+               RowBox[{"{", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"-", "1"}], ",", " ", "0.2"}], "}"}], ",", " ", 
+                 RowBox[{"{", 
+                  RowBox[{"displacement", ",", " ", "0.2"}], "}"}]}], "}"}], 
+               "]"}], ",", "\n", "                    ", 
+              RowBox[{"EdgeForm", "[", 
+               RowBox[{"Directive", "[", 
+                RowBox[{"Thick", ",", " ", "Dashed", ",", " ", "Black"}], 
+                "]"}], "]"}], ",", " ", 
+              RowBox[{"GrayLevel", "[", 
+               RowBox[{"1", " ", "-", " ", 
+                RowBox[{"a", "/", "50"}]}], "]"}], ",", "\n", 
+              "                    ", 
+              RowBox[{"Translate", "[", 
                RowBox[{
-                RowBox[{"pendulumPos", "[", "time", "]"}], ",", " ", "0.05"}],
-                "]"}]}], "\n", "                    ", "}"}], ",", "\n", 
-            "                    ", 
+                RowBox[{"Rectangle", "[", 
+                 RowBox[{
+                  RowBox[{"{", 
+                   RowBox[{"0", ",", " ", 
+                    RowBox[{"-", "0.1"}]}], "}"}], ",", " ", 
+                  RowBox[{"{", 
+                   RowBox[{"0.4", ",", " ", "0.3"}], "}"}]}], "]"}], ",", " ", 
+                RowBox[{"{", 
+                 RowBox[{"displacement", ",", " ", "0"}], "}"}]}], "]"}]}], 
+             "\n", "                ", "}"}], ",", "\n", "                ", 
             RowBox[{"PlotRange", " ", "->", " ", 
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
                 RowBox[{
-                 RowBox[{"-", "L"}], ",", " ", "L"}], "}"}], ",", " ", 
+                 RowBox[{"-", "2"}], ",", " ", "2"}], "}"}], ",", " ", 
                RowBox[{"{", 
                 RowBox[{
-                 RowBox[{"-", "L"}], ",", " ", "L"}], "}"}]}], "}"}]}], ",", 
-            "\n", "                    ", 
-            RowBox[{"Axes", " ", "->", " ", "True"}], ",", "\n", 
-            "                    ", 
+                 RowBox[{"-", "1"}], ",", " ", "1"}], "}"}]}], "}"}]}], ",", 
+            "\n", "                ", 
+            RowBox[{"Axes", " ", "->", " ", "False"}], ",", "\n", 
+            "                ", 
             RowBox[{"ImageSize", " ", "->", " ", "Medium"}]}], "\n", 
-           "                ", "]"}], ",", "\n", "                 ", 
+           "            ", "]"}], ",", "\n", "           ", 
           RowBox[{"Show", "[", 
            RowBox[{
             RowBox[{"{", 
@@ -6885,111 +6449,103 @@ Cell[BoxData[
               RowBox[{"VectorPlot", "[", 
                RowBox[{
                 RowBox[{"{", 
-                 RowBox[{"\[Omega]", ",", 
+                 RowBox[{"v", ",", 
                   RowBox[{
                    RowBox[{
-                    RowBox[{
-                    RowBox[{"-", "g"}], "/", "L"}], " ", 
-                    RowBox[{"Sin", "[", "\[Theta]", "]"}]}], "-", 
-                   RowBox[{"b", " ", "\[Omega]"}]}]}], "}"}], ",", 
+                    RowBox[{"-", 
+                    FractionBox["c", "a"]}], "x"}], "-", 
+                   RowBox[{
+                    FractionBox["b", "a"], "v"}]}]}], "}"}], ",", 
                 RowBox[{"{", 
-                 RowBox[{"\[Theta]", ",", 
-                  RowBox[{"-", "10"}], ",", "10"}], "}"}], ",", 
+                 RowBox[{"x", ",", 
+                  RowBox[{"-", "5"}], ",", "5"}], "}"}], ",", 
                 RowBox[{"{", 
-                 RowBox[{"\[Omega]", ",", 
-                  RowBox[{"-", "10"}], ",", "10"}], "}"}]}], "]"}], ",", 
-              RowBox[{"ParametricPlot", "[", "\n", "                   ", 
+                 RowBox[{"v", ",", 
+                  RowBox[{"-", "5"}], ",", "5"}], "}"}]}], "]"}], ",", " ", 
+              RowBox[{"ParametricPlot", "[", "\n", "                ", 
                RowBox[{
                 RowBox[{"phasePos", "[", "tau", "]"}], ",", " ", 
                 RowBox[{"{", 
                  RowBox[{"tau", ",", " ", "0", ",", " ", 
-                  RowBox[{"time", "+", "0.0000000001"}]}], "}"}]}], "]"}]}], 
-             "}"}], ",", "\n", "                    ", 
+                  RowBox[{"time", " ", "+", " ", "0.0001"}]}], "}"}]}], 
+               "]"}]}], "}"}], ",", "\n", "                ", 
+            RowBox[{"Epilog", " ", "->", " ", 
+             RowBox[{"{", 
+              RowBox[{"Red", ",", " ", 
+               RowBox[{"Point", "[", 
+                RowBox[{"phasePos", "[", "time", "]"}], "]"}]}], "}"}]}], ",",
+             "\n", "                ", 
             RowBox[{"PlotRange", " ", "->", " ", 
              RowBox[{"{", 
               RowBox[{
                RowBox[{"{", 
                 RowBox[{
-                 RowBox[{"-", "10"}], ",", "10"}], "}"}], ",", 
+                 RowBox[{"-", "5"}], ",", " ", "5"}], "}"}], ",", " ", 
                RowBox[{"{", 
                 RowBox[{
-                 RowBox[{"-", "10"}], ",", "10"}], "}"}]}], "}"}]}], ",", 
-            "\n", "                    ", 
-            RowBox[{"Epilog", " ", "->", " ", 
-             RowBox[{"{", 
-              RowBox[{"Red", ",", " ", 
-               RowBox[{"PointSize", "[", "Large", "]"}], ",", " ", 
-               RowBox[{"Point", "[", 
-                RowBox[{"phasePos", "[", "time", "]"}], "]"}]}], "}"}]}], ",",
-             "\n", "                    ", 
+                 RowBox[{"-", "5"}], ",", " ", "5"}], "}"}]}], "}"}]}], ",", 
+            "\n", "                ", 
             RowBox[{"AxesLabel", " ", "->", " ", 
              RowBox[{"{", 
-              RowBox[{"\"\<\[Theta]\>\"", ",", " ", "\"\<\[Omega]\>\""}], 
-              "}"}]}], ",", "\n", "                    ", 
+              RowBox[{"\"\<x(t)\>\"", ",", " ", "\"\<x'(t)\>\""}], "}"}]}], 
+            ",", "\n", "                ", 
             RowBox[{"ImageSize", " ", "->", " ", "Medium"}]}], "\n", 
-           "                ", "]"}]}], "\n", "                ", "\n", 
-         "                  ", "\n", "                ", "\n", "            ",
-          "}"}], "\n", "        ", "]"}]}]}], "\n", "    ", "]"}], ",", "\n", 
-    "    ", 
-    RowBox[{"Row", "[", "\n", "        ", 
-     RowBox[{"{", 
+           "            ", "\n", "            ", "]"}]}], "\n", "        ", 
+         "}"}], "]"}]}]}], "\n", "    ", "]"}], ",", "\n", "    ", 
+    RowBox[{"Row", "[", 
+     RowBox[{"{", "\n", "        ", 
       RowBox[{
-       RowBox[{"Column", "[", "\n", "                ", 
-        RowBox[{"{", "\n", "                    ", 
+       RowBox[{"Column", "[", 
+        RowBox[{"{", "\n", "            ", 
          RowBox[{
           RowBox[{"Control", "[", 
            RowBox[{"{", 
             RowBox[{
              RowBox[{"{", 
-              RowBox[{"\[Theta]0", ",", " ", 
-               RowBox[{"\[Pi]", "/", "4"}], ",", " ", 
-               "\"\<\!\(\*SubscriptBox[\(\[Theta]\), \(0\)]\)\>\""}], "}"}], 
-             ",", " ", 
-             RowBox[{"-", "\[Pi]"}], ",", " ", "\[Pi]", ",", " ", "0.1"}], 
-            "}"}], "]"}], ",", "\n", "                    ", 
+              RowBox[{"a", ",", " ", "1", ",", " ", "\"\<Masa (m)\>\""}], 
+              "}"}], ",", " ", "0.1", ",", " ", "50", ",", " ", "0.1"}], 
+            "}"}], "]"}], ",", "\n", "            ", 
           RowBox[{"Control", "[", 
            RowBox[{"{", 
             RowBox[{
              RowBox[{"{", 
               RowBox[{
-              "\[Omega]0", ",", " ", "0", ",", " ", 
-               "\"\<\!\(\*SubscriptBox[\(\[Omega]\), \(0\)]\)\>\""}], "}"}], 
-             ",", " ", 
-             RowBox[{"-", "2"}], ",", " ", "2", ",", " ", "0.05"}], "}"}], 
-           "]"}]}], "\n", "                ", "}"}], "\n", "            ", 
-        "]"}], ",", "\n", "            ", 
-       RowBox[{"Column", "[", "\n", "                ", 
-        RowBox[{"{", "\n", "                    ", 
+              "b", ",", " ", "1", ",", " ", "\"\<Amortiguador (b)\>\""}], 
+              "}"}], ",", " ", "0", ",", " ", "10", ",", " ", "0.1"}], "}"}], 
+           "]"}], ",", "\n", "            ", 
+          RowBox[{"Control", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"c", ",", " ", "1", ",", " ", "\"\<Resorte (k)\>\""}], 
+              "}"}], ",", " ", "0", ",", " ", "10", ",", " ", "0.1"}], "}"}], 
+           "]"}]}], "\n", "        ", "}"}], "]"}], ",", "\n", "        ", 
+       RowBox[{"Column", "[", 
+        RowBox[{"{", "\n", "            ", 
          RowBox[{
           RowBox[{"Control", "[", 
            RowBox[{"{", 
             RowBox[{
              RowBox[{"{", 
-              RowBox[{"b", ",", " ", "0", ",", " ", "\"\<Dissipation b\>\""}],
-               "}"}], ",", " ", "0", ",", " ", "2", ",", " ", "0.1"}], "}"}], 
-           "]"}], ",", "\n", "                    ", 
+              RowBox[{"y0", ",", " ", "1", ",", " ", "\"\<x(0)\>\""}], "}"}], 
+             ",", " ", 
+             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
+           "]"}], ",", "\n", "            ", 
           RowBox[{"Control", "[", 
            RowBox[{"{", 
             RowBox[{
              RowBox[{"{", 
-              RowBox[{"L", ",", " ", "1", ",", " ", "\"\<Length L\>\""}], 
-              "}"}], ",", " ", "0.1", ",", " ", "2", ",", " ", "0.1"}], "}"}],
-            "]"}], ",", "\n", "                    ", 
-          RowBox[{"Control", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"g", ",", " ", "9.81", ",", " ", "\"\<Gravity g\>\""}], 
-              "}"}], ",", " ", "0.1", ",", " ", "20", ",", " ", "0.1"}], 
-            "}"}], "]"}]}], "\n", "                ", "}"}], "\n", 
-        "            ", "]"}], ",", "\n", "            ", 
+              RowBox[{"yp0", ",", " ", "0", ",", " ", "\"\<x'(0)\>\""}], 
+              "}"}], ",", " ", 
+             RowBox[{"-", "5"}], ",", " ", "5", ",", " ", "0.1"}], "}"}], 
+           "]"}]}], "\n", "        ", "}"}], "]"}], ",", "\n", "        ", 
        RowBox[{"Control", "[", 
         RowBox[{"{", 
          RowBox[{
           RowBox[{"{", 
-           RowBox[{"time", ",", " ", "0", ",", " ", "\"\<Time\>\""}], "}"}], 
-          ",", " ", "0", ",", " ", "10", ",", " ", "0.1"}], "}"}], "]"}]}], 
-      "\n", "        ", "}"}], "\n", "    ", "]"}], ",", "\n", "    ", 
+           RowBox[{"time", ",", " ", "0", ",", " ", "\"\<Tiempo\>\""}], "}"}],
+           ",", " ", "0", ",", " ", "50"}], "}"}], "]"}]}], "\n", "    ", 
+      "}"}], "]"}], ",", "\n", "    ", 
     RowBox[{"ControlPlacement", " ", "->", " ", "Top"}]}], "\n", "]"}], 
   "\n"}]], "Code",
  CellChangeTimes->{{3.913723533427932*^9, 3.9137235478731527`*^9}, 
@@ -6997,128 +6553,126 @@ Cell[BoxData[
    3.9137238654445767`*^9, 3.9137239248317823`*^9}, {3.9137239957591295`*^9, 
    3.9137240465911655`*^9}, {3.913724121588086*^9, 3.913724146028784*^9}, {
    3.9137242118832912`*^9, 3.9137242182414494`*^9}, {3.9137243216174307`*^9, 
-   3.913724373414838*^9}, {3.9137244138013964`*^9, 3.9137244427380886`*^9}, {
-   3.9137246088673067`*^9, 3.9137246114552865`*^9}, {3.913724786304511*^9, 
-   3.913724883184202*^9}, {3.913724947583782*^9, 3.913725024248269*^9}, {
-   3.913727345817747*^9, 3.9137273504619384`*^9}, {3.9137273883283124`*^9, 
-   3.9137275250817957`*^9}, {3.9137279799651155`*^9, 3.9137279800827136`*^9}},
- CellLabel->"In[14]:=",ExpressionUUID->"a8a5e021-81b2-4232-9097-521213697c12"],
+   3.913724373414838*^9}, {3.9137279534400663`*^9, 3.9137279924797883`*^9}, {
+   3.959904499484103*^9, 3.9599044999982033`*^9}, {3.959904689186222*^9, 
+   3.959904729299672*^9}, {3.9599047759296827`*^9, 3.959904856799285*^9}, {
+   3.9599049107794237`*^9, 3.9599049258740225`*^9}, {3.959904962807117*^9, 
+   3.959904984036692*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"4082e4f6-16d8-4347-866e-4dac8f40ec4b"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`b$$ = 0, $CellContext`g$$ = 
-    9.81, $CellContext`L$$ = 1, $CellContext`time$$ = 
-    0, $CellContext`\[Theta]0$$ = Rational[1, 4] 
-    Pi, $CellContext`\[Omega]0$$ = 0, Typeset`show$$ = True, 
-    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-    "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`\[Theta]0$$], Rational[1, 4] Pi, 
-       "\!\(\*SubscriptBox[\(\[Theta]\), \(0\)]\)"}, -Pi, Pi, 0.1}, {{
-       Hold[$CellContext`\[Omega]0$$], 0, 
-       "\!\(\*SubscriptBox[\(\[Omega]\), \(0\)]\)"}, -2, 2, 0.05}, {{
-       Hold[$CellContext`b$$], 0, "Dissipation b"}, 0, 2, 0.1}, {{
-       Hold[$CellContext`L$$], 1, "Length L"}, 0.1, 2, 0.1}, {{
-       Hold[$CellContext`g$$], 9.81, "Gravity g"}, 0.1, 20, 0.1}, {{
-       Hold[$CellContext`time$$], 0, "Time"}, 0, 10, 0.1}, {
+   DynamicModuleBox[{$CellContext`a$$ = 16.1, $CellContext`b$$ = 
+    4.3, $CellContext`c$$ = 7.300000000000001, $CellContext`time$$ = 
+    25.3, $CellContext`y0$$ = 1., $CellContext`yp0$$ = 2.9000000000000004`, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`a$$], 1, "Masa (m)"}, 0.1, 50, 0.1}, {{
+       Hold[$CellContext`b$$], 1, "Amortiguador (b)"}, 0, 10, 0.1}, {{
+       Hold[$CellContext`c$$], 1, "Resorte (k)"}, 0, 10, 0.1}, {{
+       Hold[$CellContext`y0$$], 1, "x(0)"}, -5, 5, 0.1}, {{
+       Hold[$CellContext`yp0$$], 0, "x'(0)"}, -5, 5, 0.1}, {{
+       Hold[$CellContext`time$$], 0, "Tiempo"}, 0, 50}, {
       Hold[
        Row[{
          Column[{
            Manipulate`Place[1], 
-           Manipulate`Place[2]}], 
+           Manipulate`Place[2], 
+           Manipulate`Place[3]}], 
          Column[{
-           Manipulate`Place[3], 
            Manipulate`Place[4], 
            Manipulate`Place[5]}], 
          Manipulate`Place[6]}]], Manipulate`Dump`ThisIsNotAControl}}, 
-    Typeset`size$$ = {648., {157., 161.91552734375}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+    Typeset`size$$ = {792.0000000000001, {195., 199.7475578308106}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      2, StandardForm, 
-      "Variables" :> {$CellContext`b$$ = 0, $CellContext`g$$ = 
-        9.81, $CellContext`L$$ = 1, $CellContext`time$$ = 
-        0, $CellContext`\[Theta]0$$ = 
-        Rational[1, 4] Pi, $CellContext`\[Omega]0$$ = 0}, 
-      "ControllerVariables" :> {}, 
+      "Variables" :> {$CellContext`a$$ = 1, $CellContext`b$$ = 
+        1, $CellContext`c$$ = 1, $CellContext`time$$ = 0, $CellContext`y0$$ = 
+        1, $CellContext`yp0$$ = 0}, "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
         Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
          Typeset`skipInitDone$$}, "Body" :> 
-      Module[{$CellContext`eq$, $CellContext`sol$, $CellContext`theta$, \
-$CellContext`omega$, $CellContext`pendulumPos$, $CellContext`phasePos$}, \
-$CellContext`eq$ = {
+      Module[{$CellContext`eq$, $CellContext`sol$, $CellContext`xfun$, \
+$CellContext`vfun$, $CellContext`displacement$, $CellContext`velocity$, \
+$CellContext`phasePos$}, $CellContext`eq$ = {
           Derivative[
-            2][$CellContext`y][$CellContext`t] == \
-((-$CellContext`g$$)/$CellContext`L$$) Sin[
-               $CellContext`y[$CellContext`t]] - $CellContext`b$$ 
-            Derivative[1][$CellContext`y][$CellContext`t], $CellContext`y[
-            0] == $CellContext`\[Theta]0$$, 
-           Derivative[1][$CellContext`y][
-            0] == $CellContext`\[Omega]0$$}; $CellContext`sol$ = 
-         NDSolve[$CellContext`eq$, $CellContext`y, {$CellContext`t, 0, 
-            10}]; $CellContext`theta$[
+            2][$CellContext`x][$CellContext`t] == ((-$CellContext`b$$) 
+              Derivative[
+               1][$CellContext`x][$CellContext`t] - $CellContext`c$$ \
+$CellContext`x[$CellContext`t])/$CellContext`a$$, $CellContext`x[
+            0] == $CellContext`y0$$, 
+           Derivative[1][$CellContext`x][
+            0] == $CellContext`yp0$$}; $CellContext`sol$ = 
+         NDSolve[$CellContext`eq$, $CellContext`x, {$CellContext`t, 0, 
+            50}]; $CellContext`xfun$[
            Pattern[$CellContext`t$, 
             Blank[]]] := ReplaceAll[
-           $CellContext`y[$CellContext`t$], 
-           Part[$CellContext`sol$, 1]]; $CellContext`omega$[
+           $CellContext`x[$CellContext`t$], 
+           Part[$CellContext`sol$, 1]]; $CellContext`vfun$[
            Pattern[$CellContext`t$, 
             Blank[]]] := ReplaceAll[
-           Derivative[1][$CellContext`y][$CellContext`t$], 
-           Part[$CellContext`sol$, 1]]; $CellContext`pendulumPos$[
-           Pattern[$CellContext`t$, 
-            Blank[]]] := {$CellContext`L$$ Sin[
-             $CellContext`theta$[$CellContext`t$]], (-$CellContext`L$$) Cos[
-             $CellContext`theta$[$CellContext`t$]]}; $CellContext`phasePos$[
+           Derivative[1][$CellContext`x][$CellContext`t$], 
+           
+           Part[$CellContext`sol$, 
+            1]]; $CellContext`displacement$ = \
+$CellContext`xfun$[$CellContext`time$$]; $CellContext`velocity$ = \
+$CellContext`vfun$[$CellContext`time$$]; $CellContext`phasePos$[
            Pattern[$CellContext`t$, 
             Blank[]]] := {
-           $CellContext`theta$[$CellContext`t$], 
-           $CellContext`omega$[$CellContext`t$]}; Row[{
+           $CellContext`xfun$[$CellContext`t$], 
+           $CellContext`vfun$[$CellContext`t$]}; Row[{
            Graphics[{
-             Line[{{0, 0}, 
-               $CellContext`pendulumPos$[$CellContext`time$$]}], Blue, 
-             Disk[
-              $CellContext`pendulumPos$[$CellContext`time$$], 0.05]}, 
-            PlotRange -> {{-$CellContext`L$$, $CellContext`L$$}, \
-{-$CellContext`L$$, $CellContext`L$$}}, Axes -> True, ImageSize -> Medium], 
+             Arrow[{{-2, -0.1}, {2, -0.1}}], 
+             Line[{{0.2, -0.2}, {0.2, 0.05}}], Blue, 
+             Thickness[0.002 $CellContext`c$$], 
+             Line[{{-1, 0}, {$CellContext`displacement$, 0}}], Purple, 
+             Thickness[0.002 $CellContext`b$$], 
+             Line[{{-1, 0.2}, {$CellContext`displacement$, 0.2}}], 
+             EdgeForm[
+              Directive[Thick, Dashed, Black]], 
+             GrayLevel[1 - $CellContext`a$$/50], 
+             Translate[
+              
+              Rectangle[{0, -0.1}, {0.4, 0.3}], {$CellContext`displacement$, 
+               0}]}, PlotRange -> {{-2, 2}, {-1, 1}}, Axes -> False, 
+            ImageSize -> Medium], 
            Show[{
              
-             VectorPlot[{$CellContext`\[Omega], \
-((-$CellContext`g$$)/$CellContext`L$$) 
-                Sin[$CellContext`\[Theta]] - $CellContext`b$$ $CellContext`\
-\[Omega]}, {$CellContext`\[Theta], -10, 10}, {$CellContext`\[Omega], -10, 
-               10}], 
+             VectorPlot[{$CellContext`v, \
+(-($CellContext`c$$/$CellContext`a$$)) $CellContext`x - \
+($CellContext`b$$/$CellContext`a$$) $CellContext`v}, {$CellContext`x, -5, 
+               5}, {$CellContext`v, -5, 5}], 
              ParametricPlot[
               $CellContext`phasePos$[$CellContext`tau], {$CellContext`tau, 
-               0, $CellContext`time$$ + 1.*^-10}]}, 
-            PlotRange -> {{-10, 10}, {-10, 10}}, Epilog -> {Red, 
-              PointSize[Large], 
+               0, $CellContext`time$$ + 0.0001}]}, Epilog -> {Red, 
               Point[
                $CellContext`phasePos$[$CellContext`time$$]]}, 
-            AxesLabel -> {"\[Theta]", "\[Omega]"}, ImageSize -> Medium]}]], 
-      "Specifications" :> {{{$CellContext`\[Theta]0$$, Rational[1, 4] Pi, 
-          "\!\(\*SubscriptBox[\(\[Theta]\), \(0\)]\)"}, -Pi, Pi, 0.1, 
-         ControlPlacement -> 
-         1}, {{$CellContext`\[Omega]0$$, 0, 
-          "\!\(\*SubscriptBox[\(\[Omega]\), \(0\)]\)"}, -2, 2, 0.05, 
-         ControlPlacement -> 2}, {{$CellContext`b$$, 0, "Dissipation b"}, 0, 
-         2, 0.1, ControlPlacement -> 3}, {{$CellContext`L$$, 1, "Length L"}, 
-         0.1, 2, 0.1, ControlPlacement -> 
-         4}, {{$CellContext`g$$, 9.81, "Gravity g"}, 0.1, 20, 0.1, 
-         ControlPlacement -> 5}, {{$CellContext`time$$, 0, "Time"}, 0, 10, 
-         0.1, ControlPlacement -> 6}, 
+            PlotRange -> {{-5, 5}, {-5, 5}}, AxesLabel -> {"x(t)", "x'(t)"}, 
+            ImageSize -> Medium]}]], 
+      "Specifications" :> {{{$CellContext`a$$, 1, "Masa (m)"}, 0.1, 50, 0.1, 
+         ControlPlacement -> 1}, {{$CellContext`b$$, 1, "Amortiguador (b)"}, 
+         0, 10, 0.1, ControlPlacement -> 
+         2}, {{$CellContext`c$$, 1, "Resorte (k)"}, 0, 10, 0.1, 
+         ControlPlacement -> 3}, {{$CellContext`y0$$, 1, "x(0)"}, -5, 5, 0.1, 
+         ControlPlacement -> 4}, {{$CellContext`yp0$$, 0, "x'(0)"}, -5, 5, 
+         0.1, ControlPlacement -> 5}, {{$CellContext`time$$, 0, "Tiempo"}, 0, 
+         50, ControlPlacement -> 6}, 
         Row[{
           Column[{
             Manipulate`Place[1], 
-            Manipulate`Place[2]}], 
+            Manipulate`Place[2], 
+            Manipulate`Place[3]}], 
           Column[{
-            Manipulate`Place[3], 
             Manipulate`Place[4], 
             Manipulate`Place[5]}], 
           Manipulate`Place[6]}]}, "Options" :> {ControlPlacement -> Top}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{690., {215.9206298828125, 221.0793701171875}},
+     ImageSizeCache->{863., {267.34743643933905`, 273.65256356066095`}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -7129,21 +6683,190 @@ $CellContext`eq$ = {
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.9137248847965813`*^9, 3.9137250247427273`*^9, 
-  3.9137273608131104`*^9, 3.913727402276129*^9, 3.9137275257483535`*^9, 
-  3.913727981020876*^9, 3.9593491171535325`*^9},
- CellLabel->"Out[14]=",ExpressionUUID->"eeee5acc-734b-44f3-b28d-3f83ad6670c2"]
+ CellChangeTimes->{{3.959904845233122*^9, 3.959904857444547*^9}, 
+   3.959904926606748*^9, {3.9599049687413034`*^9, 3.9599049895857906`*^9}},
+ TextAlignment->Center,
+ CellLabel->"Out[7]=",ExpressionUUID->"feebb91b-e8a2-4e2e-b014-7236487c02b9"]
+}, {2}]],
+
+Cell[TextData[{
+ StyleBox["An\[AAcute]lisis",
+  FontWeight->"Bold"],
+ "\nRepitamos el ejercicio\n\[FilledSquare] Prueba los par\[AAcute]metros que \
+produc\[IAcute]an una oscilaci\[OAcute]n que converge \n\[FilledSquare] \
+Prueba los par\[AAcute]metros que produc\[IAcute]an una respuesta sin \
+oscilaciones\n\[FilledSquare] Prueba una condici\[OAcute]n sin amortiguador \
+(b = 0).\n\[FilledSquare] Cambia solo las condiciones iniciales para cada \
+caso. \[DownQuestion]Por qu\[EAcute] no cambia el espacio vectorial?\
+\[LineSeparator]\[FilledSquare] \[DownQuestion]Qu\[EAcute] pasar\[IAcute]a si \
+incluyeramos una fuerza externa?"
+}], "Text",
+ CellChangeTimes->{{3.959905306818348*^9, 3.9599053108244057`*^9}, 
+   3.959906262470118*^9, {3.9599067415790462`*^9, 3.9599069626253853`*^9}, {
+   3.959907607533275*^9, 3.9599076093678513`*^9}, {3.959907640742076*^9, 
+   3.9599076647502036`*^9}, {3.959907742047357*^9, 3.9599077766464663`*^9}},
+ Background->RGBColor[
+  1, 0.925, 0.925],ExpressionUUID->"c9197df6-eca0-4f69-8a55-3b53b396ec78"],
+
+Cell[CellGroupData[{
+
+Cell["\[DownQuestion]Y qu\[EAcute] tiene que ver esto con \[AAcute]lgebra \
+lineal?", "Subsubsection",
+ CellChangeTimes->{
+  3.95990716388258*^9},ExpressionUUID->"e5bfc991-433a-4fee-8edc-bacf6ffc0e93"],
+
+Cell[TextData[{
+ "Cuando escribimos la ecuaci\[OAcute]n del sistema como un conjunto de \
+derivadas de primer orden, obtenemos una forma matricial:\nEse sistema tiene \
+una soluci\[OAcute]n que evoluciona siguiendo la estructura algebraica de esa \
+matriz.\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"[", 
+     StyleBox[GridBox[{
+        {
+         RowBox[{
+          OverscriptBox["\|01d465", "."], "(", "t", ")"}]},
+        {
+         RowBox[{
+          OverscriptBox["\|01d465", ".."], "(", "t", ")"}]}
+       }],
+      FontSlant->"Plain"], "]"}], "=", 
+    RowBox[{
+     RowBox[{"(", GridBox[{
+        {"0", "1"},
+        {
+         FractionBox[
+          RowBox[{"-", "k"}], "m"], 
+         FractionBox[
+          RowBox[{"-", "b"}], "m"]}
+       }], ")"}], "[", 
+     StyleBox[GridBox[{
+        {
+         RowBox[{"\|01d465", "(", "t", ")"}]},
+        {
+         RowBox[{
+          OverscriptBox["\|01d465", "."], "(", "t", ")"}]}
+       }],
+      FontSlant->"Plain"], "]"}]}], TraditionalForm]],ExpressionUUID->
+  "d5270a97-fa0a-41ea-922a-80b25b57b9f3"],
+ "\n\n\nLas soluciones est\[AAcute]n determinadas por:\n\[FilledSquare] Los \
+valores propios de la matriz (que determinan si diverge, converge u oscila)\n\
+\[FilledSquare] Los vectores propios, que indican las direcciones principales \
+de movimiento.\n\nAs\[IAcute], el estudio del sistema din\[AAcute]mico se \
+convierte en el an\[AAcute]lisis de una transformaci\[OAcute]n lineal.\nLos \
+retratos de fase, entonces, son representaciones geom\[EAcute]tricas de esa \
+transformaci\[OAcute]n."
+}], "Text",
+ CellChangeTimes->{{3.959907190255144*^9, 3.9599073229977927`*^9}},
+ Background->RGBColor[
+  0.87, 0.94, 1],ExpressionUUID->"81b1bcef-c614-4a81-8ff6-7d88f86bb1a1"],
+
+Cell["\<\
+Eval\[UAcute]a la siguiente celda y observa como est\[AAcute]n relacionados \
+los valores propios de la matriz con la soluci\[OAcute]n de la \
+ecuaci\[OAcute]n caracteristica despu\[EAcute]s de aplicar la transofrmada de \
+Laplace.\
+\>", "Text",
+ CellChangeTimes->{{3.959907394306203*^9, 3.9599074282117987`*^9}, {
+  3.9599074803436666`*^9, 3.9599075128977804`*^9}},
+ Background->RGBColor[
+  1, 0.925, 0.925],ExpressionUUID->"85468404-8c7f-4cd5-8c99-caecbab370d3"],
+
+Cell[BoxData[{
+ RowBox[{"Eigenvalues", "[", 
+  FormBox[
+   RowBox[{"(", GridBox[{
+      {"0", "1"},
+      {
+       FractionBox[
+        RowBox[{"-", "k"}], "m"], 
+       FractionBox[
+        RowBox[{"-", "b"}], "m"]}
+     }], ")"}],
+   TraditionalForm], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"m", " ", 
+      SuperscriptBox["s", "2"]}], "+", 
+     RowBox[{"b", " ", "s"}], "+", "k"}], "==", "0"}], ",", "s"}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{{3.9599073336518507`*^9, 3.9599073435576797`*^9}, {
+  3.959907437890486*^9, 3.959907467752346*^9}},
+ Background->GrayLevel[0.85],
+ CellLabel->"In[11]:=",ExpressionUUID->"0a048344-163c-4369-841f-1601b11fbc41"]
 }, Open  ]]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Conclusi\[OAcute]n", "Section",
+ CellChangeTimes->{{3.959908159754507*^9, 
+  3.9599081816231804`*^9}},ExpressionUUID->"66d00bac-4a46-4f03-8d0b-\
+46b54ddbcb86"],
+
+Cell["\<\
+A lo largo de este cuaderno, exploramos una introducci\[OAcute]n visual e \
+intuitiva a los sistemas din\[AAcute]micos. Comenzamos observando el \
+movimiento de un sistema masa-resorte-amortiguador, antes incluso de hablar \
+de ecuaciones. Desde ah\[IAcute]:
+
+\[FilledSquare] Conectamos los comportamientos del sistema con ecuaciones \
+diferenciales lineales.
+\[FilledSquare] Vimos c\[OAcute]mo las soluciones del sistema dependen de los \
+par\[AAcute]metros f\[IAcute]sicos y las condiciones iniciales.
+\[FilledSquare] Exploramos c\[OAcute]mo diferentes entradas (como escalones o \
+senoidales) modifican el comportamiento del sistema.
+\[FilledSquare] Hablamos de la Transformada de Laplace como una herramienta \
+poderosa que nos permite resolver y entender estos sistemas sin partir desde \
+cero cada vez.
+\[FilledSquare] Y finalmente, descubrimos los retratos de fase, que nos \
+muestran de manera global y geom\[EAcute]trica todas las trayectorias \
+posibles del sistema.\
+\>", "Text",
+ CellChangeTimes->{{3.959908219336795*^9, 3.9599082825229206`*^9}},
+ Background->RGBColor[
+  0.87, 0.94, 1],ExpressionUUID->"cf20d3f1-cfa6-4dc1-abb7-d0ec9f94350d"],
+
+Cell[CellGroupData[{
+
+Cell[" \[DownQuestion]Qu\[EAcute] sigue?", "Subsubsection",
+ CellChangeTimes->{{3.959908219336795*^9, 
+  3.9599082813211727`*^9}},ExpressionUUID->"73baaff8-1a97-422f-a4ac-\
+799c7e1b49cd"],
+
+Cell["\<\
+Este cuaderno es apenas un primer vistazo. Hay muchos detalles importantes \
+que a\[UAcute]n no discutimos:
+
+La estabilidad de los sistemas.
+Sistemas no lineales y caos.
+M\[UAcute]ltiples grados de libertad (vectores m\[AAcute]s grandes).
+Sistemas con entrada y salida (modelos controlables).
+M\[EAcute]todos num\[EAcute]ricos y simulaci\[OAcute]n.
+
+Pero esperamos que este peque\[NTilde]o viaje haya sido \[UAcute]til, \
+accesible y divertido, y que te haya dado una base s\[OAcute]lida para seguir \
+explorando el mundo de los sistemas din\[AAcute]micos.\
+\>", "Text",
+ CellChangeTimes->{{3.959908219336795*^9, 3.959908295968726*^9}},
+ Background->RGBColor[
+  0.87, 0.94, 1],ExpressionUUID->"30b739e8-ba0d-4b9e-a00f-7b09bbe6c785"]
 }, Open  ]]
-}, Open  ]]
+}, Closed]]
 }, Open  ]]
 },
 WindowSize->{1140., 567.6},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
-Magnification:>0.9 Inherited,
+TaggingRules-><|"TryRealOnly" -> False|>,
+Magnification:>1.1 Inherited,
 FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"00a90adf-921d-40ce-ab7f-4a0d84ef701a"
+ExpressionUUID->"5bd17962-9cc4-4f5e-a15b-e8865346ce11"
 ]
 (* End of Notebook Content *)
 
@@ -7157,204 +6880,226 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 385, 6, 88, "Title",ExpressionUUID->"26fadc64-97e5-48b8-8f46-2a4a82504787"],
+Cell[580, 22, 385, 6, 174, "Title",ExpressionUUID->"26fadc64-97e5-48b8-8f46-2a4a82504787"],
 Cell[CellGroupData[{
-Cell[990, 32, 158, 3, 59, "Section",ExpressionUUID->"a7d2d11a-40fd-4a61-892a-e8767b3bdd1e"],
-Cell[1151, 37, 2581, 43, 573, "Text",ExpressionUUID->"43783274-255b-45a0-8449-253b5035511f"]
+Cell[990, 32, 158, 3, 74, "Section",ExpressionUUID->"a7d2d11a-40fd-4a61-892a-e8767b3bdd1e"],
+Cell[1151, 37, 2626, 43, 648, "Text",ExpressionUUID->"43783274-255b-45a0-8449-253b5035511f"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[3769, 85, 398, 7, 47, "Section",ExpressionUUID->"c23e6229-3be1-46c1-8dbe-714a5b0ebe77"],
-Cell[4170, 94, 1987, 41, 294, "Text",ExpressionUUID->"6250618e-c937-4b2a-9afe-e8ec16306550"],
+Cell[3814, 85, 398, 7, 58, "Section",ExpressionUUID->"c23e6229-3be1-46c1-8dbe-714a5b0ebe77"],
+Cell[4215, 94, 1987, 41, 359, "Text",ExpressionUUID->"6250618e-c937-4b2a-9afe-e8ec16306550"],
 Cell[CellGroupData[{
-Cell[6182, 139, 7339, 153, 613, "Code",ExpressionUUID->"a8a0988c-e6af-40fd-8afd-b399697b7f42"],
-Cell[13524, 294, 4114, 87, 308, "Output",ExpressionUUID->"b1914c83-a625-462f-8338-85793e491494"]
+Cell[6227, 139, 7339, 153, 749, "Code",ExpressionUUID->"a8a0988c-e6af-40fd-8afd-b399697b7f42"],
+Cell[13569, 294, 4114, 87, 374, "Output",ExpressionUUID->"b1914c83-a625-462f-8338-85793e491494"]
 }, {2}]],
-Cell[17650, 384, 2509, 58, 301, "Text",ExpressionUUID->"f19d9281-f092-4be0-a2cd-2d673bb18308"],
+Cell[17695, 384, 2509, 58, 367, "Text",ExpressionUUID->"f19d9281-f092-4be0-a2cd-2d673bb18308"],
 Cell[CellGroupData[{
-Cell[20184, 446, 14387, 293, 993, "Code",ExpressionUUID->"ce91f91f-5783-4174-a30d-0e40a1f4c9bb"],
-Cell[34574, 741, 5713, 116, 314, "Output",ExpressionUUID->"48212307-7761-43e7-ab1e-8c141b46d1a3"]
+Cell[20229, 446, 14387, 293, 1213, "Code",ExpressionUUID->"ce91f91f-5783-4174-a30d-0e40a1f4c9bb"],
+Cell[34619, 741, 5713, 116, 381, "Output",ExpressionUUID->"48212307-7761-43e7-ab1e-8c141b46d1a3"]
 }, {2}]],
-Cell[40299, 860, 2424, 50, 154, "Text",ExpressionUUID->"8bf82b9f-47d2-4c3a-8990-11be68c8b9b2"],
-Cell[42726, 912, 142, 3, 39, "Input",ExpressionUUID->"8e0992fd-2b20-451c-af3a-4a1636eae465"],
-Cell[42871, 917, 2891, 58, 230, "Text",ExpressionUUID->"2e6e0072-700c-4aee-b059-b95e7a9a6087"]
-}, Open  ]],
+Cell[40344, 860, 2424, 50, 213, "Text",ExpressionUUID->"8bf82b9f-47d2-4c3a-8990-11be68c8b9b2"],
+Cell[42771, 912, 142, 3, 47, "Input",ExpressionUUID->"8e0992fd-2b20-451c-af3a-4a1636eae465"],
+Cell[42916, 917, 2891, 58, 281, "Text",ExpressionUUID->"2e6e0072-700c-4aee-b059-b95e7a9a6087"]
+}, Closed]],
 Cell[CellGroupData[{
-Cell[45799, 980, 609, 14, 59, "Section",ExpressionUUID->"14ee2a19-956a-40d4-ab2b-39c662b10ef5"],
-Cell[46411, 996, 2030, 44, 333, "Text",ExpressionUUID->"e75e3d18-da1d-4f86-9874-38f661e54d1d"],
+Cell[45844, 980, 609, 14, 58, "Section",ExpressionUUID->"14ee2a19-956a-40d4-ab2b-39c662b10ef5"],
+Cell[46456, 996, 2030, 44, 432, "Text",ExpressionUUID->"e75e3d18-da1d-4f86-9874-38f661e54d1d"],
 Cell[CellGroupData[{
-Cell[48466, 1044, 7520, 176, 924, "Code",ExpressionUUID->"0bf6b00a-e620-4916-9d16-9deede114a8b"],
-Cell[55989, 1222, 3720, 77, 256, "Output",ExpressionUUID->"90a48d4a-e081-4c86-9ae7-d3316baf1b60"]
+Cell[48511, 1044, 7520, 176, 1129, "Code",ExpressionUUID->"0bf6b00a-e620-4916-9d16-9deede114a8b"],
+Cell[56034, 1222, 3720, 77, 310, "Output",ExpressionUUID->"90a48d4a-e081-4c86-9ae7-d3316baf1b60"]
 }, {2}]],
-Cell[59721, 1302, 3304, 79, 573, "Text",ExpressionUUID->"9e63dca0-04ac-45e4-a802-04da5773801f"],
-Cell[63028, 1383, 1755, 43, 137, "Text",ExpressionUUID->"ea086a66-c8c0-416a-8661-c89b6cf23e97"]
-}, Open  ]],
+Cell[59766, 1302, 3304, 79, 700, "Text",ExpressionUUID->"9e63dca0-04ac-45e4-a802-04da5773801f"],
+Cell[63073, 1383, 1755, 43, 167, "Text",ExpressionUUID->"ea086a66-c8c0-416a-8661-c89b6cf23e97"]
+}, Closed]],
 Cell[CellGroupData[{
-Cell[64820, 1431, 540, 8, 59, "Section",ExpressionUUID->"c3e57afb-f23b-402a-9229-0822f143802e"],
-Cell[65363, 1441, 3263, 84, 325, "Text",ExpressionUUID->"365608a1-c1cc-463b-9d8e-255a6599994a"],
+Cell[64865, 1431, 540, 8, 58, "Section",ExpressionUUID->"c3e57afb-f23b-402a-9229-0822f143802e"],
+Cell[65408, 1441, 3263, 84, 422, "Text",ExpressionUUID->"365608a1-c1cc-463b-9d8e-255a6599994a"],
 Cell[CellGroupData[{
-Cell[68651, 1529, 4770, 102, 499, "Code",ExpressionUUID->"182863e7-6d3c-4364-bd24-4a22a936a42b"],
-Cell[73424, 1633, 3529, 70, 233, "Output",ExpressionUUID->"5f33a9e0-c5b9-4660-85ba-d0db39ae9540"]
+Cell[68696, 1529, 4770, 102, 609, "Code",ExpressionUUID->"182863e7-6d3c-4364-bd24-4a22a936a42b"],
+Cell[73469, 1633, 3529, 70, 281, "Output",ExpressionUUID->"5f33a9e0-c5b9-4660-85ba-d0db39ae9540"]
 }, {2}]],
-Cell[76965, 1706, 1277, 30, 228, "Text",ExpressionUUID->"0fd7bba8-211c-4a9e-a259-5319a7a35b7e"],
-Cell[78245, 1738, 305, 5, 31, "Text",ExpressionUUID->"97fcfae8-cd83-40dd-b070-bd8491d8134b"],
-Cell[78553, 1745, 1740, 52, 137, "Input",ExpressionUUID->"75af7202-fa2b-493d-a368-b6d2b490cd27"],
-Cell[80296, 1799, 448, 8, 66, "Text",ExpressionUUID->"b25d1edf-9495-46f9-a061-0a7a5d1a4bb4"],
-Cell[80747, 1809, 1964, 49, 259, "Text",ExpressionUUID->"1546e9f0-b205-4fa0-83b4-e075ccda9c2f"]
-}, Open  ]],
+Cell[77010, 1706, 1277, 30, 278, "Text",ExpressionUUID->"0fd7bba8-211c-4a9e-a259-5319a7a35b7e"],
+Cell[78290, 1738, 305, 5, 37, "Text",ExpressionUUID->"97fcfae8-cd83-40dd-b070-bd8491d8134b"],
+Cell[78598, 1745, 1740, 52, 167, "Input",ExpressionUUID->"75af7202-fa2b-493d-a368-b6d2b490cd27"],
+Cell[80341, 1799, 448, 8, 80, "Text",ExpressionUUID->"b25d1edf-9495-46f9-a061-0a7a5d1a4bb4"],
+Cell[80792, 1809, 1964, 49, 342, "Text",ExpressionUUID->"1546e9f0-b205-4fa0-83b4-e075ccda9c2f"]
+}, Closed]],
 Cell[CellGroupData[{
-Cell[82748, 1863, 267, 5, 59, "Section",ExpressionUUID->"a07bb8a4-ab00-456a-9f27-b2df3c1b745f"],
-Cell[83018, 1870, 767, 15, 87, "Text",ExpressionUUID->"51727bae-7760-43d9-a0d5-0bf16a132956"],
+Cell[82793, 1863, 267, 5, 58, "Section",ExpressionUUID->"a07bb8a4-ab00-456a-9f27-b2df3c1b745f"],
+Cell[83063, 1870, 767, 15, 106, "Text",ExpressionUUID->"51727bae-7760-43d9-a0d5-0bf16a132956"],
 Cell[CellGroupData[{
-Cell[83810, 1889, 8001, 164, 630, "Code",ExpressionUUID->"43d4d76e-614a-4a5c-8c58-c01480319f33"],
-Cell[91814, 2055, 3879, 84, 257, "Output",ExpressionUUID->"02fd35c5-9b7d-4b99-bb1d-13206c1fccb9"]
+Cell[83855, 1889, 8001, 164, 770, "Code",ExpressionUUID->"43d4d76e-614a-4a5c-8c58-c01480319f33"],
+Cell[91859, 2055, 3879, 84, 314, "Output",ExpressionUUID->"02fd35c5-9b7d-4b99-bb1d-13206c1fccb9"]
 }, {2}]],
-Cell[95705, 2142, 2464, 66, 256, "Text",ExpressionUUID->"4ca3debe-6daf-48e9-9bdb-f0484648b4c2"],
-Cell[98172, 2210, 1778, 47, 256, "Text",ExpressionUUID->"e7f725da-dd78-4e8b-a945-9dcf36f112b9"],
-Cell[99953, 2259, 1597, 39, 256, "Text",ExpressionUUID->"5ef2528e-2a54-4682-a2a6-8f7a04fc4639"],
+Cell[95750, 2142, 2464, 66, 312, "Text",ExpressionUUID->"4ca3debe-6daf-48e9-9bdb-f0484648b4c2"],
+Cell[98217, 2210, 1778, 47, 312, "Text",ExpressionUUID->"e7f725da-dd78-4e8b-a945-9dcf36f112b9"],
+Cell[99998, 2259, 1597, 39, 312, "Text",ExpressionUUID->"5ef2528e-2a54-4682-a2a6-8f7a04fc4639"],
 Cell[CellGroupData[{
-Cell[101575, 2302, 266, 6, 48, "Subsection",ExpressionUUID->"1b8dda25-81db-4349-9367-b5786f736f24"],
-Cell[101844, 2310, 2920, 71, 220, "Text",ExpressionUUID->"11594095-4b01-49a4-8435-91946ce59ace"],
-Cell[104767, 2383, 504, 10, 66, "Text",ExpressionUUID->"6f87bd52-4897-4607-ba32-545f1a713368"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[105320, 2399, 174, 3, 59, "Section",ExpressionUUID->"98faa56c-d094-4158-ace7-18d3d5d04f79"],
-Cell[105497, 2404, 2150, 39, 418, "Text",ExpressionUUID->"38ae6753-484d-48bf-9ed6-4e8da1aaf6d1"],
-Cell[CellGroupData[{
-Cell[107672, 2447, 5544, 124, 614, "Code",ExpressionUUID->"f7ba2027-7a00-48e3-a3f4-154204dfb369"],
-Cell[113219, 2573, 2838, 60, 418, "Output",ExpressionUUID->"132695d3-3d9e-418b-882b-19b6efe192aa"]
-}, {2}]],
-Cell[CellGroupData[{
-Cell[116091, 2638, 214, 4, 48, "Subsection",ExpressionUUID->"20294a12-8476-49da-9ddf-d3856c19cdba"],
-Cell[116308, 2644, 3008, 58, 468, "Text",ExpressionUUID->"188a51e8-8325-47a6-9435-71b104e337d6"]
+Cell[101620, 2302, 266, 6, 58, "Subsection",ExpressionUUID->"1b8dda25-81db-4349-9367-b5786f736f24"],
+Cell[101889, 2310, 2920, 71, 268, "Text",ExpressionUUID->"11594095-4b01-49a4-8435-91946ce59ace"],
+Cell[104812, 2383, 504, 10, 80, "Text",ExpressionUUID->"6f87bd52-4897-4607-ba32-545f1a713368"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[119365, 2708, 268, 4, 47, "Section",ExpressionUUID->"06a9a24f-f12f-4fd5-b01d-19602e853a5a"],
-Cell[119636, 2714, 816, 16, 128, "Text",ExpressionUUID->"dbc66071-e9e1-4edf-8980-bac82fd8aa3c"],
+Cell[105365, 2399, 197, 3, 58, "Section",ExpressionUUID->"98faa56c-d094-4158-ace7-18d3d5d04f79"],
+Cell[105565, 2404, 2150, 39, 510, "Text",ExpressionUUID->"38ae6753-484d-48bf-9ed6-4e8da1aaf6d1"],
 Cell[CellGroupData[{
-Cell[120477, 2734, 238, 5, 48, "Subsection",ExpressionUUID->"e7e22046-d2df-43de-a8ee-c09724f4b805"],
-Cell[120718, 2741, 648, 15, 149, "Text",ExpressionUUID->"74f67ec5-bafd-4721-90c7-cf2ab9698879"],
-Cell[CellGroupData[{
-Cell[121391, 2760, 227, 4, 40, "Subsubsection",ExpressionUUID->"5cc5f37e-272a-4ce1-8d8e-1db4d6842016"],
-Cell[121621, 2766, 1560, 31, 273, "Text",ExpressionUUID->"68f6096e-b22b-4511-9c04-0bf0b40c4cd8"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[123230, 2803, 246, 4, 34, "Subsection",ExpressionUUID->"00898451-7320-485e-beb7-b84a0e2dd078"],
-Cell[123479, 2809, 744, 16, 170, "Text",ExpressionUUID->"e14e6345-33be-4573-ae2a-2c09b02cf7cb"],
-Cell[CellGroupData[{
-Cell[124248, 2829, 17512, 368, 1242, "Code",ExpressionUUID->"0e6c9b4b-59fb-403e-9060-22a49a09f049"],
-Cell[141763, 3199, 7613, 161, 306, "Output",ExpressionUUID->"0320e6e5-a2db-4ada-af89-ec41b6f5d401"]
+Cell[107740, 2447, 5544, 124, 750, "Code",ExpressionUUID->"f7ba2027-7a00-48e3-a3f4-154204dfb369"],
+Cell[113287, 2573, 2838, 60, 510, "Output",ExpressionUUID->"132695d3-3d9e-418b-882b-19b6efe192aa"]
 }, {2}]],
 Cell[CellGroupData[{
-Cell[149410, 3365, 181, 3, 40, "Subsubsection",ExpressionUUID->"c745b496-5824-4d86-841d-3eee77895407"],
-Cell[149594, 3370, 1084, 24, 232, "Text",ExpressionUUID->"473622ec-9449-4dbb-9c78-5194d0e7edfe"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[150715, 3399, 171, 3, 40, "Subsubsection",ExpressionUUID->"6fa92eed-80c0-45b1-91ad-e17fc27ac2cf"],
-Cell[150889, 3404, 1411, 25, 232, "Text",ExpressionUUID->"9dc24330-f924-4662-a4cc-fb28b5505c65"]
+Cell[116159, 2638, 214, 4, 58, "Subsection",ExpressionUUID->"20294a12-8476-49da-9ddf-d3856c19cdba"],
+Cell[116376, 2644, 3008, 58, 572, "Text",ExpressionUUID->"188a51e8-8325-47a6-9435-71b104e337d6"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[152349, 3435, 279, 5, 34, "Subsection",ExpressionUUID->"f088bc7b-7104-4061-bd24-a2e9d5802016"],
-Cell[152631, 3442, 741, 14, 108, "Text",ExpressionUUID->"93cfea9e-4161-4533-9a9f-e86562ac5608"],
+Cell[119433, 2708, 268, 4, 58, "Section",ExpressionUUID->"06a9a24f-f12f-4fd5-b01d-19602e853a5a"],
+Cell[119704, 2714, 816, 16, 207, "Text",ExpressionUUID->"dbc66071-e9e1-4edf-8980-bac82fd8aa3c"],
 Cell[CellGroupData[{
-Cell[153397, 3460, 295, 6, 40, "Subsubsection",ExpressionUUID->"885de195-14f9-4aaa-80f9-74e32c0b1cd7"],
-Cell[153695, 3468, 2139, 45, 482, "Text",ExpressionUUID->"93b35c42-0eed-4bf2-ad39-196577c1f1b8"]
+Cell[120545, 2734, 238, 5, 59, "Subsection",ExpressionUUID->"e7e22046-d2df-43de-a8ee-c09724f4b805"],
+Cell[120786, 2741, 648, 15, 182, "Text",ExpressionUUID->"74f67ec5-bafd-4721-90c7-cf2ab9698879"],
+Cell[CellGroupData[{
+Cell[121459, 2760, 227, 4, 48, "Subsubsection",ExpressionUUID->"5cc5f37e-272a-4ce1-8d8e-1db4d6842016"],
+Cell[121689, 2766, 1560, 31, 333, "Text",ExpressionUUID->"68f6096e-b22b-4511-9c04-0bf0b40c4cd8"]
+}, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[155871, 3518, 312, 5, 33, "Subsubsection",ExpressionUUID->"afff00e6-1b7c-45d0-bce6-f211f2886c88"],
-Cell[156186, 3525, 1517, 39, 87, "Text",ExpressionUUID->"9546b2e1-ceaf-427c-8cce-db726a89726a"]
-}, Closed]],
+Cell[123298, 2803, 246, 4, 41, "Subsection",ExpressionUUID->"00898451-7320-485e-beb7-b84a0e2dd078"],
+Cell[123547, 2809, 744, 16, 207, "Text",ExpressionUUID->"e14e6345-33be-4573-ae2a-2c09b02cf7cb"],
 Cell[CellGroupData[{
-Cell[157740, 3569, 225, 4, 33, "Subsubsection",ExpressionUUID->"be8686b8-5464-4196-b09c-122d626cc313"],
-Cell[157968, 3575, 1382, 33, 149, "Text",ExpressionUUID->"e82f42a4-2958-4825-a380-6bbb3ca36b10"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[159387, 3613, 213, 4, 33, "Subsubsection",ExpressionUUID->"1cbaa8e2-8776-4624-b4bc-314545d53ee7"],
-Cell[159603, 3619, 1189, 27, 190, "Text",ExpressionUUID->"a522a137-9288-4031-9a59-d7839a317c8b"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[160829, 3651, 222, 4, 33, "Subsubsection",ExpressionUUID->"7f584133-4276-4356-9eed-9b4067e588d7"],
-Cell[161054, 3657, 2795, 82, 192, "Text",ExpressionUUID->"d95e04ef-cd52-462f-b2ba-5bc27f216291"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[163886, 3744, 203, 4, 33, "Subsubsection",ExpressionUUID->"ecb2238c-b592-4d3b-b3de-a31d7cb6dcc0"],
-Cell[164092, 3750, 702, 16, 87, "Text",ExpressionUUID->"b9b3c6a1-8045-49d9-bf45-8b59c025d369"],
-Cell[164797, 3768, 909, 23, 66, "Text",ExpressionUUID->"17b13b4c-987a-4149-ab82-e26dc36fe112"],
-Cell[CellGroupData[{
-Cell[165731, 3795, 5728, 125, 531, "Code",ExpressionUUID->"3efc4704-3ed8-4b66-b199-5716ea2df2b7"],
-Cell[171462, 3922, 3789, 72, 404, "Output",ExpressionUUID->"ad4eca51-088b-434c-91da-839e7f525f74"]
+Cell[124316, 2829, 17512, 368, 1518, "Code",ExpressionUUID->"0e6c9b4b-59fb-403e-9060-22a49a09f049"],
+Cell[141831, 3199, 7613, 161, 374, "Output",ExpressionUUID->"0320e6e5-a2db-4ada-af89-ec41b6f5d401"]
 }, {2}]],
-Cell[175263, 3997, 562, 11, 87, "Text",ExpressionUUID->"374577ce-5bb6-4b45-9df3-39334e9a1d6c"],
-Cell[175828, 4010, 807, 19, 62, "Text",ExpressionUUID->"0573fdb8-12c8-4421-8626-2284a312530f"],
 Cell[CellGroupData[{
-Cell[176660, 4033, 5174, 111, 531, "Code",ExpressionUUID->"f2ac925c-10ce-4287-a79b-befffa8cc023"],
-Cell[181837, 4146, 3249, 63, 386, "Output",ExpressionUUID->"899c3f44-9d1d-41d3-a3d0-b2ec71a8bd40"]
-}, {2}]],
-Cell[185098, 4212, 617, 11, 87, "Text",ExpressionUUID->"0e7768db-93ea-421e-ac8a-e66f66710870"],
-Cell[185718, 4225, 1396, 30, 87, "Text",ExpressionUUID->"e017d775-7e06-46e2-bfaa-cd569b1040e6"],
+Cell[149478, 3365, 181, 3, 48, "Subsubsection",ExpressionUUID->"c745b496-5824-4d86-841d-3eee77895407"],
+Cell[149662, 3370, 1084, 24, 283, "Text",ExpressionUUID->"473622ec-9449-4dbb-9c78-5194d0e7edfe"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[187139, 4259, 5131, 110, 533, "Code",ExpressionUUID->"daafb05c-583b-4789-a4c0-2b9334cef7ce"],
-Cell[192273, 4371, 3430, 63, 394, "Output",ExpressionUUID->"25740ae2-879b-4aa9-95ea-f242a1f02a72"]
-}, {2}]],
-Cell[195715, 4437, 967, 17, 128, "Text",ExpressionUUID->"d40368b5-2ba7-4ef8-85ee-3c44dc2e6a03"],
-Cell[196685, 4456, 1116, 21, 211, "Text",ExpressionUUID->"d9e9a87a-129a-430e-9bc8-ebac4f54c85c"],
-Cell[CellGroupData[{
-Cell[197826, 4481, 5268, 120, 472, "Code",ExpressionUUID->"6567b82f-3860-4001-8151-82692a2cc4c4"],
-Cell[203097, 4603, 3372, 66, 376, "Output",ExpressionUUID->"13819c40-1463-4f0e-aa30-06decde0afd3"]
-}, {2}]],
-Cell[206481, 4672, 378, 7, 45, "Text",ExpressionUUID->"9948e58f-9f4e-400f-9f73-727dfcf59457"]
+Cell[150783, 3399, 171, 3, 48, "Subsubsection",ExpressionUUID->"6fa92eed-80c0-45b1-91ad-e17fc27ac2cf"],
+Cell[150957, 3404, 1411, 25, 283, "Text",ExpressionUUID->"9dc24330-f924-4662-a4cc-fb28b5505c65"]
+}, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[206896, 4684, 186, 3, 33, "Subsubsection",ExpressionUUID->"cbcd84ac-1aba-481a-939a-cd2d62479c95"],
-Cell[207085, 4689, 613, 9, 87, "Text",ExpressionUUID->"64c9194b-b36d-47f8-87d8-33d50db2e93a"],
+Cell[152417, 3435, 279, 5, 41, "Subsection",ExpressionUUID->"f088bc7b-7104-4061-bd24-a2e9d5802016"],
+Cell[152699, 3442, 741, 14, 132, "Text",ExpressionUUID->"93cfea9e-4161-4533-9a9f-e86562ac5608"],
 Cell[CellGroupData[{
-Cell[207723, 4702, 11280, 253, 620, "Code",ExpressionUUID->"d5d350e6-e0c0-4bc0-975d-d1531c91f308"],
-Cell[219006, 4957, 6582, 133, 566, "Output",ExpressionUUID->"a2d5dae2-7935-4d70-aeca-4d75b8a858f4"]
-}, {2}]]
+Cell[153465, 3460, 295, 6, 48, "Subsubsection",ExpressionUUID->"885de195-14f9-4aaa-80f9-74e32c0b1cd7"],
+Cell[153763, 3468, 2139, 45, 589, "Text",ExpressionUUID->"93b35c42-0eed-4bf2-ad39-196577c1f1b8"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[225634, 5096, 186, 3, 33, "Subsubsection",ExpressionUUID->"02182df6-e230-4407-863c-f23dccaae229"],
-Cell[225823, 5101, 613, 9, 87, "Text",ExpressionUUID->"c9276b41-0ccf-4340-9b32-dde2cce6030a"],
+Cell[155939, 3518, 312, 5, 40, "Subsubsection",ExpressionUUID->"afff00e6-1b7c-45d0-bce6-f211f2886c88"],
+Cell[156254, 3525, 1517, 39, 106, "Text",ExpressionUUID->"9546b2e1-ceaf-427c-8cce-db726a89726a"]
+}, Closed]],
 Cell[CellGroupData[{
-Cell[226461, 5114, 11280, 253, 620, "Code",ExpressionUUID->"db7a5b79-9ef3-4abc-b334-cbbdbc2b9d1a"],
-Cell[237744, 5369, 6582, 133, 566, "Output",ExpressionUUID->"2c8b5533-0335-4f29-b8fc-859d4282e9f2"]
-}, {2}]]
+Cell[157808, 3569, 225, 4, 40, "Subsubsection",ExpressionUUID->"be8686b8-5464-4196-b09c-122d626cc313"],
+Cell[158036, 3575, 1382, 33, 182, "Text",ExpressionUUID->"e82f42a4-2958-4825-a380-6bbb3ca36b10"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[159455, 3613, 213, 4, 40, "Subsubsection",ExpressionUUID->"1cbaa8e2-8776-4624-b4bc-314545d53ee7"],
+Cell[159671, 3619, 1189, 27, 232, "Text",ExpressionUUID->"a522a137-9288-4031-9a59-d7839a317c8b"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[160897, 3651, 222, 4, 40, "Subsubsection",ExpressionUUID->"7f584133-4276-4356-9eed-9b4067e588d7"],
+Cell[161122, 3657, 2795, 82, 234, "Text",ExpressionUUID->"d95e04ef-cd52-462f-b2ba-5bc27f216291"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[163954, 3744, 203, 4, 40, "Subsubsection",ExpressionUUID->"ecb2238c-b592-4d3b-b3de-a31d7cb6dcc0"],
+Cell[164160, 3750, 702, 16, 106, "Text",ExpressionUUID->"b9b3c6a1-8045-49d9-bf45-8b59c025d369"],
+Cell[164865, 3768, 909, 23, 80, "Text",ExpressionUUID->"17b13b4c-987a-4149-ab82-e26dc36fe112"],
+Cell[CellGroupData[{
+Cell[165799, 3795, 5728, 125, 649, "Code",ExpressionUUID->"3efc4704-3ed8-4b66-b199-5716ea2df2b7"],
+Cell[171530, 3922, 3789, 72, 493, "Output",ExpressionUUID->"ad4eca51-088b-434c-91da-839e7f525f74"]
+}, {2}]],
+Cell[175331, 3997, 562, 11, 106, "Text",ExpressionUUID->"374577ce-5bb6-4b45-9df3-39334e9a1d6c"],
+Cell[175896, 4010, 807, 19, 75, "Text",ExpressionUUID->"0573fdb8-12c8-4421-8626-2284a312530f"],
+Cell[CellGroupData[{
+Cell[176728, 4033, 5174, 111, 649, "Code",ExpressionUUID->"f2ac925c-10ce-4287-a79b-befffa8cc023"],
+Cell[181905, 4146, 3249, 63, 471, "Output",ExpressionUUID->"899c3f44-9d1d-41d3-a3d0-b2ec71a8bd40"]
+}, {2}]],
+Cell[185166, 4212, 617, 11, 106, "Text",ExpressionUUID->"0e7768db-93ea-421e-ac8a-e66f66710870"],
+Cell[185786, 4225, 1396, 30, 106, "Text",ExpressionUUID->"e017d775-7e06-46e2-bfaa-cd569b1040e6"],
+Cell[CellGroupData[{
+Cell[187207, 4259, 5131, 110, 651, "Code",ExpressionUUID->"daafb05c-583b-4789-a4c0-2b9334cef7ce"],
+Cell[192341, 4371, 3430, 63, 481, "Output",ExpressionUUID->"25740ae2-879b-4aa9-95ea-f242a1f02a72"]
+}, {2}]],
+Cell[195783, 4437, 967, 17, 156, "Text",ExpressionUUID->"d40368b5-2ba7-4ef8-85ee-3c44dc2e6a03"],
+Cell[196753, 4456, 1116, 21, 257, "Text",ExpressionUUID->"d9e9a87a-129a-430e-9bc8-ebac4f54c85c"],
+Cell[CellGroupData[{
+Cell[197894, 4481, 5268, 120, 576, "Code",ExpressionUUID->"6567b82f-3860-4001-8151-82692a2cc4c4"],
+Cell[203165, 4603, 3372, 66, 459, "Output",ExpressionUUID->"13819c40-1463-4f0e-aa30-06decde0afd3"]
+}, {2}]],
+Cell[206549, 4672, 378, 7, 55, "Text",ExpressionUUID->"9948e58f-9f4e-400f-9f73-727dfcf59457"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[206964, 4684, 186, 3, 40, "Subsubsection",ExpressionUUID->"cbcd84ac-1aba-481a-939a-cd2d62479c95"],
+Cell[207153, 4689, 613, 9, 106, "Text",ExpressionUUID->"64c9194b-b36d-47f8-87d8-33d50db2e93a"],
+Cell[CellGroupData[{
+Cell[207791, 4702, 11280, 253, 757, "Code",ExpressionUUID->"d5d350e6-e0c0-4bc0-975d-d1531c91f308"],
+Cell[219074, 4957, 6636, 133, 645, "Output",ExpressionUUID->"a2d5dae2-7935-4d70-aeca-4d75b8a858f4"]
+}, {2}]],
+Cell[225722, 5093, 1200, 19, 182, "Text",ExpressionUUID->"ec1548af-6092-42a8-84bc-966cec17220a"]
 }, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[226971, 5118, 258, 4, 41, "Subsection",ExpressionUUID->"02182df6-e230-4407-863c-f23dccaae229"],
+Cell[227232, 5124, 1391, 23, 385, "Text",ExpressionUUID->"c9276b41-0ccf-4340-9b32-dde2cce6030a"],
+Cell[CellGroupData[{
+Cell[228648, 5151, 170, 3, 48, "Subsubsection",ExpressionUUID->"c3c92648-ebb8-424a-87ae-c9c3e30f9cdd"],
+Cell[228821, 5156, 2009, 46, 436, "Text",ExpressionUUID->"ad54c588-c44e-4c17-bddf-275f6337b847"],
+Cell[CellGroupData[{
+Cell[230855, 5206, 11230, 264, 758, "Code",ExpressionUUID->"2bb99764-6889-408f-9cc2-9fd54d0a025b"],
+Cell[242088, 5472, 6682, 145, 599, "Output",ExpressionUUID->"01978331-6b8f-44fc-91fb-be682f4d2c0b"]
+}, Open  ]],
+Cell[248785, 5620, 607, 11, 157, "Text",ExpressionUUID->"cba2eab3-fdfb-49a8-8d57-a7c682fb57c6"],
+Cell[249395, 5633, 622, 12, 132, "Text",ExpressionUUID->"23a4c786-7383-4e40-856d-5a0052604e17"]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 Cell[CellGroupData[{
-Cell[244396, 5510, 189, 3, 59, "Section",ExpressionUUID->"fd3513c3-507c-4a67-91e5-c991878539f4"],
+Cell[250066, 5651, 209, 4, 41, "Subsection",ExpressionUUID->"f4722780-b0c7-481e-990b-32cb8b5f0bab"],
+Cell[250278, 5657, 2193, 36, 486, "Text",ExpressionUUID->"414af2c4-3c24-47f9-b289-28cf92897343"],
 Cell[CellGroupData[{
-Cell[244610, 5517, 5692, 137, 397, "Code",ExpressionUUID->"8d963744-3d71-4cb8-ba29-85ef8bac2934"],
-Cell[250305, 5656, 4263, 89, 520, "Output",ExpressionUUID->"9acb81a5-ca3c-4639-8524-6ab056f5f34f"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[254605, 5750, 361, 10, 49, "Code",ExpressionUUID->"bc19adc4-9d5f-48ce-99f0-65e4fa7bb622"],
-Cell[254969, 5762, 578, 16, 28, "Output",ExpressionUUID->"9d366ca5-0c48-46c4-9789-23b76cd93cf5"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[255584, 5783, 5768, 136, 397, "Code",ExpressionUUID->"3a263b1f-497b-4c18-aee5-04b920c87753"],
-Cell[261355, 5921, 4229, 88, 594, "Output",ExpressionUUID->"581704c8-928b-4c31-8da0-c4170af71276"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[265621, 6014, 170, 3, 48, "Subsection",ExpressionUUID->"429155f0-0602-432b-b235-ae6a081c8c88"],
-Cell[CellGroupData[{
-Cell[265816, 6021, 10861, 257, 620, "Code",ExpressionUUID->"2bb99764-6889-408f-9cc2-9fd54d0a025b"],
-Cell[276680, 6280, 6731, 144, 720, "Output",ExpressionUUID->"dd21f3da-fde8-4e37-9fcb-386a4767311f"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[283448, 6429, 9171, 209, 889, "Code",ExpressionUUID->"8528d013-cded-490e-b562-10bb0c5c5ed8"],
-Cell[292622, 6640, 6131, 123, 460, "Output",ExpressionUUID->"d2bfce28-fd6b-40fa-bd45-b72253aa9783"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[298790, 6768, 10464, 236, 921, "Code",ExpressionUUID->"a8a5e021-81b2-4232-9097-521213697c12"],
-Cell[309257, 7006, 6271, 128, 454, "Output",ExpressionUUID->"eeee5acc-734b-44f3-b28d-3f83ad6670c2"]
+Cell[252496, 5697, 181, 3, 48, "Subsubsection",ExpressionUUID->"790af075-737d-461b-aded-3eac68487b2b"],
+Cell[252680, 5702, 1199, 20, 410, "Text",ExpressionUUID->"8635cca1-a48d-4c95-909c-bbed4a305019"]
 }, Open  ]]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[253940, 5729, 291, 5, 58, "Section",ExpressionUUID->"fd3513c3-507c-4a67-91e5-c991878539f4"],
+Cell[CellGroupData[{
+Cell[254256, 5738, 201, 3, 59, "Subsection",ExpressionUUID->"13e5baa1-1f2a-4cac-a738-8fa1d4defbdb"],
+Cell[254460, 5743, 1464, 30, 334, "Text",ExpressionUUID->"71818d5e-0ab6-49ac-9cd6-26a41e19abd1"],
+Cell[255927, 5775, 2107, 51, 520, "Text",ExpressionUUID->"332f1e14-57ff-4e3e-b221-a2f400163ed2"],
+Cell[258037, 5828, 1119, 25, 175, "Text",ExpressionUUID->"4885b96d-799f-417a-b3d7-bc7ecc5c1210"],
+Cell[CellGroupData[{
+Cell[259181, 5857, 10480, 241, 1002, "Code",ExpressionUUID->"8528d013-cded-490e-b562-10bb0c5c5ed8"],
+Cell[269664, 6100, 6189, 126, 557, "Output",ExpressionUUID->"6e0ea8e3-4f57-4b1f-8456-67b75724c62c"]
+}, {2}]],
+Cell[275865, 6229, 977, 16, 207, "Text",ExpressionUUID->"eb56b0de-5982-44ff-be66-725e7f398972"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[276879, 6250, 199, 3, 41, "Subsection",ExpressionUUID->"9a9f5fe9-0bfe-4a9d-9bce-a34d9c028f89"],
+Cell[277081, 6255, 1419, 37, 253, "Text",ExpressionUUID->"3c9736df-02c9-48c4-863b-4ead5dcd1944"],
+Cell[CellGroupData[{
+Cell[278525, 6296, 11498, 264, 1112, "Code",ExpressionUUID->"4082e4f6-16d8-4347-866e-4dac8f40ec4b"],
+Cell[290026, 6562, 6150, 126, 561, "Output",ExpressionUUID->"feebb91b-e8a2-4e2e-b014-7236487c02b9"]
+}, {2}]],
+Cell[296188, 6691, 1038, 17, 207, "Text",ExpressionUUID->"c9197df6-eca0-4f69-8a55-3b53b396ec78"],
+Cell[CellGroupData[{
+Cell[297251, 6712, 201, 3, 49, "Subsubsection",ExpressionUUID->"e5bfc991-433a-4fee-8edc-bacf6ffc0e93"],
+Cell[297455, 6717, 1744, 46, 358, "Text",ExpressionUUID->"81b1bcef-c614-4a81-8ff6-7d88f86bb1a1"],
+Cell[299202, 6765, 474, 9, 81, "Text",ExpressionUUID->"85468404-8c7f-4cd5-8c99-caecbab370d3"],
+Cell[299679, 6776, 724, 23, 136, "Input",ExpressionUUID->"0a048344-163c-4369-841f-1601b11fbc41"]
 }, Open  ]]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[300464, 6806, 165, 3, 58, "Section",ExpressionUUID->"66d00bac-4a46-4f03-8d0b-46b54ddbcb86"],
+Cell[300632, 6811, 1164, 21, 258, "Text",ExpressionUUID->"cf20d3f1-cfa6-4dc1-abb7-d0ec9f94350d"],
+Cell[CellGroupData[{
+Cell[301821, 6836, 187, 3, 49, "Subsubsection",ExpressionUUID->"73baaff8-1a97-422f-a4ac-799c7e1b49cd"],
+Cell[302011, 6841, 742, 16, 283, "Text",ExpressionUUID->"30b739e8-ba0d-4b9e-a00f-7b09bbe6c785"]
 }, Open  ]]
+}, Closed]]
 }, Open  ]]
 }
 ]
