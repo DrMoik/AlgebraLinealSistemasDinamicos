@@ -1,0 +1,70 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1921,         62]
+NotebookOptionsPosition[      1310,         43]
+NotebookOutlinePosition[      1751,         60]
+CellTagsIndexPosition[      1708,         57]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+ "Laboratorio ",
+ Cell[BoxData[
+  FormBox["6", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "cb29f786-2eca-492d-b4a0-5b864d192432"]
+}], "Title",
+ CellChangeTimes->{{3.9602090404106035`*^9, 3.9602090447199697`*^9}, {
+  3.960216474490152*^9, 3.9602164914587483`*^9}, {3.9602518301718764`*^9, 
+  3.9602518628244743`*^9}, {3.960251990280933*^9, 
+  3.9602520013133683`*^9}},ExpressionUUID->"78181074-6d3e-48d5-9f56-\
+2b043eeb5996"],
+
+Cell["", "Subtitle",
+ CellChangeTimes->{{3.9602164952925596`*^9, 3.960216504164605*^9}, 
+   3.960251833124641*^9},ExpressionUUID->"710689ad-9961-46c3-aa2f-\
+4bc0f1ace662"]
+}, Open  ]],
+
+Cell["", "Title",ExpressionUUID->"8127603a-8208-45bb-a903-3d65ee22bd4a"]
+},
+WindowSize->{1152., 579.6},
+WindowMargins->{{
+  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d5308233-b122-4e74-a6f1-b8be968f0f91"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 465, 11, 98, "Title",ExpressionUUID->"78181074-6d3e-48d5-9f56-2b043eeb5996"],
+Cell[1048, 35, 171, 3, 53, "Subtitle",ExpressionUUID->"710689ad-9961-46c3-aa2f-4bc0f1ace662"]
+}, Open  ]],
+Cell[1234, 41, 72, 0, 98, "Title",ExpressionUUID->"8127603a-8208-45bb-a903-3d65ee22bd4a"]
+}
+]
+*)
+
