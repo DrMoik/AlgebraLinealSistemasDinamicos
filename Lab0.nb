@@ -1,0 +1,983 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     41131,        975]
+NotebookOptionsPosition[     34437,        865]
+NotebookOutlinePosition[     34908,        883]
+CellTagsIndexPosition[     34865,        880]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Lab 0: Comenzando con Mathematica", "Title",
+ CellChangeTimes->{{3.9575249695873575`*^9, 3.957524970908529*^9}, 
+   3.9575587490101366`*^9},
+ TextAlignment->Center,ExpressionUUID->"5dd696ef-6b99-4277-9ea8-d93ebc85b017"],
+
+Cell["\<\
+Este laboratorio es una introducci\[OAcute]n a Mathematica. El objetivo es \
+aprender a usar el software para realizar y visualizar c\[AAcute]lculos \
+relevantes en \[AAcute]lgebra lineal.\
+\>", "Text",
+ CellChangeTimes->{
+  3.9575587596783*^9},ExpressionUUID->"b4c103e1-bbf6-4f4e-997c-9e999797ca9a"],
+
+Cell[CellGroupData[{
+
+Cell["Secci\[OAcute]n 1: Conociendo tu Cuaderno", "Section",
+ CellChangeTimes->{
+  3.957558769799691*^9},ExpressionUUID->"2c0087ea-0a4c-416c-8c40-\
+e06550a32961"],
+
+Cell[TextData[{
+ "Cada bloque de contenido en un cuaderno de Mathematica se llama ",
+ StyleBox["celda",
+  FontWeight->"Bold",
+  FontVariations->{"Underline"->True}],
+ ". Puedes reconocer una celda por el corchete vertical que aparece en el \
+lado derecho del cuaderno.\n\n\|01f449 Haz clic en el corchete a la derecha \
+de este p\[AAcute]rrafo.\n\nExisten varios tipos de celdas: texto, \
+t\[IAcute]tulos, secciones y otros. La mayor\[IAcute]a de estos se usan para \
+organizar y presentar contenido de forma clara.\n\n\|01f449 Haz doble clic en \
+el  segundo corchete a la derecha de este p\[AAcute]rrafo para ver la \
+utilidad de las celdas tipo secci\[OAcute]n.\n\nEl tipo m\[AAcute]s \
+importante y \[UAcute]til es la celda de entrada \[LongDash] aqu\[IAcute] es \
+donde escribes y eval\[UAcute]as c\[OAcute]digo. Las celdas de entrada son \
+donde definir\[AAcute]s vectores, realizar\[AAcute]s operaciones con matrices \
+y crear\[AAcute]s visualizaciones durante este curso.\n\nUna vez que eval\
+\[UAcute]as una celda de entrada (presionando Shift + Enter), aparecer\
+\[AAcute] una etiqueta como In[1]:= a su izquierda, y el resultado aparecer\
+\[AAcute] abajo en una celda etiquetada como Out[1]=. Estas etiquetas te \
+ayudan a seguir el orden de evaluaci\[OAcute]n.\n"
+}], "Text",
+ CellChangeTimes->{{3.9575255524916143`*^9, 3.9575255813297143`*^9}, {
+   3.9575266664825106`*^9, 3.957526672732665*^9}, {3.9575270310298576`*^9, 
+   3.9575270322297306`*^9}, {3.9575270702611*^9, 3.9575270837493477`*^9}, {
+   3.957527185772557*^9, 3.9575272235878487`*^9}, {3.957529271957938*^9, 
+   3.9575292941274147`*^9}, {3.9575293284472885`*^9, 3.9575293695525484`*^9}, 
+   3.9575587990538325`*^9, {3.9575588310743217`*^9, 3.9575588390111265`*^9}},
+ Background->RGBColor[
+  0.8941176470588236, 0.8941176470588236, 
+   0.8941176470588236],ExpressionUUID->"69050dbf-7fba-4ba3-8bbf-b3344c33a3e6"],
+
+Cell[CellGroupData[{
+
+Cell["1.1 Ejecutando Celdas", "Subsection",
+ CellChangeTimes->{{3.957527300776149*^9, 3.957527302120902*^9}, {
+  3.9575597646808233`*^9, 
+  3.957559769214028*^9}},ExpressionUUID->"2f8271e7-ef39-4905-ab98-\
+dc8ca55a21bd"],
+
+Cell["\<\
+Da click a la celda de abajo y presiona  Shift + Enter para evaluar:\
+\>", "Text",
+ CellChangeTimes->{{3.957558858543622*^9, 3.9575588762779837`*^9}},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"25e99ad2-3af1-4fdc-b97b-95dc10f310f0"],
+
+Cell[BoxData[
+ RowBox[{"a", "=", 
+  RowBox[{
+   RowBox[{"3", "^", "2"}], "+", 
+   RowBox[{"4", "^", "2"}]}]}]], "Input",
+ CellChangeTimes->{{3.9575500133752375`*^9, 3.9575500135672665`*^9}},
+ CellLabel->"In[58]:=",ExpressionUUID->"8e4e6fd2-c567-44cd-946c-fa7979075ac0"],
+
+Cell["\<\
+Da click a la celda de abajo y presiona  Shift + Enter para evaluar:\
+\>", "Text",
+ CellChangeTimes->{3.957558880979911*^9},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"bf8cefa8-880a-47b0-9949-519e2516e032"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"b", "=", 
+   RowBox[{
+    RowBox[{"3", "^", "2"}], "+", 
+    RowBox[{"4", "^", "2"}]}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.9575500169729123`*^9, 3.9575500216103015`*^9}},
+ CellLabel->"In[60]:=",ExpressionUUID->"e916d101-1be4-4821-99d6-3ef9f84be869"],
+
+Cell["\<\
+Agregar un punto y coma  (;) evita que se despliegue la salida pero \
+a\[UAcute]n as\[IAcute] evalua la celda.\
+\>", "Text",
+ CellChangeTimes->{{3.9575255524916143`*^9, 3.9575255813297143`*^9}, {
+  3.9575266664825106`*^9, 3.957526672732665*^9}, {3.9575270310298576`*^9, 
+  3.9575270322297306`*^9}, {3.9575270702611*^9, 3.9575270837493477`*^9}, {
+  3.957527185772557*^9, 3.9575272235878487`*^9}, {3.957529271957938*^9, 
+  3.9575292941274147`*^9}, {3.9575293284472885`*^9, 3.9575293695525484`*^9}, {
+  3.957549996724501*^9, 3.957550031308248*^9}, {3.9575596850642853`*^9, 
+  3.9575597174809036`*^9}},
+ Background->RGBColor[
+  0.8941176470588236, 0.8941176470588236, 
+   0.8941176470588236],ExpressionUUID->"ce6d20fb-4c65-494d-92f0-2f3726833ddd"],
+
+Cell["\<\
+Da click a la celda de abajo y presiona  Shift + Enter para evaluar:\
+\>", "Text",
+ CellChangeTimes->{3.957559681918657*^9},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"e002f6b9-6e3e-4d38-857a-880b40f58c6b"],
+
+Cell[BoxData["b"], "Input",
+ CellChangeTimes->{3.957550033202099*^9},
+ CellLabel->"In[61]:=",ExpressionUUID->"a3054b1a-94dd-440f-95cb-e4876f147c68"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["1.2 Usando la Paleta Asistente de Matem\[AAcute]ticas B\[AAcute]sicas", \
+"Subsection",
+ CellChangeTimes->{{3.9575274968069553`*^9, 3.9575274980811243`*^9}, {
+  3.957559936652034*^9, 
+  3.957559950918665*^9}},ExpressionUUID->"46f140d5-fca4-453a-be5e-\
+e7a3afbb1899"],
+
+Cell["\<\
+Una gran ventaja de usar Mathematica es que no necesitas escribir las matem\
+\[AAcute]ticas como si fuera un lenguaje de programaci\[OAcute]n. Gracias a \
+su motor simb\[OAcute]lico, puedes escribir y manipular matem\[AAcute]ticas \
+en una forma que se parece mucho a como las escribir\[IAcute]as a mano.
+
+Esto es posible mediante las paletas \[LongDash] herramientas visuales que te \
+permiten construir expresiones matem\[AAcute]ticas usando s\[IAcute]mbolos \
+familiares: ra\[IAcute]ces cuadradas, fracciones, exponentes, matrices y m\
+\[AAcute]s.
+\
+\>", "Text",
+ CellChangeTimes->{{3.9575294748645225`*^9, 3.957529510435321*^9}, 
+   3.9575305524326735`*^9, 3.9575599100074053`*^9},
+ Background->RGBColor[
+  0.8941176470588236, 0.8941176470588236, 
+   0.8941176470588236],ExpressionUUID->"225e92fd-decd-4e6a-876b-4c3fd722a433"],
+
+Cell[TextData[{
+ "\[CapitalAAcute]brela desde Palettes \[RightArrow] Basic Math Assistant.\n\
+\[CapitalUAcute]sala para insertar ra\[IAcute]ces cuadradas, fracciones, \
+exponentes y matrices.\nPrueba insertando ",
+ Cell[BoxData[
+  FormBox[
+   SqrtBox["12"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0b94fd99-7486-4136-9bc1-2e83c085f4c5"],
+ "+ ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["3", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bb880c58-cac6-480a-9861-87f4ac5b0ab7"],
+ " debajo y eval\[UAcute]alo"
+}], "Text",
+ CellChangeTimes->{{3.9575294748645225`*^9, 3.957529510435321*^9}, 
+   3.9575305524326735`*^9, {3.9575306413830566`*^9, 3.957530652773681*^9}, {
+   3.957530896117691*^9, 3.9575308995300636`*^9}, {3.9575599631851115`*^9, 
+   3.9575599851942644`*^9}},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"7cd83a47-7c63-43d4-a310-56b9a8719921"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["1.3 Escribir con Atajos de Teclado", "Subsection",
+ CellChangeTimes->{{3.9575600512913165`*^9, 
+  3.957560062576525*^9}},ExpressionUUID->"59cbfdf0-f11e-43f0-a983-\
+f22743ff3a38"],
+
+Cell["\<\
+Adem\[AAcute]s de usar las paletas, tambi\[EAcute]n puedes escribir \
+expresiones matem\[AAcute]ticas usando atajos de teclado. Esta opci\[OAcute]n \
+suele ser m\[AAcute]s r\[AAcute]pida una vez que te familiarizas con los \
+comandos, y produce el mismo formato simb\[OAcute]lico y natural.
+
+Aqu\[IAcute] tienes algunos atajos esenciales para este curso:
+
+\t- Ctrl + , \[NonBreakingSpace]\t\t\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]Inserta una columna \
+adicional.
+\t- Ctrl + Enter \[NonBreakingSpace]\[NonBreakingSpace]\t     Inserta una \
+fila adicional.
+\t- Ctrl + / \[NonBreakingSpace]\[NonBreakingSpace]\t\t \[NonBreakingSpace]\
+\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]Te permite escribir \
+una fracci\[OAcute]n
+\t- Ctrl + 6 \[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\t   \[NonBreakingSpace]\[NonBreakingSpace]Te permite \
+escribir exponentes
+\t- Ctrl + 2 \[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace] \t     Te permite \
+escribir ra\[IAcute]ces cuadradas
+\t- Esc \[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\[NonBreakingSpace]\t\t\[NonBreakingSpace]\
+\[NonBreakingSpace]   Inserta tres puntos que funcionan como delimitadores \
+para comandos especiales, por ejemplo:
+\t\t\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]- \
+\[ExponentialE] \[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace]\[NonBreakingSpace]\[RightArrow]\[NonBreakingSpace]Esc ee \
+Esc \[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[NonBreakingSpace](n\[UAcute]mero de Euler)
+\t\t\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]- \[Pi] \
+\[RightArrow]\[NonBreakingSpace]Esc p Esc \[NonBreakingSpace]\
+\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]  \
+   \[NonBreakingSpace](Pi)
+\t\t\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]- \[ImaginaryI] \
+\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\
+\[RightArrow]\[NonBreakingSpace]Esc ii Esc \[NonBreakingSpace]\
+\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]  \
+  (n\[UAcute]mero imaginario)
+
+\|01f4cc Importante: Al ingresar expresiones m\[AAcute]s complejas, usa \
+siempre par\[EAcute]ntesis para asegurar que se agrupen correctamente.\
+\>", "Text",
+ CellChangeTimes->{{3.9575297939858255`*^9, 3.9575298156300173`*^9}, {
+  3.957529850339651*^9, 3.95752988131654*^9}, {3.957529967450595*^9, 
+  3.9575301503864098`*^9}, {3.95753022645541*^9, 3.9575303720499344`*^9}, {
+  3.9575444889435935`*^9, 3.957544490456196*^9}, {3.9575601040657916`*^9, 
+  3.957560210554222*^9}, {3.957560333527989*^9, 3.957560338514291*^9}},
+ Background->RGBColor[
+  0.8941176470588236, 0.8941176470588236, 
+   0.8941176470588236],ExpressionUUID->"9fc834b1-938d-4b58-87c3-0424445b66f2"],
+
+Cell[TextData[{
+ "Intenta escribir ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", GridBox[{
+      {
+       FractionBox["\[Pi]", "2"], 
+       SuperscriptBox["x", "3"]},
+      {
+       SqrtBox["2"], 
+       FractionBox[
+        SqrtBox[
+         SuperscriptBox["x", "4"]], "\[ExponentialE]"]}
+     }], ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d93eaf33-1ba2-4f29-97ab-2145f7d61acb"]
+}], "Text",
+ CellChangeTimes->{{3.9575301465583344`*^9, 3.957530223124178*^9}, {
+  3.9575302892268887`*^9, 3.9575302898233013`*^9}, {3.9575303351796365`*^9, 
+  3.95753033559159*^9}, {3.957559995850313*^9, 3.9575600002840333`*^9}},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"bbef8b53-6a3b-4345-9c77-d5a89a0efb3b"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Secci\[OAcute]n 2: Vectores y Matrices", "Section",
+ CellChangeTimes->{{3.9575602248465967`*^9, 
+  3.9575602411336946`*^9}},ExpressionUUID->"9c536133-3f54-4c94-a485-\
+f58dbbf4a25f"],
+
+Cell["\<\
+Esta secci\[OAcute]n presenta c\[OAcute]mo definir y manipular vectores y \
+matrices.\
+\>", "Text",
+ CellChangeTimes->{{3.9575602666491365`*^9, 
+  3.9575602835875025`*^9}},ExpressionUUID->"49ee4ebe-3787-4900-8f87-\
+89b124e89bc3"],
+
+Cell[CellGroupData[{
+
+Cell["2.1 Definici\[OAcute]n de vectores y matrices", "Subsection",
+ CellChangeTimes->{{3.9575603048414955`*^9, 
+  3.9575603058386536`*^9}},ExpressionUUID->"0448d715-96ba-41c8-8de9-\
+761d43a2286c"],
+
+Cell["\<\
+En Mathematica, los vectores se introducen como listas entre llaves, p. ej. \
+{2, -1}. Las matrices son listas de filas, por lo que una matriz 2\[Cross]2 \
+se ve as\[IAcute]: {{1, 2}, {3, 4}}. Definamos un vector 2D y una matriz 2\
+\[Cross]2 a continuaci\[OAcute]n:\
+\>", "Text",
+ CellChangeTimes->{{3.9575429724005814`*^9, 3.9575429844264994`*^9}, {
+   3.957543016444256*^9, 3.9575430191617365`*^9}, {3.957543069691723*^9, 
+   3.957543074144322*^9}, {3.957544029906082*^9, 3.9575440460818796`*^9}, 
+   3.9575443945961995`*^9, {3.9575603158247523`*^9, 3.9575603271423793`*^9}},
+ Background->RGBColor[
+  0.9137254901960784, 0.9137254901960784, 
+   0.9137254901960784],ExpressionUUID->"d4447749-2c41-450e-beda-9e13206132af"],
+
+Cell["Define un vector", "Text",
+ CellChangeTimes->{{3.9575470734494057`*^9, 3.9575471837108393`*^9}, {
+  3.9575603533123727`*^9, 3.9575603537266912`*^9}},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"13f27902-4b68-497e-a45f-ac5253e7574f"],
+
+Cell[BoxData[
+ RowBox[{"v", "=", 
+  RowBox[{"{", 
+   RowBox[{"2", ",", " ", 
+    RowBox[{"-", "1"}]}], "}"}]}]], "Input",ExpressionUUID->"1b590786-a450-\
+45fe-85cc-7074ab9884c6"],
+
+Cell["Define una matriz", "Text",
+ CellChangeTimes->{{3.957543088999075*^9, 3.957543111962041*^9}, {
+  3.9575471871953297`*^9, 3.957547196094971*^9}, {3.9575603557742248`*^9, 
+  3.9575603589359093`*^9}},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"3e1047ff-d919-4dc3-bf8c-dad658e986b2"],
+
+Cell[BoxData[
+ RowBox[{"M", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", "2"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"3", ",", "4"}], "}"}]}], "}"}]}]], "Input",ExpressionUUID->\
+"1fdf3c42-a6ae-459d-b4be-dcb7a6f7be7c"],
+
+Cell[TextData[{
+ "Para facilitar la lectura de las matrices, se puede usar el comando \
+MatrixForm[ ...] . Es importante remarcar que esto es solo para visualizaci\
+\[OAcute]n. ",
+ StyleBox["Nunca asigne a una variable una matriz con MatrixForm",
+  FontWeight->"Bold",
+  FontVariations->{"Underline"->True}],
+ ", ya que perder\[AAcute] su comportamiento matem\[AAcute]tico."
+}], "Text",
+ CellChangeTimes->{{3.957543134905569*^9, 3.9575431631626515`*^9}, {
+   3.9575432071358657`*^9, 3.9575432132215853`*^9}, 3.9575432464560747`*^9, {
+   3.957560390805024*^9, 3.9575604122203655`*^9}, {3.957606271746924*^9, 
+   3.9576063114789066`*^9}},
+ Background->RGBColor[
+  0.9137254901960784, 0.9137254901960784, 
+   0.9137254901960784],ExpressionUUID->"373ce9f2-6226-409b-bd68-2f032a7fa3d0"],
+
+Cell["Visualiza v y M con MatrixForm", "Text",
+ CellChangeTimes->{{3.957543262420145*^9, 3.9575432730962863`*^9}, {
+   3.9575472078714943`*^9, 3.9575472606659803`*^9}, 3.957560418934678*^9},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"a70d3eb7-519d-4a7b-af1b-d7ad2c6c71ec"],
+
+Cell[BoxData[{
+ RowBox[{"MatrixForm", "[", "v", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"MatrixForm", "[", "M", "]"}]}], "Input",
+ CellChangeTimes->{{3.9575472713157883`*^9, 
+  3.9575472827441664`*^9}},ExpressionUUID->"2f858f70-90da-4a78-82b4-\
+7bf52ae8761a"],
+
+Cell["\<\
+Puedes definir matrices no solo escribi\[EAcute]ndolas directamente entre \
+llaves, sino tambi\[EAcute]n usando accesos directos o la paleta del \
+Asistente de Matem\[AAcute]ticas B\[AAcute]sicas. Estas herramientas visuales \
+te permiten crear una matriz como si la escribieras a mano, por ejemplo:
+
+\t1. Abrir par\[EAcute]ntesis
+\t2. Usa Ctrl + y Ctrl + Espacio para establecer el n\[UAcute]mero de filas y \
+columnas deseado.
+\t3. Completa la matriz con la tecla Tabulador haciendo clic en las celdas \
+para desplazarte entre ellas.
+
+\|01f4cc Importante: Aunque uses una plantilla simb\[OAcute]lica (visual) \
+para definir la matriz, Mathematica la almacenar\[AAcute] internamente como \
+una lista de listas entre llaves.\
+\>", "Text",
+ CellChangeTimes->{{3.957543397410668*^9, 3.957543628803482*^9}, {
+  3.957543942121957*^9, 3.9575440037131853`*^9}, {3.9575446764494543`*^9, 
+  3.9575446805938563`*^9}, {3.957560454436057*^9, 3.9575604554550047`*^9}, {
+  3.9575605006575594`*^9, 3.9575605437742786`*^9}},
+ Background->RGBColor[
+  0.9137254901960784, 0.9137254901960784, 
+   0.9137254901960784],ExpressionUUID->"c6728948-9e1c-4fad-a097-3d54b1cbd101"],
+
+Cell[BoxData[
+ RowBox[{"M2", "=", 
+  RowBox[{"(", GridBox[{
+     {"1", "2", "3"},
+     {"a", "b", "c"},
+     {"\[Pi]", "\[ImaginaryI]", "\[ExponentialE]"}
+    }], ")"}]}]], "Input",
+ CellChangeTimes->{{3.9575446830279613`*^9, 3.9575447052221084`*^9}},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 0.7490196078431373],
+ CellLabel->"In[26]:=",ExpressionUUID->"54a6eb80-9c1d-4a93-8245-7ea8ce2ade89"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2.2 Operaciones de vectores y matrices", "Subsection",
+ CellChangeTimes->{
+  3.957545635179328*^9, 3.9575458246306677`*^9, {3.957560570276795*^9, 
+   3.957560580552309*^9}},ExpressionUUID->"5b5e93d3-c4f0-40e7-b61a-\
+d40096972ac8"],
+
+Cell[TextData[{
+ "Una vez que has definido una matriz ",
+ StyleBox["M",
+  FontSlant->"Italic"],
+ " y un vector ",
+ StyleBox["v",
+  FontSlant->"Italic"],
+ ", puedes comenzar a realizar operaciones que son fundamentales en \
+\[AAcute]lgebra lineal. Estas operaciones nos ayudan a entender c\[OAcute]mo \
+los sistemas transforman el espacio y c\[OAcute]mo se comportan distintos \
+sistemas lineales."
+}], "Text",
+ CellChangeTimes->{{3.9575459464719133`*^9, 3.9575459628006487`*^9}, 
+   3.9575606138224945`*^9},
+ Background->RGBColor[
+  0.9137254901960784, 0.9137254901960784, 
+   0.9137254901960784],ExpressionUUID->"5c37c273-23b9-4d66-81d6-30b58acbec96"],
+
+Cell[CellGroupData[{
+
+Cell["2.2.1 Multiplicaci\[OAcute]n de Matriz por Vector", "Subsubsection",
+ CellChangeTimes->{{3.9575460799994564`*^9, 3.957546108829053*^9}, {
+  3.9575606664394817`*^9, 
+  3.9575606672318087`*^9}},ExpressionUUID->"97eaba8d-3d90-4af6-bb28-\
+fc571080ca51"],
+
+Cell[TextData[{
+ "La expresi\[OAcute]n ",
+ StyleBox["M.v",
+  FontSlant->"Italic"],
+ " calcula el producto de una matriz M por un vector v.\nEn el contexto de la \
+rob\[OAcute]tica o la f\[IAcute]sica, esto puede representar c\[OAcute]mo una \
+transformaci\[OAcute]n (como una rotaci\[OAcute]n o proyecci\[OAcute]n) act\
+\[UAcute]a sobre un vector de fuerza, velocidad o posici\[OAcute]n."
+}], "Text",
+ CellChangeTimes->{{3.9575459882416353`*^9, 3.9575460308011465`*^9}, {
+  3.9575460887154217`*^9, 3.9575460895491304`*^9}, {3.9575606367389164`*^9, 
+  3.957560639898616*^9}},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"53a1a476-c501-416c-8175-5a368de82d90"],
+
+Cell[BoxData[
+ RowBox[{"M", ".", "v"}]], "Input",
+ CellChangeTimes->{{3.9575454006378126`*^9, 
+  3.957545401017545*^9}},ExpressionUUID->"6f618963-63fc-486b-acf0-\
+3d05bd69117f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2.2.2 Transpuesta de una Matriz", "Subsubsection",
+ CellChangeTimes->{{3.9575460799994564`*^9, 3.9575461419696894`*^9}, {
+   3.957546210643261*^9, 3.9575462151463747`*^9}, 
+   3.9575606598494325`*^9},ExpressionUUID->"b805f178-2b6f-476b-b805-\
+bf9a9f597626"],
+
+Cell["Transpose[M] invierte las filas y columnas de la matriz M.", "Text",
+ CellChangeTimes->{{3.9575459882416353`*^9, 3.9575460308011465`*^9}, {
+   3.9575460887154217`*^9, 3.9575460895491304`*^9}, {3.95754615603878*^9, 
+   3.9575462019298134`*^9}, 3.957560653431825*^9},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"274b1991-4413-4dc7-89ff-de1ed842b886"],
+
+Cell[BoxData[
+ RowBox[{"Transpose", "[", "M", "]"}]], "Input",
+ CellChangeTimes->{{3.95754540296073*^9, 3.957545403581835*^9}},
+ CellLabel->"In[50]:=",ExpressionUUID->"65fd6319-ae2a-46a0-b4e5-35ba0ecb6fd6"],
+
+Cell["\<\
+Tambi\[EAcute]n existe un atajo para escribir la transpuesta: \[Transpose] \
+(se ingresa con Esc tr Esc)\
+\>", "Text",
+ CellChangeTimes->{{3.9575467718149056`*^9, 3.9575468264212885`*^9}, {
+  3.9575606752364244`*^9, 3.957560679828382*^9}},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"7ee0b39a-1d68-458e-8cec-649daea0da42"],
+
+Cell[BoxData[
+ RowBox[{"M", "\[Transpose]"}]], "Input",
+ CellChangeTimes->{{3.9575468282624826`*^9, 3.957546830897403*^9}},
+ CellLabel->"In[49]:=",ExpressionUUID->"4bde3950-9a14-4d80-ad5d-4ab126f81e99"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2.2.3 Inversa de una Matriz", "Subsubsection",
+ CellChangeTimes->{{3.9575460799994564`*^9, 3.9575461419696894`*^9}, {
+   3.957546218026923*^9, 3.957546218886693*^9}, {3.9575467620453396`*^9, 
+   3.9575467682683163`*^9}, 
+   3.9575606899536295`*^9},ExpressionUUID->"0fc2ad9e-4f3d-434e-a36f-\
+b80ee25f913e"],
+
+Cell[TextData[{
+ StyleBox["Inverse[M]",
+  FontSlant->"Italic"],
+ " devuelve la inversa de la matriz M, si existe. Esta es la matriz que \
+\[OpenCurlyDoubleQuote]deshace\[CloseCurlyDoubleQuote] la transformaci\
+\[OAcute]n realizada por M.\nSolo las matrices cuadradas con determinante \
+distinto de cero pueden ser invertidas."
+}], "Text",
+ CellChangeTimes->{{3.9575468717788925`*^9, 3.957546891760643*^9}, {
+  3.9575606979903207`*^9, 3.9575607032372627`*^9}},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"f9d707e3-bc06-49e8-abe6-2303b8699c5a"],
+
+Cell[BoxData[
+ RowBox[{"Inverse", "[", "M", "]"}]], "Input",
+ CellChangeTimes->{{3.957545409565324*^9, 
+  3.957545409977231*^9}},ExpressionUUID->"4ccaf9c8-28fb-4604-be09-\
+bfe998b2df83"],
+
+Cell[BoxData[
+ RowBox[{"M", ".", 
+  RowBox[{"Inverse", "[", "M", "]"}]}]], "Input",
+ CellChangeTimes->{{3.957545412557616*^9, 
+  3.9575454155010633`*^9}},ExpressionUUID->"7310fd61-90d8-406b-8d75-\
+9ec47f3048f7"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Secci\[OAcute]n 3: Campos Vectoriales y Espacios Vectoriales", "Section",
+ CellChangeTimes->{{3.9575607300922484`*^9, 
+  3.9575607384426217`*^9}},ExpressionUUID->"9b3b8fce-9131-4227-996c-\
+6f88900b105c"],
+
+Cell["\<\
+Esta secci\[OAcute]n muestra c\[OAcute]mo visualizar campos vectoriales \
+completos y entender los espacios vectoriales como combinaciones lineales de \
+m\[UAcute]ltiples vectores. En lugar de trabajar con vectores individuales \
+(como en la Secci\[OAcute]n 2), ahora exploramos c\[OAcute]mo se comporta el \
+espacio bajo un campo de vectores \[LongDash] una idea central en \
+\[AAcute]lgebra lineal, f\[IAcute]sica y rob\[OAcute]tica.\
+\>", "Text",
+ CellChangeTimes->{
+  3.9575469824699306`*^9, {3.957560745255127*^9, 3.9575607482169523`*^9}},
+ Background->RGBColor[
+  0.9137254901960784, 0.9137254901960784, 
+   0.9137254901960784],ExpressionUUID->"0e0c1758-d94e-49ff-b7f9-30aa514bf0b9"],
+
+Cell[CellGroupData[{
+
+Cell["3.1 Campos Vectoriales en 2D", "Subsection",
+ CellChangeTimes->{
+  3.9575607602156534`*^9},ExpressionUUID->"fd12b26e-184b-47d1-92ed-\
+70be839fa778"],
+
+Cell[TextData[{
+ StyleBox["VectorPlot",
+  FontSlant->"Italic"],
+ " is used to draw vector fields over a region in 2D space. Each point ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", GridBox[{
+      {"x"},
+      {"y"}
+     }], ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b18ea2e5-6235-4c2b-b055-da0cf6d95611"],
+ " is assigned a vector, and Mathematica draws a small arrow to represent it."
+}], "Text",
+ CellChangeTimes->{{3.9575470156684933`*^9, 3.9575470462608175`*^9}, 
+   3.957547342134162*^9, {3.9575476457935734`*^9, 3.9575476538131623`*^9}},
+ Background->RGBColor[
+  0.9137254901960784, 0.9137254901960784, 
+   0.9137254901960784],ExpressionUUID->"a7594ef3-a237-402c-b0b4-69f915e81500"],
+
+Cell[TextData[{
+ "VectorPlot se utiliza para dibujar campos vectoriales sobre una regi\
+\[OAcute]n en el espacio 2D.\nA cada punto ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", GridBox[{
+      {"x"},
+      {"y"}
+     }], ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "36e1a147-1a82-4a90-ad1a-8300cccc3f17"],
+ " se le asigna un vector, y Mathematica dibuja una peque\[NTilde]a flecha \
+para representarlo.\n\nAqu\[IAcute] tienes un ejemplo donde cada vector est\
+\[AAcute] definido como   ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", GridBox[{
+      {"y"},
+      {
+       RowBox[{"-", "x"}]}
+     }], ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "944937db-d5d5-4fe7-b66d-93468ac235a7"],
+ " \[LongDash] este es un campo de rotaci\[OAcute]n cl\[AAcute]sico.\nLos \
+vectores son perpendiculares a la direcci\[OAcute]n radial y forman patrones \
+circulares alrededor del origen."
+}], "Text",
+ CellChangeTimes->{{3.9575470480802727`*^9, 3.957547048085884*^9}, 
+   3.9575473477653384`*^9, {3.957547627993213*^9, 3.957547643919908*^9}, {
+   3.9575607759950128`*^9, 3.957560817718229*^9}, {3.9575608614484525`*^9, 
+   3.9575608847579913`*^9}},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"de9de9de-6de4-42e0-9bb1-f6649f4abf30"],
+
+Cell[BoxData[
+ RowBox[{"VectorPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"y", ",", 
+     RowBox[{"-", "x"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", 
+     RowBox[{"-", "5"}], ",", " ", "5"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"y", ",", " ", 
+     RowBox[{"-", "5"}], ",", " ", "5"}], "}"}], ",", 
+   RowBox[{"Axes", "->", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.9575466819553595`*^9, 3.9575466876590247`*^9}},
+ CellLabel->"In[55]:=",ExpressionUUID->"fe6b6310-3ff8-4375-863a-c6e4f5a46ae1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3.2 Vector Fields in 3D", "Subsection",ExpressionUUID->"6f511774-dfc8-48c9-a6f8-08d21ab167f5"],
+
+Cell["\<\
+VectorPlot3D es la versi\[OAcute]n en 3 dimensiones de VectorPlot. Muestra \
+vectores en cada punto dentro de una cuadr\[IAcute]cula tridimensional.\
+\>", "Text",
+ CellChangeTimes->{{3.957547360292421*^9, 3.9575473951551075`*^9}, {
+  3.957560919355574*^9, 3.957560923052436*^9}},
+ Background->RGBColor[
+  0.9137254901960784, 0.9137254901960784, 
+   0.9137254901960784],ExpressionUUID->"808de9eb-8d57-4435-b3f4-7b99e2d4327f"],
+
+Cell[TextData[{
+ "El siguiente ejemplo define el campo como ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", GridBox[{
+      {"y"},
+      {"z"},
+      {"x"}
+     }], ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d51741a8-2932-4104-ac28-d6eca6730088"],
+ ",  lo cual crea un movimiento en espiral en el espacio 3D. Puedes rotar la \
+gr\[AAcute]fica haciendo clic y arrastrando con el mouse."
+}], "Text",
+ CellChangeTimes->{{3.957547369681155*^9, 3.957547403218918*^9}, {
+   3.9575476154270964`*^9, 3.9575476226682625`*^9}, 3.95756093578975*^9, {
+   3.9575609759417715`*^9, 3.9575609964586954`*^9}},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"49a601a4-5fd9-4c9b-a306-6e86c9e9a055"],
+
+Cell[BoxData[
+ RowBox[{"VectorPlot3D", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"y", ",", "z", ",", "x"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", 
+     RowBox[{"-", "2"}], ",", " ", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"y", ",", " ", 
+     RowBox[{"-", "2"}], ",", " ", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"z", ",", " ", 
+     RowBox[{"-", "2"}], ",", " ", "2"}], "}"}]}], "]"}]], "Input",
+ CellLabel->"In[56]:=",ExpressionUUID->"64a54421-387b-4730-8e46-a059937b5b57"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3.3 Exploring Vector Spaces with Parameters", "Subsection",ExpressionUUID->"fb1c8ae0-8dd0-4944-8eba-74208ea867d2"],
+
+Cell[TextData[{
+ "La siguiente gr\[AAcute]fica interactiva te permite combinar dos campos \
+vectoriales fundamentales: \n  -{x, y}   \[LongDash] Genera un campo donde \
+las flechas apuntan hacia afuera.\n - {y, -x} \[LongDash] Genera un campo de \
+rotaci\[OAcute]n, donde las flechas forman c\[IAcute]rculos.\n \nEl campo se \
+define como una combinaci\[OAcute]n lineal : ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"F", "(", 
+     RowBox[{"x", ",", "y"}], ")"}], "=", 
+    RowBox[{
+     RowBox[{"a", " ", 
+      RowBox[{"(", GridBox[{
+         {"x"},
+         {"y"}
+        }], ")"}]}], "+", 
+     RowBox[{"b", " ", 
+      RowBox[{"(", GridBox[{
+         {"y"},
+         {
+          RowBox[{"-", "x"}]}
+        }], ")"}]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6a62460f-3a68-400a-bd24-76b706918629"],
+ "\n\nUsando los deslizadores (sliders), puedes ajustar los coeficientes a y \
+b para ver c\[OAcute]mo se transforma el campo.\nEsto visualiza directamente \
+el concepto de combinaciones lineales de funciones vectoriales, una idea \
+clave para comprender el span, vectores base y transformaciones."
+}], "Text",
+ CellChangeTimes->{{3.957547466680126*^9, 3.9575476042349844`*^9}, {
+  3.957561013524855*^9, 3.9575610941478796`*^9}},
+ Background->RGBColor[
+  0.7490196078431373, 0.7490196078431373, 
+   0.7490196078431373],ExpressionUUID->"32e6fa4e-7642-47e1-b8df-09abba2da054"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Manipulate", "[", 
+   RowBox[{
+    RowBox[{"VectorPlot", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"a", "*", 
+        RowBox[{"{", 
+         RowBox[{"x", ",", "y"}], "}"}]}], "+", 
+       RowBox[{"b", "*", 
+        RowBox[{"{", 
+         RowBox[{"y", ",", 
+          RowBox[{"-", "x"}]}], "}"}]}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", 
+        RowBox[{"-", "5"}], ",", "5"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"y", ",", 
+        RowBox[{"-", "5"}], ",", "5"}], "}"}], ",", 
+      RowBox[{"Axes", "->", "True"}]}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"a", ",", "1"}], "}"}], ",", 
+      RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"b", ",", "1"}], "}"}], ",", 
+      RowBox[{"-", "3"}], ",", "3"}], "}"}]}], "]"}], "\n"}]], "Input",
+ CellChangeTimes->{{3.9575462886306643`*^9, 3.9575463298070416`*^9}, 
+   3.9575463673241677`*^9, 3.957546565771409*^9, {3.9575466054908237`*^9, 
+   3.9575466737797766`*^9}, {3.9575467091619983`*^9, 
+   3.9575467350015645`*^9}, {3.957548928287219*^9, 3.9575489314727163`*^9}},
+ CellLabel->"In[71]:=",ExpressionUUID->"3aa5de4b-f3df-419e-8ba7-21f8e34f6571"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`a$$ = 1.25, $CellContext`b$$ = -2.06, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`a$$], 1}, -3, 3}, {{
+       Hold[$CellContext`b$$], 1}, -3, 3}}, Typeset`size$$ = {
+    468., {230., 236.70166091918946`}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`a$$ = 1, $CellContext`b$$ = 1}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      VectorPlot[$CellContext`a$$ {$CellContext`x, $CellContext`y} + \
+$CellContext`b$$ {$CellContext`y, -$CellContext`x}, {$CellContext`x, -5, 
+         5}, {$CellContext`y, -5, 5}, Axes -> True], 
+      "Specifications" :> {{{$CellContext`a$$, 1}, -3, 
+         3}, {{$CellContext`b$$, 1}, -3, 3}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{819., {268.27424324816093`, 275.72575675183907`}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.9580947910309477`*^9},
+ CellLabel->"Out[71]=",ExpressionUUID->"bce3671d-42b0-491d-b63a-1342b0edeaf3"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Comentarios Finales", "Section",
+ CellChangeTimes->{{3.9575484054428844`*^9, 3.9575484075897174`*^9}, {
+  3.957561117488164*^9, 
+  3.9575611188567195`*^9}},ExpressionUUID->"2f28cd4c-28b3-43c7-a1b4-\
+b79dffdb9dba"],
+
+Cell["\<\
+Has concluido tu introducci\[OAcute]n a Mathematica. Aprendiste a ingresar y \
+evaluar expresiones, definir vectores y matrices, realizar operaciones y \
+visualizar espacios y campos vectoriales.
+
+Esta base ser\[AAcute] fundamental para todo lo que desarrollaremos en el \
+resto del curso.
+
+\|01f9ed Si deseas seguir explorando por tu cuenta, el sistema de ayuda \
+integrado de Mathematica es un excelente recurso:
+
+Presiona F1 (o ve a Help \[RightArrow] Wolfram Documentation) para abrir el \
+centro de documentaci\[OAcute]n.
+
+Utiliza la barra de b\[UAcute]squeda para consultar cualquier funci\[OAcute]n \
+(por ejemplo, VectorPlot, Inverse, MatrixForm, etc.).
+
+Muchas p\[AAcute]ginas incluyen ejemplos, visualizaciones interactivas y \
+enlaces a temas relacionados.
+
+\|01f50d Cuanto mejor domines la herramienta, m\[AAcute]s clara ser\[AAcute] \
+tu comprensi\[OAcute]n de las matem\[AAcute]ticas.\
+\>", "Text",
+ CellChangeTimes->{{3.957548395821281*^9, 3.9575484443673973`*^9}, {
+  3.957561131649522*^9, 3.9575611470830727`*^9}, {3.9575612001035333`*^9, 
+  3.9575612215327644`*^9}},
+ Background->RGBColor[
+  0.9137254901960784, 0.9137254901960784, 
+   0.9137254901960784],ExpressionUUID->"eaaf54e0-1a12-4150-b6bf-44e41e686c8d"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1152., 579.6},
+WindowMargins->{{
+  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+Magnification:>1.3 Inherited,
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"29e5c596-b655-4f08-999c-8045b357d7e3"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 225, 3, 126, "Title",ExpressionUUID->"5dd696ef-6b99-4277-9ea8-d93ebc85b017"],
+Cell[808, 27, 310, 6, 75, "Text",ExpressionUUID->"b4c103e1-bbf6-4f4e-997c-9e999797ca9a"],
+Cell[CellGroupData[{
+Cell[1143, 37, 162, 3, 86, "Section",ExpressionUUID->"2c0087ea-0a4c-416c-8c40-e06550a32961"],
+Cell[1308, 42, 1886, 29, 544, "Text",ExpressionUUID->"69050dbf-7fba-4ba3-8bbf-b3344c33a3e6"],
+Cell[CellGroupData[{
+Cell[3219, 75, 220, 4, 69, "Subsection",ExpressionUUID->"2f8271e7-ef39-4905-ab98-dc8ca55a21bd"],
+Cell[3442, 81, 305, 6, 66, "Text",ExpressionUUID->"25e99ad2-3af1-4fdc-b97b-95dc10f310f0"],
+Cell[3750, 89, 269, 6, 36, "Input",ExpressionUUID->"8e4e6fd2-c567-44cd-946c-fa7979075ac0"],
+Cell[4022, 97, 279, 6, 66, "Text",ExpressionUUID->"bf8cefa8-880a-47b0-9949-519e2516e032"],
+Cell[4304, 105, 290, 7, 36, "Input",ExpressionUUID->"e916d101-1be4-4821-99d6-3ef9f84be869"],
+Cell[4597, 114, 753, 13, 66, "Text",ExpressionUUID->"ce6d20fb-4c65-494d-92f0-2f3726833ddd"],
+Cell[5353, 129, 279, 6, 66, "Text",ExpressionUUID->"e002f6b9-6e3e-4d38-857a-880b40f58c6b"],
+Cell[5635, 137, 148, 2, 36, "Input",ExpressionUUID->"a3054b1a-94dd-440f-95cb-e4876f147c68"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5820, 144, 272, 5, 69, "Subsection",ExpressionUUID->"46f140d5-fca4-453a-be5e-e7a3afbb1899"],
+Cell[6095, 151, 840, 16, 215, "Text",ExpressionUUID->"225e92fd-decd-4e6a-876b-4c3fd722a433"],
+Cell[6938, 169, 974, 23, 127, "Text",ExpressionUUID->"7cd83a47-7c63-43d4-a310-56b9a8719921"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7949, 197, 184, 3, 69, "Subsection",ExpressionUUID->"59cbfdf0-f11e-43f0-a983-f22743ff3a38"],
+Cell[8136, 202, 3043, 52, 514, "Text",ExpressionUUID->"9fc834b1-938d-4b58-87c3-0424445b66f2"],
+Cell[11182, 256, 789, 22, 113, "Text",ExpressionUUID->"bbef8b53-6a3b-4345-9c77-d5a89a0efb3b"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12020, 284, 187, 3, 86, "Section",ExpressionUUID->"9c536133-3f54-4c94-a485-f58dbbf4a25f"],
+Cell[12210, 289, 239, 6, 45, "Text",ExpressionUUID->"49ee4ebe-3787-4900-8f87-89b124e89bc3"],
+Cell[CellGroupData[{
+Cell[12474, 299, 197, 3, 70, "Subsection",ExpressionUUID->"0448d715-96ba-41c8-8de9-761d43a2286c"],
+Cell[12674, 304, 732, 12, 96, "Text",ExpressionUUID->"d4447749-2c41-450e-beda-9e13206132af"],
+Cell[13409, 318, 300, 5, 66, "Text",ExpressionUUID->"13f27902-4b68-497e-a45f-ac5253e7574f"],
+Cell[13712, 325, 178, 5, 36, "Input",ExpressionUUID->"1b590786-a450-45fe-85cc-7074ab9884c6"],
+Cell[13893, 332, 348, 6, 66, "Text",ExpressionUUID->"3e1047ff-d919-4dc3-bf8c-dad658e986b2"],
+Cell[14244, 340, 255, 8, 36, "Input",ExpressionUUID->"1fdf3c42-a6ae-459d-b4be-dcb7a6f7be7c"],
+Cell[14502, 350, 781, 15, 126, "Text",ExpressionUUID->"373ce9f2-6226-409b-bd68-2f032a7fa3d0"],
+Cell[15286, 367, 335, 5, 66, "Text",ExpressionUUID->"a70d3eb7-519d-4a7b-af1b-d7ad2c6c71ec"],
+Cell[15624, 374, 259, 5, 102, "Input",ExpressionUUID->"2f858f70-90da-4a78-82b4-7bf52ae8761a"],
+Cell[15886, 381, 1164, 22, 335, "Text",ExpressionUUID->"c6728948-9e1c-4fad-a097-3d54b1cbd101"],
+Cell[17053, 405, 416, 10, 101, "Input",ExpressionUUID->"54a6eb80-9c1d-4a93-8245-7ea8ce2ade89"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17506, 420, 236, 4, 70, "Subsection",ExpressionUUID->"5b5e93d3-c4f0-40e7-b61a-d40096972ac8"],
+Cell[17745, 426, 652, 16, 126, "Text",ExpressionUUID->"5c37c273-23b9-4d66-81d6-30b58acbec96"],
+Cell[CellGroupData[{
+Cell[18422, 446, 255, 4, 58, "Subsubsection",ExpressionUUID->"97eaba8d-3d90-4af6-bb28-fc571080ca51"],
+Cell[18680, 452, 719, 14, 126, "Text",ExpressionUUID->"53a1a476-c501-416c-8175-5a368de82d90"],
+Cell[19402, 468, 177, 4, 36, "Input",ExpressionUUID->"6f618963-63fc-486b-acf0-3d05bd69117f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19616, 477, 263, 4, 58, "Subsubsection",ExpressionUUID->"b805f178-2b6f-476b-b805-bf9a9f597626"],
+Cell[19882, 483, 416, 6, 66, "Text",ExpressionUUID->"274b1991-4413-4dc7-89ff-de1ed842b886"],
+Cell[20301, 491, 206, 3, 56, "Input",ExpressionUUID->"65fd6319-ae2a-46a0-b4e5-35ba0ecb6fd6"],
+Cell[20510, 496, 394, 8, 66, "Text",ExpressionUUID->"7ee0b39a-1d68-458e-8cec-649daea0da42"],
+Cell[20907, 506, 202, 3, 36, "Input",ExpressionUUID->"4bde3950-9a14-4d80-ad5d-4ab126f81e99"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21146, 514, 311, 5, 58, "Subsubsection",ExpressionUUID->"0fc2ad9e-4f3d-434e-a36f-b80ee25f913e"],
+Cell[21460, 521, 604, 12, 126, "Text",ExpressionUUID->"f9d707e3-bc06-49e8-abe6-2303b8699c5a"],
+Cell[22067, 535, 186, 4, 56, "Input",ExpressionUUID->"4ccaf9c8-28fb-4604-be09-bfe998b2df83"],
+Cell[22256, 541, 211, 5, 56, "Input",ExpressionUUID->"7310fd61-90d8-406b-8d75-9ec47f3048f7"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22528, 553, 209, 3, 86, "Section",ExpressionUUID->"9b3b8fce-9131-4227-996c-6f88900b105c"],
+Cell[22740, 558, 699, 12, 156, "Text",ExpressionUUID->"0e0c1758-d94e-49ff-b7f9-30aa514bf0b9"],
+Cell[CellGroupData[{
+Cell[23464, 574, 154, 3, 70, "Subsection",ExpressionUUID->"fd12b26e-184b-47d1-92ed-70be839fa778"],
+Cell[23621, 579, 721, 18, 116, "Text",ExpressionUUID->"a7594ef3-a237-402c-b0b4-69f915e81500"],
+Cell[24345, 599, 1337, 33, 225, "Text",ExpressionUUID->"de9de9de-6de4-42e0-9bb1-f6649f4abf30"],
+Cell[25685, 634, 536, 14, 56, "Input",ExpressionUUID->"fe6b6310-3ff8-4375-863a-c6e4f5a46ae1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26258, 653, 100, 0, 70, "Subsection",ExpressionUUID->"6f511774-dfc8-48c9-a6f8-08d21ab167f5"],
+Cell[26361, 655, 434, 8, 96, "Text",ExpressionUUID->"808de9eb-8d57-4435-b3f4-7b99e2d4327f"],
+Cell[26798, 665, 767, 19, 141, "Text",ExpressionUUID->"49a601a4-5fd9-4c9b-a306-6e86c9e9a055"],
+Cell[27568, 686, 516, 14, 56, "Input",ExpressionUUID->"64a54421-387b-4730-8e46-a059937b5b57"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28121, 705, 120, 0, 70, "Subsection",ExpressionUUID->"fb1c8ae0-8dd0-4944-8eba-74208ea867d2"],
+Cell[28244, 707, 1421, 34, 325, "Text",ExpressionUUID->"32e6fa4e-7642-47e1-b8df-09abba2da054"],
+Cell[CellGroupData[{
+Cell[29690, 745, 1271, 35, 108, "Input",ExpressionUUID->"3aa5de4b-f3df-419e-8ba7-21f8e34f6571"],
+Cell[30964, 782, 1923, 38, 568, "Output",ExpressionUUID->"bce3671d-42b0-491d-b63a-1342b0edeaf3"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32948, 827, 219, 4, 86, "Section",ExpressionUUID->"2f28cd4c-28b3-43c7-a1b4-b79dffdb9dba"],
+Cell[33170, 833, 1239, 28, 454, "Text",ExpressionUUID->"eaaf54e0-1a12-4150-b6bf-44e41e686c8d"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
